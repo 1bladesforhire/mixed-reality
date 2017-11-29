@@ -33,7 +33,7 @@
                         <button name="button" class="c-button f-primary">Shop Now</button>
                         
                     </div>
-                </sect ion>
+                </section>
             </div>
         </div>
         <div data-grid="col-4 pad-6x">

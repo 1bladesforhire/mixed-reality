@@ -48,7 +48,7 @@ a.m-background-neutral-20 {
 .c-pivot .sticky-tabs {
   padding: 20px 5% !important;
   background: #ffffff;
-  z-index: 200;
+  z-index: 200 !important;
   height: 80px;
 }
 .c-pivot .sticky-tabs h3 {
@@ -56,12 +56,7 @@ a.m-background-neutral-20 {
   font-weight: 500;
 }
 .c-pivot .sticky-element-not-sticky .f-center {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+  margin: 0 16.667%;
 }
 .c-pivot a.pivot-scroll {
   margin: 0 24px;
@@ -69,12 +64,13 @@ a.m-background-neutral-20 {
 }
 .c-pivot a.pivot-scroll.f-active {
   border-bottom: 2px #0078d7 solid;
+  font-weight: 500;
 }
 .m-feature-group {
   margin-top: 0;
 }
 .centered img {
-  margin: 0 auto;
+  margin: 10px auto;
 }
 .get-started {
   padding-bottom: 24px;

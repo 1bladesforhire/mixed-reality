@@ -42,7 +42,7 @@
                                 <source srcset="assets/headset.png " media="(min-width:768px)">
                                 <source srcset="assets/headset.png " media="(min-width:540px)">
                                 <source srcset="assets/headset.png " media="(min-width:0)">
-                                <img srcset="assets/headset.png" src=assets/headset.png" alt="Placeholder image">
+                                <img srcset="assets/headset.png" src="assets/headset.png" alt="Placeholder image">
                             </picture>
                         </div>
                     </section>

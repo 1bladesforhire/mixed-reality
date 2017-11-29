@@ -6,7 +6,7 @@
             <h2 class="c-heading-2 f-lean">Motion controllers included</h2>
             <p class="c-paragraph">Before you even pick up a pair of motion controllers, you know how to use them. Master your domain with intuitive motions that feel as natural as using your real hands.</p>
         </div>
-        <div class="c-pivot" data-grid"col-12">
+        <div class="c-pivot" data-grid="col-12">
             <button class="c-flipper f-previous" aria-hidden="true" tabindex="-1"></button>
             <div role="tablist">
                 <a class="f-active" role="tab" tabindex="0" aria-controls="newRTBItemImage1 newRTBItemContent1">Bend VR to your will</a>

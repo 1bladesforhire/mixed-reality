@@ -36,7 +36,7 @@ a.m-background-neutral-20{
     .sticky-tabs{
         padding: 20px 5% !important;
         background: @white;
-        z-index: 200;
+        z-index: 200 !important;
         height: 80px;
         h3{
             padding-top:10px !important;
@@ -45,11 +45,7 @@ a.m-background-neutral-20{
     }
     .sticky-element-not-sticky{
         .f-center{
-            //left: 50%;
-            // position: relative;
-            // transform: translateX(-50%);
-            display: flex;
-            justify-content: flex-end;
+            margin: 0 16.667%;
         }
     }
     a.pivot-scroll{
@@ -58,6 +54,7 @@ a.m-background-neutral-20{
         
         &.f-active{
             border-bottom: 2px @ms-blue solid;
+            font-weight: 500;
         }
     }
 }
@@ -70,7 +67,7 @@ a.m-background-neutral-20{
 //two_sections
 .centered{
     img{
-        margin: 0 auto;
+        margin: 10px auto;
     }
 }
 .get-started{
