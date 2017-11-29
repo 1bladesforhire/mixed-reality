@@ -2,19 +2,20 @@
 <div>
     <div>
         <div class="context-menu">
-            <h3 class="c-heading-6">Heading</h3>
-            <ul class="c-list f-bare">
+            <h3 class="c-heading-6">Windows Mixed Reality</h3>
+            
+            <ul class="c-list f-bare" role="tablist">
                 <li>
-                    <a href="#tech-specs" class="c-hyperlink">Overview</a>
+                    <a class="f-active overviewTab" href="#overview" role="tab" tabindex="0" aria-controls="overview">Overview</a>
                 </li>
                 <li>
-                    <a href="#" class="c-hyperlink">Tech Specs</a>
+                    <a role="tab" class="techSpecTab" href="#tech-specs" aria-controls="tech-specs">Tech Specs</a>
+                 </li>
+                <li>
+                <a role="tab" class="reviewTab" href="#reviews" aria-controls="reviews">Reviews</a>
                 </li>
                 <li>
-                    <a href="#" class="c-hyperlink">Reviews</a>
-                </li>
-                <li>
-                    <a href="#" class="c-hyperlink">Compatability</a>
+                <a role="tab" class="compatabilityTab" href="#compatability  " aria-controls="compatability">Compatablitiy</a>
                 </li>
             </ul>
             <div class="c-select-menu">

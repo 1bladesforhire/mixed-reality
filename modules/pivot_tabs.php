@@ -1,12 +1,20 @@
-<section class="c-pivot pad-feature">
-    <button class="c-flipper f-previous" aria-hidden="true" tabindex="-1"></button>
-    <div role="tablist"  class="f-center">
-        <a class="f-active" role="tab" tabindex="0" aria-controls="overview">Overview</a>
-        <a role="tab" aria-controls="tech-specs">Tech Specs</a>
-        <a role="tab" aria-controls="reviews">Reviews</a>
-        <a role="tab" aria-controls="compatability">Compatablitiy</a>
+<section class="c-pivot pad-feature" id="pivot-top" data-grid="col-12">
+    <div class="sticky-tabs" role="tablist">
+        <div data-grid="col-12">
+            <div class="product x-type-left" data-grid="col-2">
+                <h3 class="c-heading-6">Windows Mixed Reality</h3>
+            </div>
+            <div role="tablist"  class="f-center x-type-center" data-grid="col-8">
+                <a class="f-active pivot-scroll" role="tab" tabindex="0" aria-controls="overview" >Overview</a>
+                <a role="tab" class="pivot-scroll" aria-controls="tech-specs">Tech Specs</a>
+                <a role="tab" class="pivot-scroll" aria-controls="reviews">Reviews</a>
+                <a role="tab" class="pivot-scroll" aria-controls="compatability">Compatablitiy</a>
+            </div>
+            <div class="buy-box x-type-right" data-grid="col-2">
+            <a class="c-call-to-action">Buy Now</a>
+            </div>
+        </div>
     </div>
-    <button class="c-flipper f-next" aria-hidden="true" tabindex="-1"></button>
     <section id="overview" role="tabpanel" aria-hidden="false">
         <?php include('feature_set1.php');?>
     </section>
@@ -17,11 +25,13 @@
         ?>
     </section>
     <section id="reviews" role="tabpanel" aria-hidden="true">
-        <h3 class="c-heading-3">Section 3</h3>
-        <p class="c-paragraph-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet ligula nec urna dictum tempus. Mauris ac feugiat diam. Aenean eget euismod lacus, nec viverra dolor. Phasellus a lacinia dui, id iaculis ipsum. In vel malesuada odio.</p>
+        <h3 class="c-heading-3">Reviews</h3>
+        <?php 
+            include('ratings.php');
+        ?>
     </section>
     <section id="compatability" role="tabpanel" aria-hidden="true">
-        <h3 class="c-heading-3">Section 4</h3>
-        <p class="c-paragraph-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet ligula nec urna dictum tempus. Mauris ac feugiat diam. Aenean eget euismod lacus, nec viverra dolor. Phasellus a lacinia dui, id iaculis ipsum. In vel malesuada odio.</p>
+        <h3 class="c-heading-3">Compatability</h3>
+        <p class="c-paragraph-3">Check your compatabliity aqui.</p>
     </section>
 </section>

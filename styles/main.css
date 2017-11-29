@@ -43,7 +43,32 @@ a.m-background-neutral-20 {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin-top: 20px;
+  padding-top: 10px;
+}
+.c-pivot .sticky-tabs {
+  padding: 20px 5% !important;
+  background: #ffffff;
+  z-index: 200;
+  height: 80px;
+}
+.c-pivot .sticky-tabs h3 {
+  padding-top: 10px !important;
+  font-weight: 500;
+}
+.c-pivot .sticky-element-not-sticky .f-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+.c-pivot a.pivot-scroll {
+  margin: 0 24px;
+  display: inline-block;
+}
+.c-pivot a.pivot-scroll.f-active {
+  border-bottom: 2px #0078d7 solid;
 }
 .m-feature-group {
   margin-top: 0;
@@ -74,6 +99,7 @@ a.m-background-neutral-20 {
   margin: 0 auto;
 }
 #three_dark {
+  overflow: hidden;
   color: #919191;
 }
 #three_dark .m-feature .c-paragraph {

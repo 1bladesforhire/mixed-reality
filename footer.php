@@ -234,8 +234,8 @@
 <!-- Include before </body>. Use the script file based on preference (UMD, AMD, CommonJS, Auto, etc.) -->
 <script async="async" src="//assets.onestore.ms/cdnfiles/external/mwf/short/v1/latest/scripts/mwf-auto-init-main.var.min.js"></script>
 <!-- JavaScript additions -->
-<script src="scripts/stickanything.js" />
-<script async="async" src="scripts/main.js" />
+<script src="scripts/stickanything.js"></script>
+<script src="scripts/main.js"></script>
 
 </body>
 

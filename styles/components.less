@@ -31,7 +31,34 @@ a.m-background-neutral-20{
 .c-pivot{
     .f-center{
         justify-content: center;
-        margin-top: 20px;
+        padding-top: 10px;
+    }
+    .sticky-tabs{
+        padding: 20px 5% !important;
+        background: @white;
+        z-index: 200;
+        height: 80px;
+        h3{
+            padding-top:10px !important;
+            font-weight: 500;
+        }
+    }
+    .sticky-element-not-sticky{
+        .f-center{
+            //left: 50%;
+            // position: relative;
+            // transform: translateX(-50%);
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+    a.pivot-scroll{
+        margin: 0 24px;
+        display: inline-block;
+        
+        &.f-active{
+            border-bottom: 2px @ms-blue solid;
+        }
     }
 }
 
@@ -73,6 +100,7 @@ a.m-background-neutral-20{
 
 //Three Dark
 #three_dark{
+    overflow: hidden;
     color: #919191;
     .m-feature .c-paragraph{
         color: #919191;
