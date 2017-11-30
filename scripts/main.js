@@ -5,7 +5,7 @@ jQuery(function() {
         //     $('html, body').scrollTo('#overview', 400, 'easeOutQuart');
         // });
         $('html, body').animate({
-            scrollTop: $("#pivot-top").offset().top
+            scrollTop: $("#pivot-top").offset().top + 20
         }, 500);
         return true;
     });

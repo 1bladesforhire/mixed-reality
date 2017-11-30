@@ -154,3 +154,17 @@ a.m-background-neutral-20{
         color: @white;
     }
 }
+
+//mutli feature tile
+#m-multi-tiles{
+    &>section>[role=tablist]{
+        a.f-active{
+            text-decoration: underline;
+        }
+        z-index: 2;
+        width: auto;
+        background: @smoke;
+        margin-top: -100px;
+        padding: 30px;
+    }
+}

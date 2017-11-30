@@ -152,6 +152,16 @@ a.m-background-neutral-20 {
   background: #0078d7;
   color: #ffffff;
 }
+#m-multi-tiles > section > [role=tablist] {
+  z-index: 2;
+  width: auto;
+  background: #f0f0f0;
+  margin-top: -100px;
+  padding: 30px;
+}
+#m-multi-tiles > section > [role=tablist] a.f-active {
+  text-decoration: underline;
+}
 .b_video .js-cat-head {
   opacity: .7;
 }
