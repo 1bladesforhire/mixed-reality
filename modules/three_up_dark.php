@@ -1,4 +1,4 @@
-<section class="theme-dark dark" data-grid="container" id="three_dark">
+<section class="theme-dark dark" data-grid="col-12" id="three_dark">
     <div class="m-feature">
         <div data-grid="col-12" class="theme-dark dark">
             <h2 class="c-heading">Windows Mixed Reality-ready pc</h2>
