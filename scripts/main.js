@@ -1,13 +1,5 @@
 jQuery(function() {
 
-    // Scroll to Anchor
-    // $('a.pivot-scroll').click(function() {
-    //     $('html, body').animate({
-    //         scrollTop: $('#pivot-top')
-    //     }, 1000);
-    //     return false;
-    // });
-
     // Scroll to Pivot top
     $('a.pivot-scroll').on("click", function() {
         //     $('html, body').scrollTo('#overview', 400, 'easeOutQuart');
@@ -20,4 +12,11 @@ jQuery(function() {
     // Call sticky tabs
     $('.sticky-tabs').stickThis();
 
+    $(window).on('load', function() {
+
+        if ($('main').hasClass('optionb')) {
+
+            $('body').addClass('b_video');
+        }
+    })
 });

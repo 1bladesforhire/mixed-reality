@@ -78,6 +78,14 @@ a.m-background-neutral-20 {
 .get-started h2 {
   font-weight: 100;
 }
+.get-started .c-logo {
+  height: 133px;
+}
+.get-started .c-heading-3,
+.get-started .c-paragraph {
+  width: 80%;
+  margin: auto 10%;
+}
 .m-multi-feature {
   padding-top: 0;
   padding-bottom: 24px;
@@ -140,4 +148,19 @@ a.m-background-neutral-20 {
 #three_dark button {
   background: #0078d7;
   color: #ffffff;
+}
+.b_video .js-cat-head {
+  opacity: .7;
+}
+.b_video .js-global-head {
+  position: relative;
+  background: #ffffff;
+  opacity: .7;
+}
+.b_video .c-uhfh-gcontainer {
+  z-index: 2;
+}
+.b_video .m-hero-item {
+  margin-top: -100px;
+  padding-bottom: 200px;
 }
