@@ -15,7 +15,7 @@
 
                         <div>
                             <div>
-                                <h1 class="c-heading">Dell Visor Windows Mixed Reality Headset with Motion Controllers</h1>
+                                <h1 class="c-heading-3">Dell Visor Windows Mixed Reality Headset with Motion Controllers</h1>
                                 
                                 <div class="c-price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
                                     <meta itemprop="priceCurrency" content="USD">
