@@ -11,7 +11,7 @@
                 <a role="tab" class="pivot-scroll" aria-controls="compatability">Compatablitiy</a>
             </div>
             <div class="buy-box x-type-right" data-grid="col-2">
-            <a class="c-call-to-action">Buy Now</a>
+                <a class="c-call-to-action">Buy Now</a>
             </div>
         </div>
     </div>
@@ -24,13 +24,13 @@
             include('system_requirements.php');
         ?>
     </section>
-    <section id="reviews" role="tabpanel" aria-hidden="true">
+    <section id="reviews" role="tabpanel" aria-hidden="true" data-grid="container">
         <h3 class="c-heading-3">Reviews</h3>
         <?php 
             include('ratings.php');
         ?>
     </section>
-    <section id="compatability" role="tabpanel" aria-hidden="true">
+    <section id="compatability" role="tabpanel" aria-hidden="true" data-grid="container">
         <h3 class="c-heading-3">Compatability</h3>
         <p class="c-paragraph-3">Check your compatabliity aqui.</p>
     </section>
