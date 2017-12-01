@@ -66,13 +66,13 @@
             <ul>
                 <li id="newIconItemImage1" data-f-theme="light" class="f-active" role="tabpanel">
                     <picture class="c-image">
-                        <source srcset="assets/vr_laser_slideX2048.jpg" media="(min-width: 1779px)">
-                        <source srcset="assets/vr_laser_slideX2048.jpg" media="(min-width:1400px)">
-                        <source srcset="assets/vr_laser_slideX2048.jpg" media="(min-width:1084px)">
-                        <source srcset="assets/vr_laser_slideX2048.jpg" media="(min-width:768px)">
-                        <source srcset="assets/vr_laser_slideX2048.jpg" media="(min-width:540px)">
-                        <source srcset="assets/vr_laser_slideX2048.jpg" media="(min-width:0)">
-                        <img srcset="assets/vr_laser_slideX2048.jpg" src="assets/vr_laser_slideX2048.jpg" alt="Placeholder with grey background and dimension watermark without any imagery">
+                        <source srcset="assets/gameX2048.jpg" media="(min-width: 1779px)">
+                        <source srcset="assets/gameX2048.jpg" media="(min-width:1400px)">
+                        <source srcset="assets/gameX2048.jpg" media="(min-width:1084px)">
+                        <source srcset="assets/gameX2048.jpg" media="(min-width:768px)">
+                        <source srcset="assets/gameX2048.jpg" media="(min-width:540px)">
+                        <source srcset="assets/gameX2048.jpg" media="(min-width:0)">
+                        <img srcset="assets/gameX2048.jpg" src="assets/gameX2048.jpg" alt="Placeholder with grey background and dimension watermark without any imagery">
                     </picture>
                 </li>
                 <li id="newIconItemImage2" data-f-theme="light" role="tabpanel">
