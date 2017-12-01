@@ -13,10 +13,19 @@ jQuery(function() {
     $('.sticky-tabs').stickThis();
 
     $(window).on('load', function() {
-
+        //set styles for option b page with body class
         if ($('main').hasClass('optionb')) {
 
             $('body').addClass('b_video');
         }
-    })
+
+        //set li to active class for thumb carousel
+        $('#m-multi-tiles').find('a.f-active').parent().addClass('li-active');
+
+    });
+
+    $('#m-multi-tiles li').on('click', function() {
+        $(this).addClass('li-active').siblings().removeClass('li-active');
+    });
+
 });
