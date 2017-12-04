@@ -23,7 +23,6 @@
     <!-- Stylesheet additions -->
     <link rel="stylesheet" href="styles/main.css" type="text/css" media="all" />
   
-
             <script>/** vim: et:ts=4:sw=4:sts=4
         * @license RequireJS 2.2.0 Copyright jQuery Foundation and other contributors.
         * Released under MIT license, http://github.com/requirejs/requirejs/LICENSE
@@ -36,8 +35,8 @@
         */
         define("domReady",function(){"use strict";function h(n){for(var t=0;t<n.length;t+=1)n[t](s)}function c(){var n=e;i&&n.length&&(e=[],h(n))}function n(){i||(i=!0,u&&clearInterval(u),c())}function t(n){return i?n(s):e.push(n),t}var o,r,u,f=typeof window!="undefined"&&window.document,i=!f,s=f?document:null,e=[];if(f){if(document.addEventListener)document.addEventListener("DOMContentLoaded",n,!1),window.addEventListener("load",n,!1);else if(window.attachEvent){window.attachEvent("onload",n);r=document.createElement("div");try{o=window.frameElement===null}catch(l){}r.doScroll&&o&&window.external&&(u=setInterval(function(){try{r.doScroll();n()}catch(t){}},30))}document.readyState==="complete"&&n()}return t.version="2.0.1",t.load=function(n,i,r,u){u.isBuild?r(null):t(r)},t});define("deferExec",function(){"use strict";function h(n){for(var t=0;t<n.length;t+=1)Number.isInteger(Number(n[t][1]))?setTimeout(n[t][0],n[t][1]):n[t][0]()}function s(){window._pageTimings||(window._pageTimings={});window._pageTimings.didDeferExecTimeout=e;var n=f;n.length&&(f=[],h(n))}function n(){clearTimeout(o);u=!0;s()}function c(){window.removeEventListener?window.removeEventListener("load",n,!1):window.detachEvent&&window.detachEvent("load",n);r=!0;e=!0;s()}function t(n,i){return u||r?Number.isInteger(Number(i))?setTimeout(n,i):n():f.push([n,i]),t}var i=typeof window!="undefined"&&window.document,r=!i,u=!i,f=[],e=!1,o;return Number.isInteger=Number.isInteger||function(n){return typeof n=="number"&&isFinite(n)&&Math.floor(n)===n},i&&(window.addEventListener?window.addEventListener("load",n,!1):window.attachEvent&&window.attachEvent("onload",n),u&&r||(o=setTimeout(c,5e3))),t.load=function(n,i,r,u){u.isBuild?r(null):t(r,n)},t});require(["domReady!","deferExec!"])</script>
             <script src="../scripts/jq2.1.1.js"></script>
-        
-
+            <!-- <script src="../scripts/lightbox.js"></script> -->
+            <script type="text/javascript" src="https://www.microsoft.com/videoplayer/js/oneplayeriframe.js"></script>
 </head>
 
 <body>

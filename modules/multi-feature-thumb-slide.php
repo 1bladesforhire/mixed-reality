@@ -1,4 +1,4 @@
-<div data-grid="col-12 stack-2" class="m-multi-feature f-align-center" id="m-multi-tiles">
+<div data-grid="container stack-2" class="m-multi-feature f-align-center" id="m-multi-tiles">
 <section>
     <ul role="tablist">
         <li class="c-glyph" role="presentation">

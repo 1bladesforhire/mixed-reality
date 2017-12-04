@@ -29,3 +29,55 @@ jQuery(function() {
     });
 
 });
+window.document.onkeydown = function(e) {
+    if (!e) {
+        e = event;
+    }
+    if (e.keyCode == 27) {
+        lightbox_close();
+    }
+}
+
+function lightbox_open() {
+    var lightBoxVideo = document.getElementById("WMR_sizzle");
+    document.getElementById('light').style.display = 'block';
+    document.getElementById('fade').style.display = 'block';
+
+    lightBoxVideo.play();
+    var rect = getElementById('overview').getBoundingClientRect();
+    console.log(rect.top, rect.right, rect.bottom, rect.left);
+    window.scrollTo(rect.top, 0);
+
+}
+
+function lightbox_close() {
+    var lightBoxVideo = document.getElementById("WMR_sizzle");
+    document.getElementById('light').style.display = 'none';
+    document.getElementById('fade').style.display = 'none';
+    lightBoxVideo.pause();
+}
+
+
+// MS video player
+
+// var playerData = {
+//     options: {
+//         autoplay: false,
+//         mute: false,
+//         loop: false,
+//         market: "en-us",
+//         playFullScreen: false
+//     },
+//     metadata: {
+//         videoId: '2D3FDE10-2387-4EE6-8B7A-EBD9ED73E23B'
+////secondary vid id b449aafc-09ff-5556-08b5-32c2fb368912
+//     }
+// };
+
+// MsOnePlayer.render(
+//     'player-container', // id of the container div
+//     playerData, // player data	
+//     function(player) { // onPlayerReady callback function which returns back player instance on which APIs can be called
+//         player.addPlayerEventListener(function(e) { console.log('player event: ' + JSON.stringify(e)) });
+//     }
+// );
