@@ -2,7 +2,7 @@
 
     include('head.php');
     include('modules/immersive_hero-v5.php');?>
-    <main id="main-content" role="main" >
+    <main id="main-content" role="main" data-grid="container">
         <section data-grid="col-12">
     <?php 
         include('modules/pivot_tabs-v5.php');
