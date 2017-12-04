@@ -12,8 +12,16 @@
             <ul>
                 <li id="default-align-top" data-f-theme="" class="f-active">
                     <section class="m-immersive-hero-item f-align-top">
-
-                        <div>
+                        <picture class="c-image">
+                            <source srcset="assets/smoke_immersive_bgX2400.jpg" media="(min-width: 1779px)">
+                            <source srcset="assets/smoke_immersive_bgX1778.jpg " media="(min-width:1400px)">
+                            <source srcset="assets/smoke_immersive_bgX1399.jpg" media="(min-width:1084px)">
+                            <source srcset="assets/smoke_immersive_bgX1083.jpg" media="(min-width:768px)">
+                            <source srcset="assets/smoke_immersive_bgX768.jpg" media="(min-width:540px)">
+                            <source srcset="assets/smoke_immersive_bgX539.jpg" media="(min-width:0)">
+                            <img srcset="assets/smoke_immersive_bgX1399.jpg" src="assets//smoke_immersive_bgX1399.jpg" alt="Placeholder with grey background and dimension watermark without any imagery">
+                        </picture>
+                        <div itemscope itemtype="http://shcema.org/ItemList">
                             <div>
                                 <h1 class="c-heading-3">Dell Visor Windows Mixed Reality Headset with Motion Controllers</h1>
                                 
@@ -42,7 +50,7 @@
                                 <source srcset="assets/headsetX1083.png " media="(min-width:768px)">
                                 <source srcset="assets/headsetX767.png " media="(min-width:540px)">
                                 <source srcset="assets/headsetX539.png " media="(min-width:0)">
-                                <img srcset="assets/headsetX1399.png" src="assets/headsetX1399.png" alt="Placeholder image">
+                                <img srcset="assets/headsetX1399.png" src="assets/headset.png" alt="Placeholder image">
                             </picture>
                         </div>
                     </section>
