@@ -1,16 +1,20 @@
 <section class="c-pivot pad-feature" id="pivot-top" data-grid="col-12">
     <div class="sticky-tabs" role="tablist">
         <div data-grid="col-12">
-            <div class="product x-type-left" data-grid="col-2">
+            <div class="product" data-grid="col-2">
                 <h3 class="c-heading-6">Windows Mixed Reality</h3>
             </div>
-            <div role="tablist"  class="f-center x-type-center" data-grid="col-8">
-                <a class="f-active pivot-scroll" role="tab" tabindex="0" aria-controls="overview" >Overview</a>
-                <a role="tab" class="pivot-scroll" aria-controls="tech-specs">Tech Specs</a>
-                <a role="tab" class="pivot-scroll" aria-controls="reviews">Reviews</a>
-                <a role="tab" class="pivot-scroll" aria-controls="compatability">Compatablitiy</a>
+            <div  class="f-center x-type-center" data-grid="col-8">
+                <button class="c-flipper f-previous" aria-hidden="true" tabindex="-1"></button>
+                <header role="tablist" >
+                    <a class="f-active pivot-scroll" role="tab" tabindex="0" aria-controls="overview" >Overview</a>
+                    <a role="tab" class="pivot-scroll" aria-controls="tech-specs">Tech Specs</a>
+                    <a role="tab" class="pivot-scroll" aria-controls="reviews">Reviews</a>
+                    <a role="tab" class="pivot-scroll" aria-controls="compatability">Compatablitiy</a>
+                </header>
+                <button class="c-flipper f-next" aria-hidden="true" tabindex="-1"></button>
             </div>
-            <div class="buy-box x-type-right" data-grid="col-2">
+            <div class="buy-box" data-grid="col-2">
                 <a class="c-call-to-action">Buy Now</a>
             </div>
         </div>

@@ -36,13 +36,13 @@
                                 </div>
                             </div>
                             <picture class="c-image">
-                                <source srcset="assets/headset.png" media="(min-width: 1779px)">
-                                <source srcset="assets/headset.png " media="(min-width:1400px)">
-                                <source srcset="assets/headset.png " media="(min-width:1084px)">
-                                <source srcset="assets/headset.png " media="(min-width:768px)">
-                                <source srcset="assets/headset.png " media="(min-width:540px)">
-                                <source srcset="assets/headset.png " media="(min-width:0)">
-                                <img srcset="assets/headset.png" src="assets/headset.png" alt="Placeholder image">
+                                <source srcset="assets/headsetX2048.png" media="(min-width: 1779px)">
+                                <source srcset="assets/headsetX1778.png " media="(min-width:1400px)">
+                                <source srcset="assets/headsetX1399.png " media="(min-width:1084px)">
+                                <source srcset="assets/headsetX1083.png " media="(min-width:768px)">
+                                <source srcset="assets/headsetX767.png " media="(min-width:540px)">
+                                <source srcset="assets/headsetX539.png " media="(min-width:0)">
+                                <img srcset="assets/headsetX1399.png" src="assets/headsetX1399.png" alt="Placeholder image">
                             </picture>
                         </div>
                     </section>

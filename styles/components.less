@@ -1,7 +1,12 @@
+//header
+.js-global-head{
+    overflow: hidden;
+}
+
 //Hero
 .m-immersive-hero{
     &-item{
-        height: 100vh;
+        //height: 100vh;
     }
     .c-price{
         margin-left: calc(~"50% - 28px");
@@ -35,21 +40,58 @@ a.m-background-neutral-20{
     .f-center{
         justify-content: center;
         padding-top: 10px;
+        .c-flipper{
+            display: none;
+        }
+        @media @smartphones{
+            padding-top: 0;
+            .c-flipper{
+                display: inline-block;
+            }
+        }
+
     }
     .sticky-tabs{
         padding: 20px 5% !important;
         background: @white;
         z-index: 200 !important;
         height: 80px;
+
+        @media @smartphones{
+            padding: 20px 0;
+        }
+
         h3{
             padding-top:10px !important;
             font-weight: 500;
         }
+        header{
+            display: inline-block;
+            max-width: 80%;
+            overflow: hidden;
+        }
     }
     .sticky-element-not-sticky{
         .f-center{
-            margin: 0 16.667%;
+            margin: 0 10%;
+           
+            @media @tablets{
+                margin:0;
+                width: 100%;
+                
+            }
+            @media @smartphones{
+                margin: 0 auto;
+                width: auto;
+                .c-flipper{
+                    display: inline-block;
+                }
+            }
         }
+    }
+    .sticky-element-sticky{
+        height: auto;
+
     }
     a.pivot-scroll{
         margin: 0 24px;
@@ -58,6 +100,25 @@ a.m-background-neutral-20{
         &.f-active{
             border-bottom: 2px @ms-blue solid;
             font-weight: 500;
+        }
+        @media @tablets{
+            margin: 0 18px;
+        }
+        @media @smartphones{
+            margin: 0 4px;
+        }
+    }
+    .buy-box{
+        text-align: right;
+        @media @smartphones{
+            text-align: center;
+            padding-top: 4px;
+        }
+    }
+    .product{
+        text-align: left;
+        @media @smartphones{
+            text-align: center;
         }
     }
 }
@@ -107,8 +168,13 @@ a.m-background-neutral-20{
 
 //Three Dark
 #three_dark{
-    overflow: hidden;
+    //overflow: hidden;
     color: #919191;
+    .c-{
+        @media @smartphones{
+            max-width: 95%;
+        }
+    }
     .m-feature .c-paragraph{
         color: #919191;
         max-width: 70%;
@@ -125,7 +191,10 @@ a.m-background-neutral-20{
     .m-content-placement-item{
         text-align: center;
         padding-bottom: 24px;
-        min-height: 600px;
+        min-height: 620px;
+        @media @smartphones{
+            clear: both;
+        }
         &:hover{
             color: @white;
             button{
@@ -152,6 +221,9 @@ a.m-background-neutral-20{
     button{
         background: @ms-blue;
         color: @white;
+        &:hover{
+            backgrond: darken(@ms-blue, 20%);
+        }
     }
 }
 
@@ -168,8 +240,8 @@ a.m-background-neutral-20{
         padding: 30px;
    
         li.li-active{
-            padding-bottom: 2px;
-            border-bottom: 2px solid @ms-blue;
+            padding-bottom: 4Px;
+            border-bottom: 4px solid @ms-blue;
         }
     }   
 }

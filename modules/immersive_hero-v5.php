@@ -37,12 +37,12 @@
                             </div>
                             <picture class="c-image">
                                 <source srcset="assets/acer_headsetx2048.png" media="(min-width: 1779px)">
-                                <source srcset="assets/acer_headsetx2048.png " media="(min-width:1400px)">
-                                <source srcset="assets/acer_headsetx2048.png " media="(min-width:1084px)">
-                                <source srcset="assets/acer_headsetx2048.png " media="(min-width:768px)">
-                                <source srcset="assets/acer_headsetx2048.png " media="(min-width:540px)">
-                                <source srcset="assets/acer_headsetx2048.png " media="(min-width:0)">
-                                <img srcset="assets/acer_headsetx2048.png" src="assets/acer_headsetx2048.png" alt="Placeholder image">
+                                <source srcset="assets/acer_headsetx1778.png " media="(min-width:1400px)">
+                                <source srcset="assets/acer_headsetx1399.png " media="(min-width:1084px)">
+                                <source srcset="assets/acer_headsetx1083.png " media="(min-width:768px)">
+                                <source srcset="assets/acer_headsetx767.png " media="(min-width:540px)">
+                                <source srcset="assets/acer_headsetx539.png " media="(min-width:0)">
+                                <img srcset="assets/acer_headsetx1399.png" src="assets/acer_headsetx1399.png" alt="Placeholder image">
                             </picture>
                         </div>
                     </section>

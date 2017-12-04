@@ -1,0 +1,6 @@
+{
+    "name": "File Exposer",
+    "manifest_version": 2,
+    "version": "1.0",
+    "web_accessible_resources": ["*.jpg", "*.JPG", "*.png", "*.PNG"]
+}

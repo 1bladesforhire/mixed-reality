@@ -14,8 +14,8 @@
 [data-grid~=col-12] {
   background: #ffffff;
 }
-.m-immersive-hero-item {
-  height: 100vh;
+.js-global-head {
+  overflow: hidden;
 }
 .m-immersive-hero .c-price {
   margin-left: calc(50% - 28px);
@@ -48,18 +48,57 @@ a.m-background-neutral-20 {
   justify-content: center;
   padding-top: 10px;
 }
+.c-pivot .f-center .c-flipper {
+  display: none;
+}
+@media only screen and (max-width: 479px) {
+  .c-pivot .f-center {
+    padding-top: 0;
+  }
+  .c-pivot .f-center .c-flipper {
+    display: inline-block;
+  }
+}
 .c-pivot .sticky-tabs {
   padding: 20px 5% !important;
   background: #ffffff;
   z-index: 200 !important;
   height: 80px;
 }
+@media only screen and (max-width: 479px) {
+  .c-pivot .sticky-tabs {
+    padding: 20px 0;
+  }
+}
 .c-pivot .sticky-tabs h3 {
   padding-top: 10px !important;
   font-weight: 500;
 }
+.c-pivot .sticky-tabs header {
+  display: inline-block;
+  max-width: 80%;
+  overflow: hidden;
+}
 .c-pivot .sticky-element-not-sticky .f-center {
-  margin: 0 16.667%;
+  margin: 0 10%;
+}
+@media only screen and (max-width: 768px) {
+  .c-pivot .sticky-element-not-sticky .f-center {
+    margin: 0;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .c-pivot .sticky-element-not-sticky .f-center {
+    margin: 0 auto;
+    width: auto;
+  }
+  .c-pivot .sticky-element-not-sticky .f-center .c-flipper {
+    display: inline-block;
+  }
+}
+.c-pivot .sticky-element-sticky {
+  height: auto;
 }
 .c-pivot a.pivot-scroll {
   margin: 0 24px;
@@ -68,6 +107,33 @@ a.m-background-neutral-20 {
 .c-pivot a.pivot-scroll.f-active {
   border-bottom: 2px #0078d7 solid;
   font-weight: 500;
+}
+@media only screen and (max-width: 768px) {
+  .c-pivot a.pivot-scroll {
+    margin: 0 18px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  .c-pivot a.pivot-scroll {
+    margin: 0 4px;
+  }
+}
+.c-pivot .buy-box {
+  text-align: right;
+}
+@media only screen and (max-width: 479px) {
+  .c-pivot .buy-box {
+    text-align: center;
+    padding-top: 4px;
+  }
+}
+.c-pivot .product {
+  text-align: left;
+}
+@media only screen and (max-width: 479px) {
+  .c-pivot .product {
+    text-align: center;
+  }
 }
 .m-feature-group {
   margin-top: 0;
@@ -106,8 +172,12 @@ a.m-background-neutral-20 {
   margin: 0 auto;
 }
 #three_dark {
-  overflow: hidden;
   color: #919191;
+}
+@media only screen and (max-width: 479px) {
+  #three_dark .c- {
+    max-width: 95%;
+  }
 }
 #three_dark .m-feature .c-paragraph {
   color: #919191;
@@ -124,7 +194,12 @@ a.m-background-neutral-20 {
 #three_dark .m-content-placement-item {
   text-align: center;
   padding-bottom: 24px;
-  min-height: 600px;
+  min-height: 620px;
+}
+@media only screen and (max-width: 479px) {
+  #three_dark .m-content-placement-item {
+    clear: both;
+  }
 }
 #three_dark .m-content-placement-item:hover {
   color: #ffffff;
@@ -152,6 +227,9 @@ a.m-background-neutral-20 {
   background: #0078d7;
   color: #ffffff;
 }
+#three_dark button:hover {
+  backgrond: #003f71;
+}
 #m-multi-tiles > section > [role=tablist] {
   z-index: 2;
   width: auto;
@@ -163,8 +241,8 @@ a.m-background-neutral-20 {
   text-decoration: underline;
 }
 #m-multi-tiles > section > [role=tablist] li.li-active {
-  padding-bottom: 2px;
-  border-bottom: 2px solid #0078d7;
+  padding-bottom: 4Px;
+  border-bottom: 4px solid #0078d7;
 }
 .b_video .js-cat-head {
   opacity: .7;

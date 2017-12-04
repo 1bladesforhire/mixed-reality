@@ -3,7 +3,7 @@
 <section data-grid="col-12 stack-2" class="m-multi-feature f-align-center">
     <section>
         <div data-grid="col-12" class="m-area-heading">
-            <h2 class="c-heading-2 f-lean">Immerse yourself ina new reality</h2>
+            <h2 class="c-heading-2 f-lean">Immerse yourself in a new reality</h2>
         </div>
         <div class="c-pivot" data-grid="col-12">
             <button class="c-flipper f-previous" aria-hidden="true" tabindex="-1"></button>
