@@ -230,6 +230,11 @@ a.m-background-neutral-20 {
 #three_dark button:hover {
   backgrond: #003f71;
 }
+#m-multi-tiles ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 #m-multi-tiles > section > [role=tablist] {
   z-index: 2;
   width: auto;
@@ -243,6 +248,14 @@ a.m-background-neutral-20 {
 #m-multi-tiles > section > [role=tablist] li.li-active {
   padding-bottom: 4Px;
   border-bottom: 4px solid #0078d7;
+}
+#videoButton {
+  color: #0078d7;
+  background: transparent !important;
+}
+#videoButton:hover {
+  color: #005ca4;
+  background: transparent !important;
 }
 .b_video .js-cat-head {
   opacity: .7;

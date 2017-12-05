@@ -230,6 +230,7 @@ a.m-background-neutral-20{
 
 //mutli feature tile
 #m-multi-tiles{
+    ul{display: flex;}
     &>section>[role=tablist]{
         a.f-active{
             text-decoration: underline;
@@ -245,4 +246,25 @@ a.m-background-neutral-20{
             border-bottom: 4px solid @ms-blue;
         }
     }   
+}
+
+#videoButton{
+    color:@ms-blue;
+    background: transparent !important;
+    &:hover{
+        color: darken(@ms-blue, 10%);
+        background: transparent !important;
+    }
+    // &:before{
+    //     width: 16px;
+    //     height: 16px;
+    //     color: @white;
+    //     background: @ms-blue;
+    //     border-radius: 10px;
+    //     font-size: 8px;
+    //     margin-right: 3px;
+    //     line-height: 16px;
+    //     text-align: center;
+    // }
+   
 }

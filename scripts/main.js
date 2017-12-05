@@ -21,13 +21,18 @@ jQuery(function() {
 
         //set li to active class for thumb carousel
         $('#m-multi-tiles').find('a.f-active').parent().addClass('li-active');
-
     });
 
     $('#m-multi-tiles li').on('click', function() {
         $(this).addClass('li-active').siblings().removeClass('li-active');
     });
 
+    $('#m-multi-tiles button.c-flipper').on('mouseup', function() {
+        setTimeout(function() {
+            $('#m-multi-tiles').find('a.f-active').parent().addClass('li-active').siblings().removeClass('li-active');
+        }, 100);
+        // alert('clicked');       
+    });
 });
 window.document.onkeydown = function(e) {
     if (!e) {
@@ -42,11 +47,8 @@ function lightbox_open() {
     var lightBoxVideo = document.getElementById("WMR_sizzle");
     document.getElementById('light').style.display = 'block';
     document.getElementById('fade').style.display = 'block';
-
     lightBoxVideo.play();
-    var rect = getElementById('overview').getBoundingClientRect();
-    console.log(rect.top, rect.right, rect.bottom, rect.left);
-    window.scrollTo(rect.top, 0);
+
 
 }
 
@@ -70,7 +72,7 @@ function lightbox_close() {
 //     },
 //     metadata: {
 //         videoId: '2D3FDE10-2387-4EE6-8B7A-EBD9ED73E23B'
-////secondary vid id b449aafc-09ff-5556-08b5-32c2fb368912
+////secondary vid id b449aafc-09ff-5556-08b5-32c2fb368912  ??
 //     }
 // };
 
