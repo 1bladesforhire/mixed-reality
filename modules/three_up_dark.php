@@ -8,7 +8,7 @@
             </a>
         </div>
     </div>
-    <div data-grid="col-12 stack-2">
+    <div data-grid="container stack-2">
         <div data-grid="col-4 pad-6x">
             <div data-grid="col-12" class="dark">
                 <section class="m-content-placement-item f-size-medium x-type-center">

@@ -3,7 +3,7 @@
 <!-- Feature Set -->
 
 
-        <div data-grid="col-12" class="m-feature-group">
+        <div data-grid="col-12" class="">
             <?php 
             include('feature_left_align.php'); 
             ?>

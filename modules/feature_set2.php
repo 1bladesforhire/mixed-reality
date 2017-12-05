@@ -1,12 +1,12 @@
 <!-- feature set 2 pivot multi feature     -->
 
-<section data-grid="col-12 stack-2" class="m-multi-feature f-align-center">
+<section data-grid="container" class="m-multi-feature f-align-center">
     <section>
         <div data-grid="col-12" class="m-area-heading">
             <h2 class="c-heading-2 f-lean">Motion controllers included</h2>
             <p class="c-paragraph">Before you even pick up a pair of motion controllers, you know how to use them. Master your domain with intuitive motions that feel as natural as using your real hands.</p>
         </div>
-        <div class="c-pivot" data-grid="col-12">
+        <div class="c-pivot" data-grid="container">
             <button class="c-flipper f-previous" aria-hidden="true" tabindex="-1"></button>
             <div role="tablist">
                 <a class="f-active" role="tab" tabindex="0" aria-controls="newRTBItemImage1 newRTBItemContent1">Bend VR to your will</a>
@@ -33,7 +33,7 @@
                 </a>
             </section>
         </div>
-        <div class="c-carousel f-multi-slide" role="region" aria-label="Images">
+        <div class="c-carousel f-multi-slide" role="region" aria-label="Images" data-grid="container">
             <button class="c-flipper f-previous" aria-hidden="true" tabindex="-1"></button>
             <button class="c-flipper f-next" aria-hidden="true" tabindex="-1"></button>
             <div itemscope itemtype="http://schema.org/ItemList">
