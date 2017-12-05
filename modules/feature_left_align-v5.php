@@ -1,4 +1,4 @@
-<section class="m-feature f-align-left f-image-priority">
+<section class="m-feature f-align-left f-image-priority" data-grid="col-12">
     <picture>
         <source srcset="assets/image1.jpg" media="(min-width: 1400px)">
         <source srcset="assets/image1.jpg" media="(min-width: 1084px)">

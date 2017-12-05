@@ -11,7 +11,7 @@
 .dark {
   background-color: #000000 !important;
 }
-[data-grid~=col-12] {
+.m-feature-group {
   background: #ffffff;
 }
 .js-global-head {
@@ -156,8 +156,8 @@ a.m-background-neutral-20 {
   margin: auto 10%;
 }
 .m-multi-feature {
-  padding-top: 0;
   padding-bottom: 24px;
+  clear: both;
 }
 .m-multi-feature .m-area-heading {
   padding-top: 12px;

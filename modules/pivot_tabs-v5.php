@@ -19,7 +19,7 @@
             </div>
         </div>
     </div>
-    <section id="overview" role="tabpanel" aria-hidden="false">
+    <section id="overview" role="tabpanel" aria-hidden="false" data-grid="container" class="pad-6x">
         <?php include('feature_set-v5.php');?>
     </section>
     <section id="tech-specs" role="tabpanel" aria-hidden="true" data-grid="container">
