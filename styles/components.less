@@ -74,11 +74,13 @@ a.m-background-neutral-20{
     .sticky-element-not-sticky{
         .f-center{
             margin: 0 10%;
-           
+            @media @desktop{
+                width: 100%;
+                margin:0;
+            }
             @media @tablets{
                 margin:0;
                 width: 100%;
-                
             }
             @media @smartphones{
                 margin: 0 auto;
@@ -255,16 +257,31 @@ a.m-background-neutral-20{
         color: darken(@ms-blue, 10%);
         background: transparent !important;
     }
-    // &:before{
-    //     width: 16px;
-    //     height: 16px;
-    //     color: @white;
-    //     background: @ms-blue;
-    //     border-radius: 10px;
-    //     font-size: 8px;
-    //     margin-right: 3px;
-    //     line-height: 16px;
-    //     text-align: center;
-    // }
    
+}
+
+//ambient video
+.m-ambient-video{
+
+    .glyph-play{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate3d(-50%, -50%,0);
+        background: rgba(0,0,0,0.6);
+        border-radius: 50%;
+        padding: 26px;
+        color: #fff;
+        z-index: 5;
+        &:before{
+            position: absolute;
+            left: calc(50%);
+            top: calc(50%);
+            transform: translate(-50%,-50%);
+            font-size: 24px; 
+        }
+        &:hover{
+            opacity: 0.8;
+        }
+    }
 }

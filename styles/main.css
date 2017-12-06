@@ -82,7 +82,13 @@ a.m-background-neutral-20 {
 .c-pivot .sticky-element-not-sticky .f-center {
   margin: 0 10%;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
+  .c-pivot .sticky-element-not-sticky .f-center {
+    width: 100%;
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
   .c-pivot .sticky-element-not-sticky .f-center {
     margin: 0;
     width: 100%;
@@ -108,7 +114,7 @@ a.m-background-neutral-20 {
   border-bottom: 2px #0078d7 solid;
   font-weight: 500;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .c-pivot a.pivot-scroll {
     margin: 0 18px;
   }
@@ -256,6 +262,29 @@ a.m-background-neutral-20 {
 #videoButton:hover {
   color: #005ca4;
   background: transparent !important;
+}
+.m-ambient-video .glyph-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+  padding: 26px;
+  color: #fff;
+  z-index: 5;
+}
+.m-ambient-video .glyph-play:before {
+  position: absolute;
+  left: calc(50%);
+  top: calc(50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+}
+.m-ambient-video .glyph-play:hover {
+  opacity: 0.8;
 }
 .b_video .js-cat-head {
   opacity: .7;
