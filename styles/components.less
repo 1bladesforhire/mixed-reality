@@ -168,6 +168,40 @@ a.m-background-neutral-20{
     }
 }
 
+#m-multi-description{
+    position: absolute;
+    z-index: 5;
+    top: 40%;
+    left: 10%;
+    display: block;
+    transform: translate3d(-10%, -40%, 0);
+    color: @white;
+    text-align: left;
+    width: 25%;
+    a{
+        color: @white;
+
+    }
+}
+
+.background-skew {
+    background: rgba(0,0,0,0.4);
+    min-height: 600px;
+    width: 39.6%;
+    z-index: 2;
+    position: absolute !important;
+    overflow: visible !important;
+    &:after{
+        position: relative;
+        width: 0;
+        height: 0;
+        border-right: 339px solid transparent;
+        border-top: 600px solid rgba(0,0,0,0.4);
+        content: '';
+        display: block;
+        left: 100%;
+    }
+}
 
 //Three Dark
 #three_dark{
@@ -237,7 +271,7 @@ a.m-background-neutral-20{
         a.f-active{
             text-decoration: underline;
         }
-        z-index: 2;
+        z-index: 7;
         width: auto;
         background: @smoke;
         margin-top: -100px;
@@ -263,7 +297,7 @@ a.m-background-neutral-20{
 //ambient video
 .m-ambient-video{
 
-    .glyph-play{
+    .glyph-play, .glyph-pause{
         position: absolute;
         top: 50%;
         left: 50%;
@@ -284,4 +318,10 @@ a.m-background-neutral-20{
             opacity: 0.8;
         }
     }
+    .glyph-pause{
+        &:before{
+            content: "||";
+        }
+    }
+
 }

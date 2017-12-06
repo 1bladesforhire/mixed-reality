@@ -62,19 +62,19 @@ function lightbox_close() {
 
 //Custom video player
 
-
 function vidplay() {
-    var video = document.getElementById("vid1");
     var button = document.getElementById("embed1");
-
+    var video = document.getElementById("vid1");
     if (video.paused) {
         video.play();
         button.classList.remove("glyph-play");
-        video.setAttribute("controls", "controls");
+        button.classList.add("glyph-pause");
+        // video.setAttribute("controls", "controls");
     } else {
         video.pause();
         button.classList.add("glyph-play");
-        video.setAttribute("controls", "false");
+        button.classList.remove("glyph-pause");
+        // video.setAttribute("controls", "false");
     }
 
 }
