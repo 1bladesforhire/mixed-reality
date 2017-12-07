@@ -87,7 +87,7 @@ function restart() {
 //scroll play video
 $(document).ready(function() {
     // Get media - with autoplay disabled (audio or video)
-    var media = $('video').not("[autoplay='autoplay']");
+    var media = $('.m-multi-feature video');
     var tolerancePixel = 40;
 
     function checkMedia() {
