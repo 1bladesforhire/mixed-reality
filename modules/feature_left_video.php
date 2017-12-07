@@ -3,9 +3,7 @@
     <div class="m-ambient-video">
         <a class="c-glyph glyph-play" id="embed1" href="#overview" aria-label="Play Mixed Reality video" onclick="vidplay()"></a>
         <video role="img" alt="Ambient video alt text" poster="assets/WMR_trailer_screen.jpg" id="vid1" muted>
-            <source src="assets/XboxOneS.mp4" type="video/mp4">
-            <source src="assets/XboxOneS.webm" type="video/webm">
-            <source src="assets/XboxOneS.ogv" type="video/ogg">
+            <source src="assets/WMR_sizzle.mp4" type="video/mp4">
         </video>
     </div>
     <div>

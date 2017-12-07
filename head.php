@@ -23,7 +23,7 @@
     <!-- Stylesheet additions -->
     <link rel="stylesheet" href="styles/main.css" type="text/css" media="all" />
   
-            <script>/** vim: et:ts=4:sw=4:sts=4
+        <script>/** vim: et:ts=4:sw=4:sts=4
         * @license RequireJS 2.2.0 Copyright jQuery Foundation and other contributors.
         * Released under MIT license, http://github.com/requirejs/requirejs/LICENSE
         */

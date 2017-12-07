@@ -3,14 +3,14 @@
 <section data-grid="container stack-2" class="m-multi-feature f-align-center">
     <section data-grid="container">
         <div data-grid="col-12" class="m-area-heading">
-            <h2 class="c-heading-2 f-lean">Immerse yourself in a new reality</h2>
+            <h2 class="c-heading-8 f-lean">Immerse yourself in a new reality</h2>
         </div>
         <div class="c-pivot" data-grid="container">
             <button class="c-flipper f-previous" aria-hidden="true" tabindex="-1"></button>
             <div role="tablist">
-                <a class="f-active" role="tab" tabindex="0" aria-controls="newRTBItemImage1 newRTBItemContent1">Designed for freedom</a>
+                <a class="f-active" role="tab" tabindex="0" aria-controls="newRTBItemImage1 newRTBItemContent1">Motion Controllers</a>
                 <a role="tab" aria-controls="newRTBItemImage2 newRTBItemContent2">Spatial Audio</a>
-                <a role="tab" aria-controls="newRTBItemImage3 newRTBItemContent3">Motion Controllers</a>
+                <a role="tab" aria-controls="newRTBItemImage3 newRTBItemContent3">Designed for freedom</a>
                 <a role="tab" aria-controls="newRTBItemImage4 newRTBItemContent4">interact with Cortana</a>
                 <a role="tab" aria-controls="newRTBItemImage5 newRTBItemContent5">Easy set-up &amp; portability</a>
             </div>
@@ -53,7 +53,11 @@
             <button class="c-flipper f-next" aria-hidden="true" tabindex="-1"></button>
             <div itemscope itemtype="http://schema.org/ItemList">
                 <ul>
-                    <li id="newRTBItemImage1" data-f-theme="light" class="f-active" role="tabpanel">
+                    <li id="newRTBItemImage1" data-f-theme="light" role="tabpanel" class="f-active">
+                    <div class="m-ambient-video">
+                      <video role="img" alt="Ambient video alt text" poster="assets/video/controllers.jpg" src="assets/video/controllers.mp4" muted loop></video>
+                    </li>
+                    <li id="newRTBItemImage2" data-f-theme="light"  role="tabpanel">
                         <picture class="c-image">
                             <source srcset="assets/vr_laser_slideX2048.jpg" media="(min-width: 1779px)">
                             <source srcset="assets/vr_laser_slideX2048.jpg" media="(min-width:1400px)">
@@ -62,17 +66,6 @@
                             <source srcset="assets/vr_laser_slideX2048.jpg" media="(min-width:540px)">
                             <source srcset="assets/vr_laser_slideX2048.jpg" media="(min-width:0)">
                             <img srcset="assets/vr_laser_slideX2048.jpg" src="assets/vr_laser_slideX2048.jpg" alt="Placeholder with grey background and dimension watermark without any imagery">
-                        </picture>
-                    </li>
-                    <li id="newRTBItemImage2" data-f-theme="light" role="tabpanel">
-                        <picture class="c-image">
-                            <source srcset="http://placehold.it/2048x600/2F2F2F/222222?text=pivot+two+2048x600" media="(min-width: 1779px)">
-                            <source srcset="http://placehold.it/1778x600/2F2F2F/222222?text=pivot+two+1778x600" media="(min-width:1400px)">
-                            <source srcset="http://placehold.it/1399x600/2F2F2F/222222?text=pivot+two+1399x600" media="(min-width:1084px)">
-                            <source srcset="http://placehold.it/1083x500/2F2F2F/222222?text=pivot+two+1083x500" media="(min-width:768px)">
-                            <source srcset="http://placehold.it/767x400/2F2F2F/222222?text=pivot+two+767x400" media="(min-width:540px)">
-                            <source srcset="http://placehold.it/539x300/2F2F2F/222222?text=pivot+two+539x300" media="(min-width:0)">
-                            <img srcset="http://placehold.it/1399x600/2F2F2F/222222?text=pivot+two+1399x600" src="http://placehold.it/1399x600/2F2F2F/222222?text=pivot+two+1399x600" alt="Placeholder with grey background and dimension watermark without any imagery">
                         </picture>
                     </li>
                     <li id="newRTBItemImage3" data-f-theme="dark" role="tabpanel">
