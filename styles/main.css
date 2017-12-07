@@ -326,12 +326,11 @@ a.m-background-neutral-20 {
   content: "||";
 }
 .b_video .js-cat-head {
-  opacity: .7;
+  background: rgba(255, 255, 255, 0.7);
 }
 .b_video .js-global-head {
   position: relative;
-  background: #ffffff;
-  opacity: .7;
+  background: rgba(255, 255, 255, 0.7) !important;
 }
 .b_video .c-uhfh-gcontainer {
   z-index: 2;
@@ -339,6 +338,10 @@ a.m-background-neutral-20 {
 .b_video .m-hero-item {
   margin-top: -100px;
   padding-bottom: 200px;
+  margin-bottom: 200px;
+  overflow: visible;
+  background-size: contain;
+  height: 700px;
 }
 #fade {
   display: none;
@@ -393,4 +396,129 @@ a.m-background-neutral-20 {
 }
 .test:hover ~ .test2 {
   display: none;
+}
+header.v2 {
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+  top: 0;
+  background: none;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+header.v2 header {
+  margin-top: 0;
+  background: transparent;
+}
+header.v2 header .theme-light {
+  background: transparent !important;
+}
+.buybox.v2 {
+  position: relative;
+  z-index: 9;
+  background: #fff;
+  color: #000;
+  text-align: left;
+  padding: 25px;
+  -webkit-box-shadow: 0px 8px 48px -2px rgba(0, 0, 0, 0.28);
+  box-shadow: 0px 8px 48px -2px rgba(0, 0, 0, 0.28);
+  height: 320px;
+  width: 100%;
+}
+.buybox.v2 h1 {
+  color: #000;
+  text-align: left;
+  font: 700 30px/34px "Segoe UI";
+  padding: 0;
+}
+.buybox.v2 .by-ms {
+  padding: 10px 0;
+}
+.buybox.v2 .c-call-to-action {
+  background: #dc3c01;
+  width: 100%;
+  padding: 10px 0;
+}
+.buybox.v2 .c-call-to-action:hover {
+  background: #c23801;
+}
+.buybox.v2 .c-call-to-action.secondary {
+  background: #8a94a4;
+  color: #fff;
+}
+.buybox.v2 .c-call-to-action.secondary:hover {
+  background: #707a8a;
+  color: #fff;
+}
+.buybox.v2 .c-call-to-action:first-of-type {
+  margin-bottom: 10px;
+}
+.buybox.v2 [data-grid=col-3] {
+  float: right;
+}
+.buybox.v2 .price {
+  font: 400 20px/26px "Segoe UI";
+  padding-bottom: 5px;
+}
+.buybox.v2 .price span {
+  font: 400 16px/20px "Segoe UI";
+}
+.buybox.v2 .save {
+  font: 100 13px/12px "Segoe UI";
+  padding-bottom: 15px;
+}
+.buybox.v2 .leading-actions {
+  font-size: 13px;
+}
+.buybox.v2 .leading-actions .secondary-cta {
+  color: #dc3c01;
+}
+ul.bullets {
+  list-style: disc;
+  padding: 10px 0 20px 20px;
+}
+ul.bullets li {
+  font-weight: 100;
+}
+ul.bullets li a {
+  font-size: 14px;
+  font-weight: 800;
+}
+.hr-or {
+  padding: 6px 0 10px 0;
+  position: relative;
+}
+.hr-or hr {
+  display: inline-block;
+  width: 100%;
+  opacity: .5;
+}
+.hr-or span {
+  top: 0px;
+  position: absolute;
+  font-size: 13px;
+  background: #fff;
+  padding: 5px 15px;
+  display: block;
+  z-index: 1;
+  right: 43%;
+}
+#additional-features.centered img {
+  width: 100px;
+}
+.v2 .m-hero-item {
+  float: left;
+  clear: both;
+  margin-top: -50px;
+}
+.v2 .m-hero-item > div {
+  width: 100%;
+  height: 100%;
+}
+.row.details {
+  max-width: 100%;
+  width: 100%;
+  top: 0 !important;
+  bottom: 0 !important;
+  padding: 25px;
 }
