@@ -339,12 +339,14 @@ a.m-background-neutral-20 {
   z-index: 2;
 }
 .b_video .m-hero-item {
-  margin-top: -100px;
-  padding-bottom: 200px;
-  margin-bottom: 200px;
+  margin-top: -20vh;
+  margin-bottom: 30vh;
   overflow: visible;
   background-size: contain;
-  height: 700px;
+  height: 107vh;
+}
+.b_video .m-hero-item video {
+  width: 100% !important;
 }
 #fade {
   display: none;
@@ -455,9 +457,6 @@ header.v2 header .theme-light {
 }
 .buybox.v2 .c-call-to-action:first-of-type {
   margin-bottom: 10px;
-}
-.buybox.v2 [data-grid=col-3] {
-  float: right;
 }
 .buybox.v2 .price {
   font: 400 20px/26px "Segoe UI";
