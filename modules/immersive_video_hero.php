@@ -17,7 +17,7 @@
             <div data-grid="col-6">
                 <div class="inner">
                     <h1 id="page-title" class="c-heading-2 m-v-xxxs p-t-n" itemprop="name">Acer Windows Mixed Reality Headset</h1>
-                    <p class="by-ms">By <a href="" class="x-hidden-focus">Microsoft Corporation</a></p>
+                    <p class="by-ms">By <a href="" class="x-hidden-focus f-blue">Microsoft Corporation</a></p>
                     <div class="c-rating f-community-rated f-aggregate" itemscope="" itemtype="http://schema.org/AggregateRating" itemprop="aggregateRating" aria-label="Ratings">
                         <a href="#ratings-reviews" data-m="{"cN":"RatingsReviewsSummaryLink","id":"nn49c1c2c1m1r1a2","sN":49,"aN":"c1c2c1m1r1a2"}">
                             <meta class="srv_microdata" itemprop="ratingValue" content="3.90000009536743">
@@ -30,7 +30,8 @@
                                 <span class="c-glyph f-half"></span>
                                 <span class="c-glyph f-none"></span>
                             </div>
-                            <span class="c-meta-text"> 40 </span>
+                            <span class="c-meta-text"> 40</span> 
+                            <a href="#" class="f-blue">Write a review</a>
                             <span class="x-screen-reader"> reviews </span>
                         </a>
                     </div>

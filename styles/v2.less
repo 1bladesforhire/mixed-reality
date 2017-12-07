@@ -36,13 +36,19 @@ header.v2 {
   .buybox.v2 .by-ms {
     padding: 10px 0;
   }
+  a.f-blue{
+    color: @ms-blue !important;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
   .buybox.v2 .c-call-to-action {
-    background: #dc3c01;
+    background: @ms-blue;
     width: 100%;
     padding: 10px 0;
   }
   .buybox.v2 .c-call-to-action:hover {
-    background: #c23801;
+    background: darken(@ms-blue, 10%);
   }
   
   .buybox.v2 .c-call-to-action.secondary {

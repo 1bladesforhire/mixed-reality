@@ -439,13 +439,19 @@ header.v2 header .theme-light {
 .buybox.v2 .by-ms {
   padding: 10px 0;
 }
+a.f-blue {
+  color: #0078d7 !important;
+}
+a.f-blue:hover {
+  text-decoration: underline;
+}
 .buybox.v2 .c-call-to-action {
-  background: #dc3c01;
+  background: #0078d7;
   width: 100%;
   padding: 10px 0;
 }
 .buybox.v2 .c-call-to-action:hover {
-  background: #c23801;
+  background: #005ca4;
 }
 .buybox.v2 .c-call-to-action.secondary {
   background: #8a94a4;
