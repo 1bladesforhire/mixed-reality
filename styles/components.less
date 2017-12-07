@@ -52,7 +52,7 @@ a.m-background-neutral-20{
 
     }
     .sticky-tabs{
-        padding: 20px 5% !important;
+        padding: 10px 5% !important;
         background: @white;
         z-index: 200 !important;
         height: 80px;
@@ -187,28 +187,28 @@ a.m-background-neutral-20{
 }
 
 .background-skew {
-    background: rgba(0,0,0,0.4);
+    background:linear-gradient(to right, rgba(0,0,0,0.7), transparent);
     min-height: 100%;
-    width: 39.6%;
+    width: 50%;
     z-index: 2;
     position: absolute !important;
     overflow: visible !important;
-    &:after{
-        position: relative;
-        width: 0;
-        height: 0;
-        border-right: 18.5vw solid transparent;
-        border-top: 33.5vw solid rgba(0,0,0,0.4);
-        content: '';
-        display: block;
-        left: 100%;
-    }
+    // &:after{
+    //     position: relative;
+    //     width: 0;
+    //     height: 0;
+    //     border-right: 18.5vw solid transparent;
+    //     border-top: 33.5vw solid rgba(0,0,0,0.4);
+    //     content: '';
+    //     display: block;
+    //     left: 100%;
+    // }
 }
 
 //Three Dark
 #three_dark{
-    //overflow: hidden;
     color: #919191;
+    margin-top: 60px;
     .c-{
         @media @smartphones{
             max-width: 95%;
@@ -261,7 +261,7 @@ a.m-background-neutral-20{
         background: @ms-blue;
         color: @white;
         &:hover{
-            backgrond: darken(@ms-blue, 20%);
+            background: darken(@ms-blue, 20%);
         }
     }
 }

@@ -10,9 +10,8 @@
             <div role="tablist">
                 <a class="f-active" role="tab" tabindex="0" aria-controls="newRTBItemImage1 newRTBItemContent1">Motion Controllers</a>
                 <a role="tab" aria-controls="newRTBItemImage2 newRTBItemContent2">Spatial Audio</a>
-                <a role="tab" aria-controls="newRTBItemImage3 newRTBItemContent3">Designed for freedom</a>
-                <a role="tab" aria-controls="newRTBItemImage4 newRTBItemContent4">interact with Cortana</a>
-                <a role="tab" aria-controls="newRTBItemImage5 newRTBItemContent5">Easy set-up &amp; portability</a>
+                <a role="tab" aria-controls="newRTBItemImage3 newRTBItemContent4">Interact with Cortana</a>
+                <a role="tab" aria-controls="newRTBItemImage4 newRTBItemContent5">Easy set-up &amp; portability</a>
             </div>
             <button class="c-flipper f-next" aria-hidden="true" tabindex="-1"></button>
             <section id="newRTBItemContent1" role="tabpanel" aria-hidden="false">
@@ -21,31 +20,19 @@
             <section id="newRTBItemContent2" role="tabpanel" aria-hidden="true">
                 <p class="c-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lectus metus, volutpat id venenatis sit amet, aliquam at felis. Suspendisse a pharetra sem. Aliquam ac libero at mauris mattis condimentum quis eget mi.</p>
                 
-                <a href="#" class="c-call-to-action c-glyph"
-                    aria-label="More verbose call to action text">
-                    <span>CALL TO ACTION</span>
-                </a>
+                
             </section>
             <section id="newRTBItemContent3" role="tabpanel" aria-hidden="true">
                 <p class="c-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lectus metus, volutpat id venenatis sit amet, aliquam at felis. Suspendisse a pharetra sem. Aliquam ac libero at mauris mattis condimentum quis eget mi.</p>
-                <a href="#" class="c-call-to-action c-glyph"
-                    aria-label="More verbose call to action text">
-                    <span>CALL TO ACTION</span>
-                </a>
+                
             </section>
             <section id="newRTBItemContent4" role="tabpanel" aria-hidden="true">
                 <p class="c-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lectus metus, volutpat id venenatis sit amet, aliquam at felis. Suspendisse a pharetra sem. Aliquam ac libero at mauris mattis condimentum quis eget mi.</p>
-                <a href="#" class="c-call-to-action c-glyph"
-                    aria-label="More verbose call to action text">
-                    <span>CALL TO ACTION</span>
-                </a>
+                
             </section>
             <section id="newRTBItemContent5" role="tabpanel" aria-hidden="true">
                 <p class="c-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lectus metus, volutpat id venenatis sit amet, aliquam at felis. Suspendisse a pharetra sem. Aliquam ac libero at mauris mattis condimentum quis eget mi.</p>
-                <a href="#" class="c-call-to-action c-glyph"
-                    aria-label="More verbose call to action text">
-                    <span>CALL TO ACTION</span>
-                </a>
+                
             </section>
         </div>
         <div class="c-carousel f-multi-slide" role="region" aria-label="Images" data-grid="col-12">

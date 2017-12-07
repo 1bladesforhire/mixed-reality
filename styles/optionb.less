@@ -2,11 +2,11 @@
     //ufh
     .js-cat-head{
        
-        background: rgba(255, 255, 255, 0.7);
+        background: rgba(255, 255, 255, 0);
     }
     .js-global-head{
         position: relative;
-        background: rgba(255, 255, 255, 0.7) !important;
+        background: rgba(255, 255, 255, 0) !important;
        
     }
     .c-uhfh-gcontainer{
@@ -23,6 +23,16 @@
         height: 107vh;
         video{
             width: 100% !important;
+        }
+        @media @lg-desktop {
+            margin-top: -30vh;
+            height: 100vh;
+            margin-bottom: 17vh;
+            video{
+                width: auto;
+                min-height: 0;
+                height: 120vh;
+            }
         }
     }
 

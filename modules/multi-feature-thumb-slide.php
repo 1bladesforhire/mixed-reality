@@ -74,8 +74,6 @@
             </li>
         </ul>
         <div class="c-carousel f-multi-slide" role="region" aria-label="Images">
-            <button class="c-flipper f-previous" aria-hidden="true" tabindex="-1"></button>
-            <button class="c-flipper f-next" aria-hidden="true" tabindex="-1"></button>
             <div class="background-skew"></div>
             <div itemscope itemtype="http://schema.org/ItemList">
                 <ul>

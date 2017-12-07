@@ -69,12 +69,12 @@ function vidplay() {
         video.play();
         button.classList.remove("glyph-play");
         button.classList.add("glyph-pause");
-        // video.setAttribute("controls", "controls");
+        video.setAttribute("controls", "controls");
     } else {
         video.pause();
         button.classList.add("glyph-play");
         button.classList.remove("glyph-pause");
-        // video.setAttribute("controls", "false");
+        video.setAttribute("controls", "false");
     }
 
 }
