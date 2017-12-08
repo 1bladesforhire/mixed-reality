@@ -23,7 +23,19 @@ gulp.task('less', function() {
             suffix: '.min'
         }))
         .pipe(gulp.dest('styles'))
-
+    gulp.src('styles/optionb.less')
+        .pipe(plumber())
+        .pipe(less())
+        .pipe(autoprefixer({
+            browsers: ['last 2 versions'],
+            cascade: false
+        }))
+        .pipe(gulp.dest('styles/'))
+        .pipe(cssmin())
+        .pipe(rename({
+            suffix: '.min'
+        }))
+        .pipe(gulp.dest('styles'))
 });
 
 gulp.task('default', ['less', 'watch']);

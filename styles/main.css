@@ -325,38 +325,6 @@ a.m-background-neutral-20 {
 #shellmenu_73 {
   padding-right: 0 !important;
 }
-.b_video .js-cat-head {
-  background: rgba(255, 255, 255, 0);
-}
-.b_video .js-global-head {
-  position: relative;
-  background: rgba(255, 255, 255, 0) !important;
-}
-.b_video .c-uhfh-gcontainer {
-  z-index: 2;
-}
-.b_video .m-hero-item {
-  margin-top: -20vh;
-  margin-bottom: 20vh;
-  overflow: visible;
-  background-size: contain;
-  height: 107vh;
-}
-.b_video .m-hero-item video {
-  width: 100% !important;
-}
-@media only screen and (min-width: 1400px) {
-  .b_video .m-hero-item {
-    margin-top: -30vh;
-    height: 100vh;
-    margin-bottom: 17vh;
-  }
-  .b_video .m-hero-item video {
-    width: auto;
-    min-height: 0;
-    height: 120vh;
-  }
-}
 #fade {
   display: none;
   position: fixed;

@@ -11,7 +11,7 @@
     <meta name="author" content="Microsoft Corporation">
     <!-- Meta additions -->
     <!-- Stylesheet requirements -->
-
+    <link rel="stylesheet" href="styles/optionb.min.css" type="text/css" media="all" />    
 
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.2.min.js"></script>
     <link rel="stylesheet" href="https://statics-uhf-eus.akamaized.net/west-european/shell/_scrf/css/themes=default.device=uplevel_web_pc/66-41abaf/ad-ec92c6/98-847609/e9-c399ba/8e-9c6412/cc-c21898/9c-3df1cf?ver=2.0" type="text/css" media="all" />    
@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="https://assets.onestore.ms/cdnfiles/external/mwf/short/v1/latest/css/mwf-west-european-default.min.css">
     <link rel="preload" as="font" crossorigin="crossorigin" type="font/woff" href="https://assets.onestore.ms/cdnfiles/external/mwf/long/v1/v1.30.0/fonts/MWFMDL2.woff">
     <!-- Stylesheet additions -->
-    <link rel="stylesheet" href="styles/main.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="styles/main.min.css" type="text/css" media="all" />
   
         <script>/** vim: et:ts=4:sw=4:sts=4
         * @license RequireJS 2.2.0 Copyright jQuery Foundation and other contributors.
