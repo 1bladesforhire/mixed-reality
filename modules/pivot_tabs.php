@@ -6,7 +6,7 @@
             </div>
             <div role="tablist"  class="f-center x-type-center" data-grid="col-8">
                 <a class="f-active pivot-scroll" role="tab" tabindex="0" aria-controls="overview" >Overview</a>
-                <a role="tab" class="pivot-scroll" aria-controls="tech-specs">Tech Specs</a>
+                <a role="tab" class="pivot-scroll" aria-controls="tech-specs">Tech specs</a>
                 <a role="tab" class="pivot-scroll" aria-controls="reviews">Reviews</a>
                 <a role="tab" class="pivot-scroll" aria-controls="compatability">Compatablitiy</a>
             </div>

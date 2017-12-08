@@ -8,8 +8,8 @@
         <div class="c-pivot" data-grid="container">
             <button class="c-flipper f-previous" aria-hidden="true" tabindex="-1"></button>
             <div role="tablist">
-                <a class="f-active" role="tab" tabindex="0" aria-controls="newRTBItemImage1 newRTBItemContent1">Motion Controllers</a>
-                <a role="tab" aria-controls="newRTBItemImage2 newRTBItemContent2">Spatial Audio</a>
+                <a class="f-active" role="tab" tabindex="0" aria-controls="newRTBItemImage1 newRTBItemContent1">Motion controllers</a>
+                <a role="tab" aria-controls="newRTBItemImage2 newRTBItemContent2">Spatial audio</a>
                 <a role="tab" aria-controls="newRTBItemImage3 newRTBItemContent3">Interact with Cortana</a>
                 <a role="tab" aria-controls="newRTBItemImage4 newRTBItemContent4">Easy set-up &amp; portability</a>
             </div>
@@ -38,12 +38,12 @@
                 <ul>
                     <li id="newRTBItemImage1" data-f-theme="light" role="tabpanel" class="f-active">
                     <div class="m-ambient-video">
-                      <video role="img" alt="Ambient video alt text" poster="assets/video/controllers.jpg" src="assets/video/controllers.mp4" muted controls loop></video>
+                      <video role="img" alt="Ambient video alt text" poster="assets/video/controllers.jpg" src="assets/video/controllers.mp4" muted controls loop preload="none"></video>
                     </li>
                     <li id="newRTBItemImage2" data-f-theme="light"  role="tabpanel">
                         <picture class="c-image">
                             <source srcset="assets/video/vr_laser-1600x600.jpg" media="(min-width: 1779px)">
-                            <source srcset="assets/video/vr_laser-1259x471.jpg" media="(min-width:1400px)">
+                            <source srcset="assets/video/vr_laser-1600x600.jpg" media="(min-width:1400px)">
                             <source srcset="assets/video/vr_laser-1259x471.jpg" media="(min-width:1084px)">
                             <source srcset="assets/video/vr_laser-1259x471.jpg" media="(min-width:768px)">
                             <source srcset="assets/video/vr_laser-1259x471.jpg" media="(min-width:540px)">
