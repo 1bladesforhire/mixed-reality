@@ -322,6 +322,9 @@ a.m-background-neutral-20 {
 .glyph-pause:before {
   content: "||";
 }
+#shellmenu_73 {
+  padding-right: 0 !important;
+}
 .b_video .js-cat-head {
   background: rgba(255, 255, 255, 0);
 }
