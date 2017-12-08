@@ -1,6 +1,6 @@
 <section class="m-hero-item f-x-center f-y-bottom context-device theme-light" itemscope itemtype="http://schema.org/Product">
     <div class="m-ambient-video">
-        <video role="img" alt="Lean ambient video alt text" poster="assets/WMR_sizzle.png" muted loop autoplay>
+        <video role="img" alt="Lean ambient video alt text" poster="assets/WMR_sizzle.png" muted autoplay>
             <source src="assets/video/acer-1366.mp4" type="video/mp4">
         </video>
     </div>
