@@ -10,28 +10,24 @@
             <div role="tablist">
                 <a class="f-active" role="tab" tabindex="0" aria-controls="newRTBItemImage1 newRTBItemContent1">Motion Controllers</a>
                 <a role="tab" aria-controls="newRTBItemImage2 newRTBItemContent2">Spatial Audio</a>
-                <a role="tab" aria-controls="newRTBItemImage3 newRTBItemContent4">Interact with Cortana</a>
-                <a role="tab" aria-controls="newRTBItemImage4 newRTBItemContent5">Easy set-up &amp; portability</a>
+                <a role="tab" aria-controls="newRTBItemImage3 newRTBItemContent3">Interact with Cortana</a>
+                <a role="tab" aria-controls="newRTBItemImage4 newRTBItemContent4">Easy set-up &amp; portability</a>
             </div>
             <button class="c-flipper f-next" aria-hidden="true" tabindex="-1"></button>
             <section id="newRTBItemContent1" role="tabpanel" aria-hidden="false">
-                <p class="c-paragraph">Discover greater control and the freedom to explore. With the trigger, get ready for action by shooting, selecting and picking up and holding objects. Scroll, pan, and rotate inside your virtual world though the touchpad. Move throughout virtual reality and explore with a thumb stick that lets you rotate or dash backwards.</p>
+                <p class="c-paragraph">In Windows Mixed Reality, your motion controllers are directly tracked by your headset sensors, so they’re more naturally responsive to your movements. </p>
             </section>
             <section id="newRTBItemContent2" role="tabpanel" aria-hidden="true">
-                <p class="c-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lectus metus, volutpat id venenatis sit amet, aliquam at felis. Suspendisse a pharetra sem. Aliquam ac libero at mauris mattis condimentum quis eget mi.</p>
+                <p class="c-paragraph">Spatial audio lets you hear sounds from specific locations just like in the real world, and your advanced motion controller makes it easy to move through virtual spaces. The combined effect is a sensation where your virtual and physical worlds are in perfect sync, free of latency or distortion, for a phenomenal sense of presence.</p>
                 
                 
             </section>
             <section id="newRTBItemContent3" role="tabpanel" aria-hidden="true">
-                <p class="c-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lectus metus, volutpat id venenatis sit amet, aliquam at felis. Suspendisse a pharetra sem. Aliquam ac libero at mauris mattis condimentum quis eget mi.</p>
+                <p class="c-paragraph">Chat with friends and foes alike with the only Mixed Reality headset to feature an integrated microphone array. Built directly into the headset, the array reduces noise so you can communicate clearly and even interact with Cortana.</p>
                 
             </section>
             <section id="newRTBItemContent4" role="tabpanel" aria-hidden="true">
-                <p class="c-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lectus metus, volutpat id venenatis sit amet, aliquam at felis. Suspendisse a pharetra sem. Aliquam ac libero at mauris mattis condimentum quis eget mi.</p>
-                
-            </section>
-            <section id="newRTBItemContent5" role="tabpanel" aria-hidden="true">
-                <p class="c-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lectus metus, volutpat id venenatis sit amet, aliquam at felis. Suspendisse a pharetra sem. Aliquam ac libero at mauris mattis condimentum quis eget mi.</p>
+                <p class="c-paragraph">Set-up and get started in 10 minutes. Inside-out tracking is built right into each headset - no external set-up required. Experience new worlds at home or anywhere you want. Wherever your devices go, Windows Mixed Reality follows. </p>
                 
             </section>
         </div>
@@ -42,7 +38,7 @@
                 <ul>
                     <li id="newRTBItemImage1" data-f-theme="light" role="tabpanel" class="f-active">
                     <div class="m-ambient-video">
-                      <video role="img" alt="Ambient video alt text" poster="assets/video/controllers.jpg" src="assets/video/controllers.mp4" muted loop></video>
+                      <video role="img" alt="Ambient video alt text" poster="assets/video/controllers.jpg" src="assets/video/controllers.mp4" muted controls loop></video>
                     </li>
                     <li id="newRTBItemImage2" data-f-theme="light"  role="tabpanel">
                         <picture class="c-image">
@@ -67,17 +63,6 @@
                         </picture>
                     </li>
                     <li id="newRTBItemImage4" data-f-theme="dark" role="tabpanel">
-                        <picture class="c-image">
-                            <source srcset="http://placehold.it/2048x600/464646/333333?text=pivot+three+2048x600" media="(min-width: 1779px)">
-                            <source srcset="http://placehold.it/1778x600/464646/333333?text=pivot+three+1778x600" media="(min-width:1400px)">
-                            <source srcset="http://placehold.it/1399x600/464646/333333?text=pivot+three+1399x600" media="(min-width:1084px)">
-                            <source srcset="http://placehold.it/1083x500/464646/333333?text=pivot+three+1083x500" media="(min-width:768px)">
-                            <source srcset="http://placehold.it/767x400/464646/333333?text=pivot+three+767x400" media="(min-width:540px)">
-                            <source srcset="http://placehold.it/539x300/464646/333333?text=pivot+three+539x300" media="(min-width:0)">
-                            <img srcset="http://placehold.it/1399x600/464646/333333?text=pivot+three+1399x600" src="http://placehold.it/1399x600/464646/333333?text=pivot+three+1399x600" alt="Placeholder with grey background and dimension watermark without any imagery">
-                        </picture>
-                    </li>
-                    <li id="newRTBItemImage5" data-f-theme="dark" role="tabpanel">
                         <picture class="c-image">
                             <source srcset="http://placehold.it/2048x600/464646/333333?text=pivot+three+2048x600" media="(min-width: 1779px)">
                             <source srcset="http://placehold.it/1778x600/464646/333333?text=pivot+three+1778x600" media="(min-width:1400px)">

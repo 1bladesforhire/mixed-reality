@@ -172,7 +172,7 @@ a.m-background-neutral-20{
 
 #m-multi-description{
     position: absolute;
-    z-index: 5;
+    z-index: 3;
     top: 40%;
     left: 10%;
     display: block;
@@ -273,7 +273,7 @@ a.m-background-neutral-20{
         a.f-active{
             text-decoration: underline;
         }
-        z-index: 7;
+        z-index: 3;
         width: auto;
         background: @smoke;
         margin-top: -100px;
@@ -284,6 +284,9 @@ a.m-background-neutral-20{
             border-bottom: 4px solid @ms-blue;
         }
     }   
+    [role=tablist] li:last-of-type{
+        margin-right: 0;
+    }
 }
 
 #videoButton{
@@ -297,7 +300,7 @@ a.m-background-neutral-20{
 }
 
 //ambient video
-.m-ambient-video{
+
 
     .glyph-play, .glyph-pause{
         position: absolute;
@@ -307,7 +310,7 @@ a.m-background-neutral-20{
         background: rgba(0,0,0,0.6);
         border-radius: 50%;
         padding: 26px;
-        color: #fff;
+        color: #fff !important;
         z-index: 5;
         &:before{
             position: absolute;
@@ -326,4 +329,3 @@ a.m-background-neutral-20{
         }
     }
 
-}

@@ -13,12 +13,12 @@
             <div data-grid="col-12" class="dark">
                 <section class="m-content-placement-item f-size-medium x-type-center">
                     <picture>
-                        <source srcset="assets/computer1.png" media="(min-width: 1400px)">
-                        <source srcset="assets/computer1.png" media="(min-width: 1084px)">
-                        <source srcset="assets/computer1.png" media="(min-width: 768px)">
-                        <source srcset="assets/computer1.png" media="(min-width: 540px)">
-                        <source srcset="assets/computer1.png" media="(min-width:0)">
-                        <img srcset="assets/computer1.png" src="assets/computer1.png" alt="Placeholder with grey background and dimension watermark without any imagery" >
+                        <source srcset="assets/video/comp1.png" media="(min-width: 1400px)">
+                        <source srcset="assets/video/comp1.png" media="(min-width: 1084px)">
+                        <source srcset="assets/video/comp1.png" media="(min-width: 768px)">
+                        <source srcset="assets/video/comp1.png" media="(min-width: 540px)">
+                        <source srcset="assets/video/comp1.png" media="(min-width:0)">
+                        <img srcset="assets/video/comp1.png" src="assets/video/comp1.png" alt="Placeholder with grey background and dimension watermark without any imagery" >
                     </picture>
                     <div>
                         
@@ -40,12 +40,12 @@
             <div data-grid="col-12" class="dark">
                 <section class="m-content-placement-item f-size-medium">
                     <picture>
-                        <source srcset="assets/computer2.png" media="(min-width: 1400px)">
-                        <source srcset="assets/computer2.png" media="(min-width: 1084px)">
-                        <source srcset="assets/computer2.png" media="(min-width: 768px)">
-                        <source srcset="assets/computer2.png" media="(min-width: 540px)">
-                        <source srcset="assets/computer2.png" media="(min-width:0)">
-                        <img srcset="assets/computer2.png" src="assets/computer2.png" alt="Placeholder with grey background and dimension watermark without any imagery" >
+                        <source srcset="assets/video/comp2.png" media="(min-width: 1400px)">
+                        <source srcset="assets/video/comp2.png" media="(min-width: 1084px)">
+                        <source srcset="assets/video/comp2.png" media="(min-width: 768px)">
+                        <source srcset="assets/video/comp2.png" media="(min-width: 540px)">
+                        <source srcset="assets/video/comp2.png" media="(min-width:0)">
+                        <img srcset="assets/video/comp2.png" src="assets/video/comp2.png" alt="Placeholder with grey background and dimension watermark without any imagery" >
                     </picture>
                     <div>
                         <h3 class="c-heading">The Gamer</h3>
@@ -65,12 +65,12 @@
             <div data-grid="col-12" class="dark">
                 <section class="m-content-placement-item f-size-medium short-img">
                     <picture>
-                        <source srcset="assets/computer3.png" media="(min-width: 1400px)">
-                        <source srcset="assets/computer3.png" media="(min-width: 1084px)">
-                        <source srcset="assets/computer3.png" media="(min-width: 768px)">
-                        <source srcset="assets/computer3.png" media="(min-width: 540px)">
-                        <source srcset="assets/computer3.png" media="(min-width:0)">
-                        <img srcset="assets/computer3.png" src="assets/computer3.png" alt="Placeholder with grey background and dimension watermark without any imagery" >
+                        <source srcset="assets/video/comp3.png" media="(min-width: 1400px)">
+                        <source srcset="assets/video/comp3.png" media="(min-width: 1084px)">
+                        <source srcset="assets/video/comp3.png" media="(min-width: 768px)">
+                        <source srcset="assets/video/comp3.png" media="(min-width: 540px)">
+                        <source srcset="assets/video/comp3.png" media="(min-width:0)">
+                        <img srcset="assets/video/comp3.png" src="assets/video/comp3.png" alt="Placeholder with grey background and dimension watermark without any imagery" >
                     </picture>
                     <div>
                         <h3 class="c-heading">The Show-Off</h3>
