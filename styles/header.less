@@ -1,8 +1,21 @@
-.c-uhfh>[class*="theme-"], .c-uhfh>div:first-child
-{
-    background: @smoke;
-     .c-uhf-menu>button:hover,.c-uhf-menu>button:focus{
-        background: @smoke;
-     }
-    
+#headerArea{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    background: transparent;
+    z-index: 10;
+
+    .context-uhf{
+        color: @white;
+        background: linear-gradient(to bottom, rgba(0,0,0,.75) 0%,rgba(0,0,0,0) 100%);
+        >div:first-child {
+            .c-uhf-nav-link, .c-uhf-menu button{
+                color: @white;
+            }
+        }
+    }
+}
+
+.c-uhfh>[class*="theme-"] .c-action-trigger, .c-uhfh>[class*="theme-"] .c-logo, #uhf-shopping-cart, .c-uhfh>[class*="theme-"] .c-uhf-nav-link, .c-uhfh>[class*="theme-"] .c-uhf-menu a, .c-uhfh>[class*="theme-"] .c-uhf-menu button, .c-uhfh>[class*="theme-"] .c-me:not(.msame_open) .msame_Header_name{
+    color: @white;
 }

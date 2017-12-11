@@ -15,7 +15,21 @@
                 <button class="c-flipper f-next" aria-hidden="true" tabindex="-1"></button>
             </div>
             <div class="buy-box" data-grid="col-2">
-                <a class="c-call-to-action">Buy Now</a>
+                <div class="c-price price-info">
+                    <div class="c-price">
+
+                        <div class="price-text srv_price">
+                            <span aria-label="Price" class="x-hidden-focus">$299.99</span>
+                        </div>
+
+                        <div class="srv_microdata" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
+                            <meta itemprop="price" content="119.99">
+                            <meta itemprop="priceCurrency" content="USD">
+                        </div>
+                        <a class="c-call-to-action">Buy Now</a>
+                    </div>
+                
+            </div>  
             </div>
         </div>
     </div>

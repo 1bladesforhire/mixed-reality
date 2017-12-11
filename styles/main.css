@@ -1,12 +1,27 @@
-.c-uhfh > [class*="theme-"],
-.c-uhfh > div:first-child {
-  background: #f0f0f0;
+#headerArea {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  background: transparent;
+  z-index: 10;
 }
-.c-uhfh > [class*="theme-"] .c-uhf-menu > button:hover,
-.c-uhfh > div:first-child .c-uhf-menu > button:hover,
-.c-uhfh > [class*="theme-"] .c-uhf-menu > button:focus,
-.c-uhfh > div:first-child .c-uhf-menu > button:focus {
-  background: #f0f0f0;
+#headerArea .context-uhf {
+  color: #ffffff;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0)));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 100%);
+}
+#headerArea .context-uhf > div:first-child .c-uhf-nav-link,
+#headerArea .context-uhf > div:first-child .c-uhf-menu button {
+  color: #ffffff;
+}
+.c-uhfh > [class*="theme-"] .c-action-trigger,
+.c-uhfh > [class*="theme-"] .c-logo,
+#uhf-shopping-cart,
+.c-uhfh > [class*="theme-"] .c-uhf-nav-link,
+.c-uhfh > [class*="theme-"] .c-uhf-menu a,
+.c-uhfh > [class*="theme-"] .c-uhf-menu button,
+.c-uhfh > [class*="theme-"] .c-me:not(.msame_open) .msame_Header_name {
+  color: #ffffff;
 }
 .dark {
   background-color: #000000 !important;
@@ -228,17 +243,15 @@ a.m-background-neutral-20 {
   text-align: center;
   padding-bottom: 24px;
   min-height: 620px;
+  color: #ffffff;
 }
 @media only screen and (max-width: 479px) {
   #three_dark .m-content-placement-item {
     clear: both;
   }
 }
-#three_dark .m-content-placement-item:hover {
-  color: #ffffff;
-}
-#three_dark .m-content-placement-item:hover button {
-  background: #003f71;
+#three_dark .m-content-placement-item:hover > div .c-heading {
+  text-decoration: none;
 }
 #three_dark .m-content-placement-item img {
   width: auto;
@@ -249,6 +262,9 @@ a.m-background-neutral-20 {
 #three_dark .m-content-placement-item h2,
 #three_dark .m-content-placement-item h3 {
   color: #ffffff;
+}
+#three_dark .m-content-placement-item button:hover {
+  background: #003f71;
 }
 #three_dark .c-price {
   width: 60px;
@@ -379,22 +395,6 @@ a.m-background-neutral-20 {
 .test:hover ~ .test2 {
   display: none;
 }
-header.v2 {
-  position: absolute;
-  z-index: 999;
-  width: 100%;
-  top: 0;
-  background: none;
-  -webkit-backdrop-filter: none;
-  backdrop-filter: none;
-}
-header.v2 header {
-  margin-top: 0;
-  background: transparent;
-}
-header.v2 header .theme-light {
-  background: transparent !important;
-}
 .buybox.v2 {
   position: relative;
   z-index: 9;
@@ -405,14 +405,8 @@ header.v2 header .theme-light {
   -webkit-box-shadow: 0px 8px 48px -2px rgba(0, 0, 0, 0.28);
   box-shadow: 0px 8px 48px -2px rgba(0, 0, 0, 0.28);
   height: 320px;
-  width: 100%;
   max-width: 1600px;
-  margin-top: -50px;
-}
-@media only screen and (min-width: 1400px) {
-  .buybox.v2 {
-    margin-top: 7vh;
-  }
+  margin-top: -220px;
 }
 .buybox.v2 h1 {
   color: #000;
@@ -457,6 +451,10 @@ header.v2 header .theme-light {
 .buybox.v2 .price span {
   font: 400 16px/20px "Segoe UI";
 }
+.buybox.v2 .pric-caption-3 {
+  font-weight: 100;
+  font-size: 13px;
+}
 .buybox.v2 .save {
   font: 700 15px/14px "Segoe UI";
   padding-bottom: 5px;
@@ -470,6 +468,7 @@ header.v2 header .theme-light {
 ul.bullets {
   list-style: disc;
   padding: 10px 0 20px 20px;
+  max-width: 90%;
 }
 ul.bullets li {
   font-weight: 100;
@@ -515,6 +514,24 @@ ul.bullets li a {
   top: 0 !important;
   bottom: 0 !important;
   padding: 25px;
+}
+.f-share:before {
+  content: "\E72D";
+  height: 14px;
+  width: 14px;
+  vertical-align: middle;
+}
+.f-heart {
+  margin-right: 20px;
+}
+.f-heart:before {
+  content: "\EB52";
+  color: white;
+  text-shadow: 1px 0px #000, 0px 1px #000, 0 -1px #000, -1px 0 #000;
+  height: 13px;
+  width: 13px;
+  margin-right: 8px;
+  vertical-align: middle;
 }
 .lightbox {
   background-color: rgba(0, 0, 0, 0.9);

@@ -3,11 +3,11 @@
     //ufh
     .js-cat-head{
        
-        background: rgba(255, 255, 255, 0) !important;
+        background: rgba(0, 0, 0, 0) !important;
     }
     .js-global-head{
         position: relative;
-        background: rgba(255, 255, 255, 0) !important;
+        background: rgba(0, 0, 0, 0) !important;
        
     }
     .c-uhfh-gcontainer{
@@ -17,24 +17,26 @@
 
     //hero
     .m-hero-item{
-        margin-top: -20vh;
-        margin-bottom: 20vh;
         overflow: visible;
-        background-size: contain;
-        height: 107vh;
+        height: 700px;
+        >div.m-ambient-video{
+            margin-top: -50px;
+            height: calc(~"100% + 50px");
+        }
         video{
             width: 100% !important;
         }
         @media @lg-desktop {
-            margin-top: -30vh;
-            height: 100vh;
-            margin-bottom: 17vh;
+            margin-bottom: 140px;
             video{
                 width: auto;
                 min-height: 0;
-                height: 120vh;
+                height: 110%;
             }
         }
+        .c-rating{
+            margin-top: 0;
+          }
     }
 
 }
