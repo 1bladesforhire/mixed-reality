@@ -37,19 +37,19 @@
         <?php include('feature_left_video.php');?>
     </section>
     <section id="tech-specs" role="tabpanel" aria-hidden="true" data-grid="container">
-        <h3 class="c-heading-3">Tech Specs</h3>
+        
         <?php
             include('system_requirements.php');
         ?>
     </section>
     <section id="reviews" role="tabpanel" aria-hidden="true" data-grid="container">
-        <h3 class="c-heading-3">Reviews</h3>
+       
         <?php 
             include('ratings.php');
         ?>
     </section>
     <section id="compatability" role="tabpanel" aria-hidden="true" data-grid="container">
-        <h3 class="c-heading-3">FAQ</h3>
+       
         <p class="c-paragraph-3">Questions that are asked</p>
     </section>
 </section>

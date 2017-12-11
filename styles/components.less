@@ -56,7 +56,6 @@ a.m-background-neutral-20{
         background: @white;
         z-index: 200 !important;
         height: 80px;
-
         @media @smartphones{
             padding: 20px 0;
         }
@@ -69,6 +68,9 @@ a.m-background-neutral-20{
             display: inline-block;
             max-width: 80%;
             overflow: hidden;
+        }
+        .price-text span{
+            margin-top: 10px;
         }
     }
     .sticky-element-not-sticky{
@@ -100,8 +102,10 @@ a.m-background-neutral-20{
         display: inline-block;
         
         &.f-active{
-            border-bottom: 2px @ms-blue solid;
+            border-bottom: 4px @ms-blue solid;
             font-weight: 500;
+            padding-bottom: 6px;
+            font-size: 15px;
         }
         @media @tablets{
             margin: 0 18px;
@@ -205,7 +209,7 @@ a.m-background-neutral-20{
         }
     }
     .m-feature .c-paragraph{
-        color: #919191;
+        color: @dark-gray;
         max-width: 70%;
         margin: 0 auto;
        
@@ -235,10 +239,19 @@ a.m-background-neutral-20{
             min-height: 300px;
         }
         h2, h3{
-            color:@white;
+            color:@white; 
+        }
+        .c-heading{
+            font-size: 24px;
+            font-weight: 100;
+            padding-top: 48px;
+            padding-bottom: 24px;
         }
         button:hover{
             background: darken(@ms-blue, 20%);
+        }
+        p{
+            color: @dark-gray;
         }
       
     }
