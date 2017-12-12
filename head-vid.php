@@ -903,7 +903,7 @@
     </script>
     <script src="../scripts/jq2.1.1.js"></script>
 
-    <script type="text/javascript" src="https://www.microsoft.com/videoplayer/js/oneplayeriframe.js"></script>
+    <!-- <script type="text/javascript" src="https://www.microsoft.com/videoplayer/js/oneplayeriframe.js"></script> -->
 </head>
 
 <body>

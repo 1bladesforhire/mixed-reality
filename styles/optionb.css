@@ -12,21 +12,25 @@
   overflow: visible;
   height: 700px;
 }
-.b_video .m-hero-item > div.m-ambient-video {
-  margin-top: -50px;
-  height: calc(100% + 50px);
-}
-.b_video .m-hero-item video {
-  width: 100% !important;
+@media only screen and (min-width: 768px) {
+  .b_video .m-hero-item > div.m-ambient-video {
+    margin-top: -70px;
+    height: calc(100% + 70px);
+  }
 }
 @media only screen and (min-width: 1400px) {
   .b_video .m-hero-item {
     margin-bottom: 140px;
   }
+  .b_video .m-hero-item > div.m-ambient-video {
+    margin-top: -50px;
+    height: calc(100% + 50px);
+  }
   .b_video .m-hero-item video {
     width: auto;
     min-height: 0;
     height: 110%;
+    width: 100% !important;
   }
 }
 .b_video .m-hero-item .c-rating {

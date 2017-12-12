@@ -19,19 +19,24 @@
     .m-hero-item{
         overflow: visible;
         height: 700px;
-        >div.m-ambient-video{
-            margin-top: -50px;
-            height: calc(~"100% + 50px");
+        @media @desktop{
+            >div.m-ambient-video{
+                margin-top: -70px;
+                height: calc(~"100% + 70px");
+            }
         }
-        video{
-            width: 100% !important;
-        }
+
         @media @lg-desktop {
             margin-bottom: 140px;
+            >div.m-ambient-video{
+                margin-top: -50px;
+                height: calc(~"100% + 50px");
+            }
             video{
                 width: auto;
                 min-height: 0;
                 height: 110%;
+                width: 100% !important;
             }
         }
         .c-rating{

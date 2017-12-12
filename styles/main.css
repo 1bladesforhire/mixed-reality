@@ -40,7 +40,7 @@
   margin-top: 6px;
 }
 a.m-background-blue {
-  background-color: #0078d7;
+  background-color: #0078D7;
   padding: 12px 24px;
   margin: 24px 12px;
   color: #ffffff;
@@ -129,7 +129,7 @@ a.m-background-neutral-20 {
   display: inline-block;
 }
 .c-pivot a.pivot-scroll.f-active {
-  border-bottom: 4px #0078d7 solid;
+  border-bottom: 4px #0078D7 solid;
   font-weight: 500;
   padding-bottom: 6px;
   font-size: 15px;
@@ -287,7 +287,7 @@ a.m-background-neutral-20 {
   color: #ffffff;
 }
 #three_dark button {
-  background: #0078d7;
+  background: #0078D7;
   color: #ffffff;
 }
 #three_dark button:hover {
@@ -310,13 +310,13 @@ a.m-background-neutral-20 {
 }
 #m-multi-tiles > section > [role=tablist] li.li-active {
   padding-bottom: 4Px;
-  border-bottom: 4px solid #0078d7;
+  border-bottom: 4px solid #0078D7;
 }
 #m-multi-tiles [role=tablist] li:last-of-type {
   margin-right: 0;
 }
 #videoButton {
-  color: #0078d7;
+  color: #0078D7;
   background: transparent !important;
 }
 #videoButton:hover {
@@ -420,7 +420,12 @@ a.m-background-neutral-20 {
   box-shadow: 0px 8px 48px -2px rgba(0, 0, 0, 0.28);
   height: 320px;
   max-width: 1600px;
-  margin-top: -220px;
+  margin-top: 0;
+}
+@media only screen and (min-width: 1400px) {
+  .buybox.v2 {
+    margin-top: -220px;
+  }
 }
 .buybox.v2 h1 {
   color: #000;
@@ -432,7 +437,7 @@ a.m-background-neutral-20 {
   padding: 10px 0;
 }
 .buybox.v2 a.f-blue {
-  color: #0078d7 !important;
+  color: #0078D7 !important;
 }
 .buybox.v2 a.f-blue:hover {
   text-decoration: underline;
@@ -447,7 +452,7 @@ a.m-background-neutral-20 {
   margin: 8px 0;
 }
 .buybox.v2 .add-cart {
-  background: #0078d7;
+  background: #0078D7;
 }
 .buybox.v2 .add-cart:hover {
   background: #005ca4;
