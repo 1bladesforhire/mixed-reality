@@ -2,18 +2,29 @@
 .b_video{
     //ufh
     .js-cat-head{
-       
         background: rgba(0, 0, 0, 0) !important;
     }
     .js-global-head{
         position: relative;
         background: rgba(0, 0, 0, 0) !important;
-       
     }
     .c-uhfh-gcontainer{
         z-index: 2;
     }
-
+    #More-navigation{
+        &:hover{
+            background: rgba(0,0,0,.75);
+        }
+        + ul{
+            margin-left: -25%;
+        }
+    }
+    .c-uhfh>div:first-child .c-uhf-menu>ul{
+        background: rgba(0,0,0,.75);
+    }
+    .c-uhfh>div:first-child .c-uhf-menu a, .c-uhfh>div:first-child .c-uhf-menu button{
+        color: @white;
+    }
 
     //hero
     .m-hero-item{

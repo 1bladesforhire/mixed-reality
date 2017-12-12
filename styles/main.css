@@ -23,14 +23,27 @@
 .c-uhfh > [class*="theme-"] .c-me:not(.msame_open) .msame_Header_name {
   color: #ffffff;
 }
+.c-uhfh > [class*="theme-"] .c-uhf-menu > button[aria-expanded="true"],
+.c-uhfh > [class*="theme-"] .c-uhf-menu > ul {
+  background: rgba(0, 0, 0, 0.75);
+}
+.c-uhfh > [class*="theme-"] .c-uhf-menu > button[aria-expanded="true"]:hover,
+.c-uhfh > [class*="theme-"] .c-uhf-menu > ul:hover {
+  background: rgba(0, 0, 0, 0.75);
+}
+.c-uhfh > [class*="theme-"] .c-uhf-menu > ul > li > a:hover,
+.c-uhfh > [class*="theme-"] .c-uhf-menu > ul > li > a:focus,
+.c-uhfh > [class*="theme-"] .c-uhf-menu > ul > li > button:hover,
+.c-uhfh > [class*="theme-"] .c-uhf-menu > ul > li > button:focus,
+.c-uhfh > [class*="theme-"] .c-uhf-menu > ul > li > [aria-expanded="true"],
+.c-uhfh > [class*="theme-"] .c-uhf-menu > ul > li > ul {
+  background: transparent;
+}
 .dark {
   background-color: #000000 !important;
 }
 .m-feature-group {
   background: #ffffff;
-}
-.js-global-head {
-  overflow: hidden;
 }
 .m-immersive-hero .c-price {
   margin-left: calc(50% - 28px);

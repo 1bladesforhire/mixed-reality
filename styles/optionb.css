@@ -8,6 +8,19 @@
 .b_video .c-uhfh-gcontainer {
   z-index: 2;
 }
+.b_video #More-navigation:hover {
+  background: rgba(0, 0, 0, 0.75);
+}
+.b_video #More-navigation + ul {
+  margin-left: -25%;
+}
+.b_video .c-uhfh > div:first-child .c-uhf-menu > ul {
+  background: rgba(0, 0, 0, 0.75);
+}
+.b_video .c-uhfh > div:first-child .c-uhf-menu a,
+.b_video .c-uhfh > div:first-child .c-uhf-menu button {
+  color: #ffffff;
+}
 .b_video .m-hero-item {
   overflow: visible;
   height: 700px;

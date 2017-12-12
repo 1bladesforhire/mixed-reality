@@ -19,3 +19,12 @@
 .c-uhfh>[class*="theme-"] .c-action-trigger, .c-uhfh>[class*="theme-"] .c-logo, #uhf-shopping-cart, .c-uhfh>[class*="theme-"] .c-uhf-nav-link, .c-uhfh>[class*="theme-"] .c-uhf-menu a, .c-uhfh>[class*="theme-"] .c-uhf-menu button, .c-uhfh>[class*="theme-"] .c-me:not(.msame_open) .msame_Header_name{
     color: @white;
 }
+.c-uhfh>[class*="theme-"] .c-uhf-menu>button[aria-expanded="true"], .c-uhfh>[class*="theme-"] .c-uhf-menu>ul{
+    background: rgba(0,0,0,.75);
+    &:hover{
+        background: rgba(0,0,0,.75);
+    }
+}
+.c-uhfh>[class*="theme-"] .c-uhf-menu>ul>li>a:hover, .c-uhfh>[class*="theme-"] .c-uhf-menu>ul>li>a:focus, .c-uhfh>[class*="theme-"] .c-uhf-menu>ul>li>button:hover, .c-uhfh>[class*="theme-"] .c-uhf-menu>ul>li>button:focus, .c-uhfh>[class*="theme-"] .c-uhf-menu>ul>li>[aria-expanded="true"], .c-uhfh>[class*="theme-"] .c-uhf-menu>ul>li>ul{
+    background: transparent;
+}
