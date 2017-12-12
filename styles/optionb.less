@@ -30,10 +30,16 @@
     .m-hero-item{
         overflow: visible;
         height: 700px;
+        margin-bottom: 170px;
         @media @desktop{
             >div.m-ambient-video{
-                margin-top: -70px;
-                height: calc(~"100% + 70px");
+                margin-top: -10px;
+                height: calc(~"100% + 10px");
+            }
+            video{
+                width: 120% !important;
+                margin-left: -10%;
+                
             }
         }
 
@@ -44,10 +50,10 @@
                 height: calc(~"100% + 50px");
             }
             video{
-                width: auto;
-                min-height: 0;
-                height: 110%;
                 width: 100% !important;
+                min-height: 0;
+                margin-left: 0;
+              
             }
         }
         .c-rating{

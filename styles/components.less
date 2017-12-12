@@ -52,6 +52,7 @@ a.m-background-neutral-20{
         background: @white;
         z-index: 200 !important;
         height: 80px;
+       
         @media @smartphones{
             padding: 20px 0;
         }
@@ -67,11 +68,15 @@ a.m-background-neutral-20{
         }
         .price-text span{
             margin-top: 10px;
+            @media @lg-desktop{
+                margin-left: 80px;
+            }
         }
+
     }
     .sticky-element-not-sticky{
         .f-center{
-            margin: 0 10%;
+            margin: 0 10%; 
             @media @desktop{
                 width: 100%;
                 margin:0;
@@ -91,7 +96,11 @@ a.m-background-neutral-20{
     }
     .sticky-element-sticky{
         height: auto;
-
+        border-bottom: 1px solid #e6e6e6;
+        > div{
+            max-width: 1600px;
+            margin: 0 auto;
+        }
     }
     a.pivot-scroll{
         margin: 0 24px;

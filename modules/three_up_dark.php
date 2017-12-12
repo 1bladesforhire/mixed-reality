@@ -1,9 +1,9 @@
 <section class="theme-dark dark" data-grid="col-12" id="three_dark">
     <div class="m-feature">
         <div data-grid="col-12" class="theme-dark dark">
-            <h2 class="c-heading">Windows Mixed Reality-ready pc</h2>
-            <p class="c-paragraph">Everything you need in one place. Whether you’re a tech enthusiast, hardcore gamer, or just excited to take your first steps in Windows Mixed Reality—we make it quick and easy to get started. Is your current Windows 10 PC ready for Windows Mixed Reality? <a href="#" class="highlight">Download the compatibility checker</a> to find out.</p>
-            <a href="#" class="c-call-to-action c-glyph c-">
+            <h2 class="c-heading">Windows Mixed Reality-Ready PCs</h2>
+            <p class="c-paragraph">Everything you need in one place. Whether you’re a tech enthusiast, hardcore gamer, or just excited to take your first steps in Windows Mixed Reality—we make it quick and easy to get started. Is your current Windows 10 PC ready for Windows Mixed Reality? <a href="https://www.microsoft.com/en-us/store/p/windows-mixed-reality-pc-check/9nzvl19n7cnc?rtc=1" class="highlight">Download the compatibility checker</a> to find out.</p>
+            <a href="https://www.microsoft.com/en-us/windows/windows-mixed-reality-devices#wmrpcs" class="c-call-to-action c-glyph c-">
                 <strong><span class="x-hidden-focus">Shop all Windows Mixed Reality-Ready PCs</span></strong>
             </a>
         </div>
@@ -30,7 +30,9 @@
                             <span itemprop="price">999.00</span>
                             <link itemprop="availability" href="http://schema.org/InStock">
                         </div>
-                        <button name="button" class="c-button f-primary">Shop Now</button>
+                        <a href="https://www.microsoft.com/en-us/store/d/dell-xps-8910-signature-edition-desktop/8rjr527h4j67/6V2S?activetab=pivot:overviewtab" target="_blank">
+                            <button name="button" class="c-button f-primary">Shop Now</button>
+                        </a>
                         
                     </div>
                 </section>
@@ -56,7 +58,9 @@
                             <span itemprop="price">1299.00</span>
                             <link itemprop="availability" href="http://schema.org/InStock">
                         </div>
-                        <button name="button" class="c-button f-primary">Shop Now</button>
+                        <a href="https://www.microsoft.com/en-us/store/d/alienware-aurora-r6-gaming-desktop/8x47x40qhmxp?activetab=pivot%3aoverviewtab" target="_blank">
+                            <button name="button" class="c-button f-primary">Shop Now</button>
+                        </a>
                     </div>
                 </section>
             </div>
@@ -81,7 +85,10 @@
                             <span itemprop="price">2499.00</span>
                             <link itemprop="availability" href="http://schema.org/InStock">
                         </div>
-                        <button name="button" class="c-button f-primary">Shop Now</button>
+                        <a href="https://www.microsoft.com/en-us/store/d/asus-rog-g752vs-us74k-gaming-laptop/8ps9sbqrx5vx?activetab=pivot%3aoverviewtab" target="_blank">
+                            <button name="button" class="c-button f-primary">Shop Now</button>
+                        </a>
+                        
                     </div>
                 </section>
             </div>

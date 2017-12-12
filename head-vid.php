@@ -11,7 +11,7 @@
     <meta name="author" content="Microsoft Corporation">
     <!-- Meta additions -->
     <!-- Stylesheet requirements -->
-    <link rel="stylesheet" href="styles/optionb.min.css" type="text/css" media="all" />
+    <!-- <link rel="stylesheet" href="styles/optionb.min.css" type="text/css" media="all" /> -->
 
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.2.min.js"></script>
     <link rel="stylesheet" href="https://statics-uhf-eus.akamaized.net/west-european/shell/_scrf/css/themes=default.device=uplevel_web_pc/66-41abaf/ad-ec92c6/98-847609/e9-c399ba/8e-9c6412/cc-c21898/9c-3df1cf?ver=2.0" type="text/css" media="all" />
@@ -907,12 +907,12 @@
 </head>
 
 <body>
-    <section id="headerArea" data-m='{"cN":"headerArea","cT":"Area_coreuiArea","id":"a1Body","sN":1,"aN":"Body"}'>
+    <section id="headerArea" data-m='{"cN":"headerArea","cT":"Area_coreuiArea","id":"a1Body","sN":1,"aN":"Body"}' style="position: absolute; background: transparent;">
         <div id="headerRegion" data-region-key="headerregion" data-m='{"cN":"headerRegion","cT":"Region_coreui-region","id":"r1a1","sN":1,"aN":"a1"}'>
 
             <div id="headerUniversalHeader" data-m='{"cN":"headerUniversalHeader","cT":"Module_coreui-universalheader","id":"m1r1a1","sN":1,"aN":"r1a1"}' data-module-id="Category|headerRegion|headerRegion|headerUniversalHeader|coreui-universalheader">
 
-                <header role="banner" class="c-uhfh context-uhf no-js " itemscope="itemscope" data-header-footprint="en-us/RetailStore2/RetailStore2Header" itemtype="http://schema.org/Organization">
+                <header role="banner" class="c-uhfh context-uhf no-js " itemscope="itemscope" data-header-footprint="en-us/RetailStore2/RetailStore2Header" itemtype="http://schema.org/Organization" style="background: linear-gradient(to bottom, rgba(0,0,0,.75) 0%,rgba(0,0,0,0) 100%);">
                     <div class="theme-light js-global-head f-closed " data-m='{"cN":"Universal Header_cont","cT":"Container","id":"c1m1r1a1","sN":1,"aN":"m1r1a1"}'>
                         <div class="c-uhfh-gcontainer">
                             <button class="c-action-trigger c-glyph glyph-global-nav-button" aria-label="Header navigation menu" aria-expanded="false" data-m='{"cN":"Mobile menu button_nonnav","id":"nn1c1m1r1a1","sN":1,"aN":"c1m1r1a1"}'></button>

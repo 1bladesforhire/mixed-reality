@@ -24,11 +24,16 @@
 .b_video .m-hero-item {
   overflow: visible;
   height: 700px;
+  margin-bottom: 170px;
 }
 @media only screen and (min-width: 768px) {
   .b_video .m-hero-item > div.m-ambient-video {
-    margin-top: -70px;
-    height: calc(100% + 70px);
+    margin-top: -10px;
+    height: calc(100% + 10px);
+  }
+  .b_video .m-hero-item video {
+    width: 120% !important;
+    margin-left: -10%;
   }
 }
 @media only screen and (min-width: 1400px) {
@@ -40,10 +45,9 @@
     height: calc(100% + 50px);
   }
   .b_video .m-hero-item video {
-    width: auto;
-    min-height: 0;
-    height: 110%;
     width: 100% !important;
+    min-height: 0;
+    margin-left: 0;
   }
 }
 .b_video .m-hero-item .c-rating {

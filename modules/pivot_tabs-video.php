@@ -2,15 +2,15 @@
     <div class="sticky-tabs" role="tablist">
         <div data-grid="col-12">
             <div class="product" data-grid="col-2">
-                <h3 class="c-heading-6">Windows Mixed Reality</h3>
+                <h3 class="c-heading-6">Acer Headset</h3>
             </div>
             <div  class="f-center x-type-center" data-grid="col-8">
                 <button class="c-flipper f-previous" aria-hidden="true" tabindex="-1"></button>
                 <header role="tablist" >
                     <a class="f-active pivot-scroll" role="tab" tabindex="0" aria-controls="overview" >Overview</a>
-                    <a role="tab" class="pivot-scroll" aria-controls="tech-specs">Tech Specs</a>
+                    <a role="tab" class="pivot-scroll" aria-controls="tech-specs">Tech specs</a>
                     <a role="tab" class="pivot-scroll" aria-controls="reviews">Reviews</a>
-                    <a role="tab" class="pivot-scroll" aria-controls="compatability">FAQ</a>
+                    <a role="tab" class="pivot-scroll" aria-controls="compatability">Compare</a>
                 </header>
                 <button class="c-flipper f-next" aria-hidden="true" tabindex="-1"></button>
             </div>
@@ -26,7 +26,7 @@
                             <meta itemprop="price" content="119.99">
                             <meta itemprop="priceCurrency" content="USD">
                         </div>
-                        <a class="c-call-to-action">Buy Now</a>
+                        <a class="c-call-to-action c-glyph">Buy Now</a>
                     </div>
                 
             </div>  
@@ -50,6 +50,6 @@
     </section>
     <section id="compatability" role="tabpanel" aria-hidden="true" data-grid="container">
        
-        <p class="c-paragraph-3">Questions that are asked</p>
+        <p class="c-paragraph-3">Compare WMR Headsets</p>
     </section>
 </section>
