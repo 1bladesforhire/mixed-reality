@@ -1,7 +1,7 @@
 <div class="m-ratings-and-reviews" data-grid="col-12 stack-2">
     <div class="m-histogram">
         <div>
-            <span>4</span>
+            <span>4.0</span>
             <div class="c-group">
                 <div class="c-rating" data-value="4" data-max="5" itemscope itemtype="https://schema.org/AggregateRating">
                     <p class="x-screen-reader">Community rating:
@@ -10,7 +10,7 @@
                     </p>
                     <div></div>
                 </div>
-                <span>7,722,370</span>
+                <span>5</span>
             </div>
         </div>
         <ul>
@@ -19,8 +19,8 @@
                     <span class="c-glyph"></span>
                     <span class="x-screen-reader">Stars</span>
                     <div>
-                        <div aria-label="91.3% of users" style="width:91.3%">
-                            <span>4,564,568</span>
+                        <div aria-label="40% of users" style="width:40%">
+                            <span>40%</span>
                         </div>
                     </div>
                 </a>
@@ -30,8 +30,8 @@
                     <span class="c-glyph"></span>
                     <span class="x-screen-reader">Stars</span>
                     <div>
-                        <div aria-label="15.7% of users" style="width:15.7%">
-                            <span>783,652</span>
+                        <div aria-label="20% of users" style="width:20%">
+                            <span>20%</span>
                         </div>
                     </div>
                 </a>
@@ -41,8 +41,8 @@
                     <span class="c-glyph"></span>
                     <span class="x-screen-reader">Stars</span>
                     <div>
-                        <div aria-label="0.1% of users" style="width:0.1%">
-                            <span>4,564</span>
+                        <div aria-label="40% of users" style="width:40%">
+                            <span>40%</span>
                         </div>
                     </div>
                 </a>
@@ -52,8 +52,8 @@
                     <span class="c-glyph"></span>
                     <span class="x-screen-reader">Stars</span>
                     <div>
-                        <div aria-label="0.5% of users" style="width:0.5%">
-                            <span>24,352</span>
+                        <div aria-label="0% of users" style="width:0%">
+                            <span>0%</span>
                         </div>
                     </div>
                 </a>
@@ -63,8 +63,8 @@
                     <span class="c-glyph"></span>
                     <span class="x-screen-reader">Stars</span>
                     <div>
-                        <div aria-label="46.9% of users" style="width:46.9%">
-                            <span>2,345,234</span>
+                        <div aria-label="0% of users" style="width:0%">
+                            <span>0</span>
                         </div>
                     </div>
                 </a>
@@ -74,22 +74,21 @@
     <button name="button" class="c-button" type="submit">Rate and review</button>
     <div data-grid="col-12 stack-2">
         <div data-grid="col-3">
-            <div class="c-rating f-user-rated f-individual" data-value="2" data-max="5" itemscope itemtype="https://schema.org/Rating">
+            <div class="c-rating f-user-rated f-individual" data-value="5" data-max="5" itemscope itemtype="https://schema.org/Rating">
                 <p class="x-screen-reader">User rating:
-                    <span itemprop="ratingValue">2</span>/
+                    <span itemprop="ratingValue">5</span>/
                     <span itemprop="bestRating">5</span>
                 </p>
                 <div></div>
             </div>
-            <p class="c-paragraph-3">9/9/2016</p>
-            <p class="c-paragraph-3">John Smith</p>
-            <p class="c-meta-text">Platform: PC</p>
+            <p class="c-paragraph-3">12/9/2017</p>
+            <p class="c-paragraph-3">Thomas</p>
+            <p class="c-meta-text">PC</p>
         </div>
         <div data-grid="col-9">
-            <h5 class="c-heading-6">Heading</h5>
+            <h5 class="c-heading-6">Great Entry Level Gear!</h5>
             <div class="c-content-toggle">
-                <p id="contentToggle8" data-f-expanded="false">Paragraph text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed mattis tellus. Fusce ut nunc varius, porta sem cursus, pretium augue. In hac habitasse platea dictumst. Proin gravida nisl neque. Etiam vitae dignissim
-                    sapien, ac pulvinar ante. Vivamus libero odio, rhoncus tristique velit a, efficitur consequat lacus. Praesent lorem dui, feugiat non ligula in, maximus venenatis tellus. Praesent tempor pharetra nisi, sed fringilla est hendrerit at.</p>
+                <p id="contentToggle8" data-f-expanded="false">I purchased this headset with the Nitro 5 Laptop as a great bundle!The specs are the same as all the rest except the Samsung.Love the Flip feature as well.Light and comfortable.Controller are great and are universal with all headsets.The size adjust for all fits.</p>
                 <button
                     data-f-more="More" data-f-less="Less" data-f-show="3" aria-hidden="true">More</button>
             </div>

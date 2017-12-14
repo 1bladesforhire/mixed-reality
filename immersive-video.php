@@ -1,7 +1,7 @@
 <?php
 
     include('head-vid.php');
-    include('modules/immersive_video_hero.php');
+    include('modules/immersive_hero-v6.php');
     ?>
     <main id="main-content main" class="optionb" role="main" >
 

@@ -4,7 +4,7 @@
             <div class="product" data-grid="col-2">
                 <h3 class="c-heading-6">Acer Headset</h3>
             </div>
-            <div  class="f-center x-type-center" data-grid="col-8">
+            <div  class="f-center x-type-center" data-grid="col-7">
                 <button class="c-flipper f-previous" aria-hidden="true" tabindex="-1"></button>
                 <header role="tablist" >
                     <a class="f-active pivot-scroll" role="tab" tabindex="0" aria-controls="overview" >Overview</a>
@@ -14,7 +14,7 @@
                 </header>
                 <button class="c-flipper f-next" aria-hidden="true" tabindex="-1"></button>
             </div>
-            <div class="buy-box" data-grid="col-2">
+            <div class="buy-box" data-grid="col-3">
                 <div class="c-price price-info">
                     <div class="c-price">
 
@@ -23,10 +23,12 @@
                         </div>
 
                         <div class="srv_microdata" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
-                            <meta itemprop="price" content="119.99">
+                            <meta itemprop="price" content="299.99">
                             <meta itemprop="priceCurrency" content="USD">
                         </div>
-                        <a class="c-call-to-action c-glyph">Buy Now</a>
+                        <div class="price-span">
+                            <a class="c-call-to-action c-glyph" href="https://www.microsoft.com/en-us/store/d/acer-windows-mixed-reality-headset-with-motion-controllers/8TTSF1Q97HKP?tduid=(fc4f690a8f14f695bd5c959379216b79)(261853)(2939310)(wtbs_5a31778228ebd67eb3e8f850)()&activetab=pivot:overviewtab">Buy Now</a>
+                        </div>
                     </div>
                 
             </div>  

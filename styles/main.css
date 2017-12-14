@@ -64,34 +64,13 @@
 .b_video .m-hero-item {
   overflow: visible;
   height: 700px;
-  margin-bottom: 170px;
-}
-@media only screen and (min-width: 768px) {
-  .b_video .m-hero-item > div.m-ambient-video {
-    margin-top: -10px;
-    height: calc(100% + 10px);
-  }
-  .b_video .m-hero-item video {
-    width: 120% !important;
-    margin-left: -10%;
-  }
-}
-@media only screen and (min-width: 1400px) {
-  .b_video .m-hero-item {
-    margin-bottom: 140px;
-  }
-  .b_video .m-hero-item > div.m-ambient-video {
-    margin-top: -50px;
-    height: calc(100% + 50px);
-  }
-  .b_video .m-hero-item video {
-    width: 100% !important;
-    min-height: 0;
-    margin-left: 0;
-  }
+  margin-bottom: 180px;
 }
 .b_video .m-hero-item .c-rating {
   margin-top: 0;
+}
+.b_video section.c-pivot {
+  margin-top: -170px;
 }
 .dark {
   background-color: #000000 !important;
@@ -116,9 +95,6 @@ a.m-background-neutral-20 {
   background-color: #cccccc;
   padding: 12px 24px;
   color: #000000;
-}
-.m-immersive-hero-item.f-align-top > div > div {
-  top: 20px !important;
 }
 .cta {
   clear: both;
@@ -161,13 +137,13 @@ a.m-background-neutral-20 {
   max-width: 80%;
   overflow: hidden;
 }
+.c-pivot .sticky-tabs .price-text {
+  float: left;
+  width: calc(100% - 140px);
+}
 .c-pivot .sticky-tabs .price-text span {
   margin-top: 10px;
-}
-@media only screen and (min-width: 1400px) {
-  .c-pivot .sticky-tabs .price-text span {
-    margin-left: 80px;
-  }
+  float: right;
 }
 .c-pivot .sticky-element-not-sticky .f-center {
   margin: 0 10%;
@@ -486,6 +462,41 @@ a.m-background-neutral-20 {
 .test:hover ~ .test2 {
   display: none;
 }
+.hero {
+  position: relative;
+  height: 700px;
+}
+.hero.v2.v1 {
+  overflow: visible;
+  z-index: 1;
+  margin-bottom: 180px;
+}
+.hero.v2.v1.video {
+  background: none;
+}
+.hero.v2.v1.video [data-grid=container] {
+  bottom: 205px;
+}
+.hero.v2.v1 [data-grid=container] {
+  position: relative;
+}
+.hero video {
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
+.video-wrapper {
+  height: 700px;
+  overflow: hidden;
+  position: relative;
+}
 .buybox.v2 {
   position: relative;
   z-index: 9;
@@ -499,11 +510,9 @@ a.m-background-neutral-20 {
   max-width: 1600px;
   margin-top: 0;
   width: 100%;
-}
-@media only screen and (min-width: 1400px) {
-  .buybox.v2 {
-    margin-top: -220px;
-  }
+  bottom: 205px;
+  float: left;
+  top: 0;
 }
 .buybox.v2 h1 {
   color: #000;
@@ -612,6 +621,9 @@ ul.bullets li a {
   top: 0 !important;
   bottom: 0 !important;
   position: relative;
+}
+.c-rating {
+  padding-bottom: 10px;
 }
 .f-share:before {
   content: "\E72D";

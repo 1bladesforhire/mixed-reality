@@ -24,9 +24,9 @@ a.m-background-neutral-20{
     color: @black;
 }
 
-.m-immersive-hero-item.f-align-top>div>div{
-    top: 20px !important;
-}
+// .m-immersive-hero-item.f-align-top>div>div{
+//     top: 20px !important;
+// }
 .cta{
     clear: both;
     margin-top: 36px !important;
@@ -66,10 +66,12 @@ a.m-background-neutral-20{
             max-width: 80%;
             overflow: hidden;
         }
-        .price-text span{
-            margin-top: 10px;
-            @media @lg-desktop{
-                margin-left: 80px;
+        .price-text {
+            float: left;
+            width: calc(~"100% - 140px");
+            span{
+              margin-top: 10px;
+              float: right;
             }
         }
 
