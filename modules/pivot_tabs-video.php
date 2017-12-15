@@ -19,11 +19,11 @@
                     <div class="c-price">
 
                         <div class="price-text srv_price">
-                            <span aria-label="Price" class="x-hidden-focus">$299.99</span>
+                            <span aria-label="Price" class="x-hidden-focus">$399.99</span>
                         </div>
 
                         <div class="srv_microdata" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
-                            <meta itemprop="price" content="299.99">
+                            <meta itemprop="price" content="399.99">
                             <meta itemprop="priceCurrency" content="USD">
                         </div>
                         <div class="price-span">

@@ -111,7 +111,7 @@ $(document).ready(function() {
     $(document).on('scroll', checkMedia);
 });
 
-// Function to reveal lightbox and adding YouTube autoplay
+// Function to reveal lightbox and add YouTube autoplay
 function revealVideo(div, video_id) {
     var video = document.getElementById(video_id).src;
     document.getElementById(video_id).src = video + '&autoplay=1'; // adding autoplay to the URL
