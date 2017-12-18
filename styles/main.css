@@ -214,6 +214,11 @@ a.m-background-neutral-20 {
     text-align: center;
   }
 }
+#comparison .c-list > li {
+  display: list-item;
+  height: auto;
+  white-space: normal;
+}
 .m-feature-group {
   margin-top: 0;
 }
@@ -367,6 +372,9 @@ a.m-background-neutral-20 {
 }
 #m-multi-tiles [role=tablist] li:last-of-type {
   margin-right: 0;
+}
+#m-multi-tiles .c-image img {
+  width: 100%;
 }
 #videoButton {
   color: #0078D7;
@@ -585,7 +593,7 @@ ul.bullets li a {
   font-weight: 800;
 }
 .hr-or {
-  padding: 6px 0 10px 0;
+  padding: 6px 0;
   position: relative;
 }
 .hr-or hr {
@@ -658,7 +666,7 @@ ul.bullets li a {
 .lightbox-container {
   position: relative;
   max-width: 960px;
-  margin: 7% auto;
+  margin: 15% auto;
   display: block;
   padding: 0 3%;
   height: auto;
@@ -683,12 +691,12 @@ ul.bullets li a {
   background: transparent;
   position: absolute;
   font-weight: 300;
-  font-size: 12px;
+  font-size: 36px;
   display: block;
   border: none;
   color: white;
-  top: -22px;
-  right: 3%;
+  top: 100px;
+  right: 100px;
 }
 .video-container {
   padding-bottom: 56.25%;

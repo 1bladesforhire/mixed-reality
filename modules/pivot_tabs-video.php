@@ -10,7 +10,7 @@
                     <a class="f-active pivot-scroll" role="tab" tabindex="0" aria-controls="overview" >Overview</a>
                     <a role="tab" class="pivot-scroll" aria-controls="tech-specs">Tech specs</a>
                     <a role="tab" class="pivot-scroll" aria-controls="reviews">Reviews</a>
-                    <a role="tab" class="pivot-scroll" aria-controls="compatability">Compare</a>
+                    <a role="tab" class="pivot-scroll" aria-controls="comparison">Compare</a>
                 </header>
                 <button class="c-flipper f-next" aria-hidden="true" tabindex="-1"></button>
             </div>
@@ -50,8 +50,10 @@
             include('ratings.php');
         ?>
     </section>
-    <section id="compatability" role="tabpanel" aria-hidden="true" data-grid="container">
-       
-        <p class="c-paragraph-3">Compare WMR Headsets</p>
+    <section id="comparison" role="tabpanel" aria-hidden="true" data-grid="container">
+        <?php
+            include('comparison.php');
+        ?>
+        
     </section>
 </section>

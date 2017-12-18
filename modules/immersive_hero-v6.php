@@ -60,12 +60,13 @@
                     </p>
                     <div class="context-configuration-buttons">
                         <a class="add-cart">Add to cart</a>
+                        <div class="hr-or">
+                            <span class="x-hidden-focus">Or</span>
+                            <hr>
+                        </div>
                         <a class="store">Find in store</a
                     </div>
-                <div class="hr-or">
-                    <span class="x-hidden-focus">Or</span>
-                    <hr>
-                </div>
+               
                 <div class="leading-action">
                     <p class="save">Save $400 instantly</p>  
                     <p class="bundle"> Bundle this headset with an Acer Aspire Nitro 5 for instant savings. <a href="#" class="f-blue">Bundle now</a></p>

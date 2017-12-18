@@ -62,6 +62,7 @@
                 </p>
                 <div class="context-configuration-buttons">
                     <a class="add-cart">Add to cart</a>
+                    <div class="hr-or">
                     <a class="store">Find in store</a
                 </div>
                 <div class="hr-or">
