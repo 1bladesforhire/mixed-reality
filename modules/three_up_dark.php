@@ -3,13 +3,11 @@
         <div data-grid="col-12" class="theme-dark dark">
             <h2 class="c-heading">Windows Mixed Reality-Ready PCs</h2>
             <p class="c-paragraph">Everything you need in one place. Whether you’re a tech enthusiast, hardcore gamer, or just excited to take your first steps in Windows Mixed Reality—we make it quick and easy to get started. Is your current Windows 10 PC ready for Windows Mixed Reality? <a href="https://www.microsoft.com/en-us/store/p/windows-mixed-reality-pc-check/9nzvl19n7cnc?rtc=1" class="highlight">Download the compatibility checker</a> to find out.</p>
-            <a href="https://www.microsoft.com/en-us/windows/windows-mixed-reality-devices#wmrpcs" class="c-call-to-action c-glyph c-">
-                <strong><span class="x-hidden-focus">Shop all Windows Mixed Reality-Ready PCs</span></strong>
-            </a>
+          
         </div>
     </div>
     <div data-grid="container stack-2">
-        <div data-grid="col-4 pad-6x">
+        <div data-grid="col-4">
             <div data-grid="col-12" class="dark">
                 <section class="m-content-placement-item f-size-medium x-type-center">
                     <picture>
@@ -38,7 +36,7 @@
                 </section>
             </div>
         </div>
-        <div data-grid="col-4 pad-6x">
+        <div data-grid="col-4">
             <div data-grid="col-12" class="dark">
                 <section class="m-content-placement-item f-size-medium">
                     <picture>
@@ -92,6 +90,11 @@
                     </div>
                 </section>
             </div>
+        </div>
+        <div data-grid="col-12" id="shop-all">
+            <a href="https://www.microsoft.com/en-us/windows/windows-mixed-reality-devices#wmrpcs" class="c-call-to-action c-glyph c-">
+                <span class="x-hidden-focus">Shop all Windows Mixed Reality-Ready PCs</span>
+            </a>
         </div>
     </div>
 </section>

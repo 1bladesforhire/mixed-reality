@@ -21,6 +21,9 @@
 .b_video .c-uhfh > div:first-child .c-uhf-menu button {
   color: #ffffff;
 }
+.b_video h2 {
+  font: 700 32px/38px "Segoe UI";
+}
 .b_video .m-hero-item {
   overflow: visible;
   height: 700px;
@@ -31,4 +34,5 @@
 }
 .b_video section.c-pivot {
   margin-top: -170px;
+  margin-bottom: 50px;
 }

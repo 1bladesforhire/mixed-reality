@@ -27,7 +27,7 @@
                             <meta itemprop="priceCurrency" content="USD">
                         </div>
                         <div class="price-span">
-                            <a class="c-call-to-action c-glyph" href="https://www.microsoft.com/en-us/store/d/acer-windows-mixed-reality-headset-with-motion-controllers/8TTSF1Q97HKP?tduid=(fc4f690a8f14f695bd5c959379216b79)(261853)(2939310)(wtbs_5a31778228ebd67eb3e8f850)()&activetab=pivot:overviewtab">Buy Now</a>
+                            <a class="c-call-to-action" href="https://www.microsoft.com/en-us/store/d/acer-windows-mixed-reality-headset-with-motion-controllers/8TTSF1Q97HKP?tduid=(fc4f690a8f14f695bd5c959379216b79)(261853)(2939310)(wtbs_5a31778228ebd67eb3e8f850)()&activetab=pivot:overviewtab">Buy Now</a>
                         </div>
                     </div>
                 

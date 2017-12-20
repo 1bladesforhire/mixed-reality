@@ -9,6 +9,8 @@
       background: none;
       [data-grid=container]{
         bottom: 205px;
+        padding-left: 7.5%;
+        padding-right: 7.5%;
       }
     }
     [data-grid=container]{
@@ -29,7 +31,8 @@
   }
 }
 .video-wrapper{
-  height: 700px;
+  height: 0;
+  padding-bottom: 56.25%;
   overflow: hidden;
   position: relative;
 }
@@ -71,13 +74,15 @@
   a.add-cart, a.store{
     width: 100%;
     display: block;
-    padding: 12px;
+    padding: 10px;
     text-align: center;
     color: @white;
-    margin: 8px 0;
+    font: 400 15px/20px "Segoe UI";    
+  
   }
   .add-cart{
     background: @ms-blue;
+    margin-bottom: 6px;
     &:hover{
       background: darken(@ms-blue, 10%);
     }
@@ -93,16 +98,17 @@
     font: 400 20px/26px "Segoe UI";
     padding-bottom: 5px;
   }
-  .price span {
-    font: 400 16px/20px "Segoe UI";
+  .price-text span {
+    font: 400 20px/26px "Segoe UI";
   }
-  .pric-caption-3{
-    font-weight: 100;
-    font-size: 13px;
+  p.c-caption-3.x-hidden-focus{
+    font: 400 13px/12px "Segoe UI";
+    padding-bottom: 15px;
   }
   .save {
     font: 700 15px/14px "Segoe UI";
     padding-bottom: 5px;  
+    padding-top: 10px;
   }
   .leading-actions {
     font-size: 13px;
@@ -127,7 +133,7 @@
   }
   
   .hr-or {
-    padding: 6px 0;
+    padding: 6px 0 10px 0;    
     position: relative;
   }
   .hr-or hr {
@@ -136,7 +142,7 @@
     opacity: .5;
   }
   .hr-or span {
-    top: 0px;
+    top: 0;
     position: absolute;
     font-size: 13px;
     background: #fff;
@@ -194,3 +200,4 @@
     }
     margin-right: 20px;
   }
+
