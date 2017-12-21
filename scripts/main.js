@@ -94,7 +94,7 @@ function restart() {
 //scroll play video
 $(document).ready(function() {
     // Get media - with autoplay disabled (audio or video)
-    var media = $('#vid-slides li .f-active video');
+    var media = $('#vid-slides li.f-active video');
     var tolerancePixel = 40;
 
     function checkMedia() {
@@ -132,6 +132,23 @@ function hideVideo(div, video_id) {
     document.getElementById(video_id).src = cleaned;
     document.getElementById(div).style.display = 'none';
 }
+
+
+//lazy load youtube vids
+document.addEventListener("DOMContentLoaded",
+    function() {
+        var div, n,
+            v = document.getElementsByClassName("youtube-player");
+        for (n = 0; n < v.length; n++) {
+            var iframe = document.createElement("iframe");
+            var embed = "https://www.youtube.com/embed/ID?showinfo=0";
+            iframe.setAttribute("src", embed.replace("ID", v[n].dataset.id));
+            iframe.setAttribute("frameborder", "0");
+            iframe.setAttribute("allowfullscreen", "1");
+            iframe.id = v[n].getAttribute('youtube');
+            v[n].append(iframe);
+        }
+    });
 
 // MS video player
 

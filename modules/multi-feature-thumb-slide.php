@@ -83,8 +83,8 @@
                                 <div class="lightbox-content">
                                 
                                     
-                                    <div class="video-container">
-                                        <iframe id="youtube" width="960" height="540" src="https://www.youtube.com/embed/dXOVk5SNBRU?showinfo=0" frameborder="0" allowfullscreen></iframe>
+                                    <div class="video-container  youtube-player" data-id="dXOVk5SNBRU" youtube="youtube">
+                                        <!-- <iframe id="youtube" width="960" height="540" src="https://www.youtube.com/embed/dXOVk5SNBRU?showinfo=0" frameborder="0" allowfullscreen></iframe> -->
                                     </div>      
                                 
                                 </div>
@@ -111,8 +111,8 @@
                                 <div class="lightbox-content">
                                 
                                     
-                                    <div class="video-container">
-                                        <iframe id="youtube2" width="960" height="540" src="https://www.youtube.com/embed/A1jothqmqHw?showinfo=0" frameborder="0" allowfullscreen></iframe>
+                                    <div class="video-container  youtube-player" data-id="A1jothqmqHw" youtube="youtube2">
+                                        <!-- <iframe id="youtube2" width="960" height="540" src="https://www.youtube.com/embed/A1jothqmqHw?showinfo=0" frameborder="0" allowfullscreen></iframe> -->
                                     </div>      
                                 
                                 </div>
@@ -124,13 +124,13 @@
                   
                     <li id="newIconItemImage13" data-f-theme="dark" role="tabpanel">
                         <picture class="c-image">
-                            <source srcset="assets/video/spt-thumb.jpg" media="(min-width: 1779px)">
-                            <source srcset="assets/video/spt-thumb-1259.jpg" media="(min-width:1400px)">
-                            <source srcset="assets/video/spt-thumb-1259.jpg" media="(min-width:1084px)">
-                            <source srcset="assets/video/spt-thumb-1259.jpg" media="(min-width:768px)">
-                            <source srcset="assets/video/spt-thumb-1259.jpg" media="(min-width:540px)">
-                            <source srcset="assets/video/spt-thumb-1259.jpg" media="(min-width:0)">
-                            <img srcset="assets/video/spt-thumb-1259.jpg" src="assets/video/spt-thumb-1259.jpg" alt="Placeholder with grey background and dimension watermark without any imagery">
+                            <source srcset="assets/video/skyworld.jpg" media="(min-width: 1779px)">
+                            <source srcset="assets/video/skyworld.jpg" media="(min-width:1400px)">
+                            <source srcset="assets/video/skyworld.jpg" media="(min-width:1084px)">
+                            <source srcset="assets/video/skyworld.jpg" media="(min-width:768px)">
+                            <source srcset="assets/video/skyworld.jpg" media="(min-width:540px)">
+                            <source srcset="assets/video/skyworld.jpg" media="(min-width:0)">
+                            <img srcset="assets/video/skyworld.jpg" src="assets/video/skyworld.jpg" alt="Placeholder with grey background and dimension watermark without any imagery">
                         </picture>
                         <a class="c-glyph glyph-play" id="playme" onclick="revealVideo('video3','youtube3')"></a>
                     </li>
@@ -139,8 +139,8 @@
                             <div class="lightbox-content">
                             
                                 
-                                <div class="video-container">
-                                    <iframe id="youtube3" width="960" height="540" src="https://www.youtube.com/embed/xfa9Jqm34b0?showinfo=0" frameborder="0" allowfullscreen></iframe>
+                                <div class="video-container  youtube-player" data-id="SN20mKCMEe8" youtube="youtube3">
+                                    <!-- <iframe id="youtube3" width="960" height="540" src="https://www.youtube.com/embed/SN20mKCMEe8?showinfo=0" frameborder="0" allowfullscreen></iframe> -->
                                 </div>      
                             
                             </div>
@@ -150,13 +150,13 @@
                     </div>
                     <li id="newIconItemImage14" dat1a-f-theme="dark" role="tabpanel">
                     <picture class="c-image">
-                        <source srcset="assets/video/form-thumb.jpg" media="(min-width: 1779px)">
-                            <source srcset="assets/video/form-thumb-1259.jpg" media="(min-width:1400px)">
-                            <source srcset="assets/video/form-thumb.jpg" media="(min-width:1084px)">
-                            <source srcset="assets/video/form-thumb.jpg" media="(min-width:768px)">
-                            <source srcset="assets/video/form-thumb.jpg" media="(min-width:540px)">
-                            <source srcset="assets/video/form-thumb.jpg" media="(min-width:0)">
-                            <img srcset="assets/video/form-thumb.jpg" src="assets/video/form-thumb.jpg" alt="Placeholder with grey background and dimension watermark without any imagery">
+                        <source srcset="assets/video/free-the-night.jpg" media="(min-width: 1779px)">
+                            <source srcset="assets/video/free-the-night.jpg" media="(min-width:1400px)">
+                            <source srcset="assets/video/free-the-night.jpg" media="(min-width:1084px)">
+                            <source srcset="assets/video/free-the-night.jpg" media="(min-width:768px)">
+                            <source srcset="assets/video/free-the-night.jpg" media="(min-width:540px)">
+                            <source srcset="assets/video/free-the-night.jpg" media="(min-width:0)">
+                            <img srcset="assets/video/free-the-night.jpg" src="assets/video/free-the-night.jpg" alt="Placeholder with grey background and dimension watermark without any imagery">
                         </picture>
                         <a class="c-glyph glyph-play" id="playme" onclick="revealVideo('video4','youtube4')"></a>
                     </li>
@@ -165,8 +165,8 @@
                             <div class="lightbox-content">
                             
                                 
-                                <div class="video-container">
-                                    <iframe id="youtube4" width="960" height="540" src="https://www.youtube.com/embed/H0VyldRP46I?showinfo=0" frameborder="0" allowfullscreen></iframe>
+                                <div class="video-container  youtube-player" data-id="tlKQJcH0mgY" youtube="youtube4">
+                                    <!-- <iframe id="youtube4" width="960" height="540" src="https://www.youtube.com/embed/tlKQJcH0mgY?showinfo=0" frameborder="0" allowfullscreen></iframe> -->
                                 </div>      
                             
                             </div>
@@ -191,8 +191,8 @@
                             <div class="lightbox-content">
                             
 
-                                <div class="video-container">
-                                    <iframe id="youtube5" width="960" height="540" src="https://www.youtube.com/embed/dXOVk5SNBRU?showinfo=0" frameborder="0" allowfullscreen></iframe>
+                                <div class="video-container  youtube-player" data-id="dXOVk5SNBRU" youtube="youtube5">
+                                    <!-- <iframe id="youtube5" width="960" height="540" src="https://www.youtube.com/embed/dXOVk5SNBRU?showinfo=0" frameborder="0" allowfullscreen></iframe> -->
                                 </div>      
                             
                             </div>
