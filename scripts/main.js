@@ -31,19 +31,12 @@ jQuery(function() {
         }, 100);
     });
 
-    $('.m-multi-feature a, .m-multi-feature button').on('click', function() {
+    $('#vid-slides a, #vid-slides button').on('click', function() {
 
         setTimeout(function() {
-            target = $('.m-multi-feature').find('a.f-active').attr('aria-controls');
+            target = $('#vid-slides a.f-active').attr('aria-controls');
             whichToStart = target.substr(0, target.indexOf(" "));
-            vid = $('.m-multi-feature #' + whichToStart + ' video').click();
-            //vid.get(0).play();
-            // container = document.getElementById(whichToStart);
-            //vidToStart = vid.getElementsByTagName('video');
-            console.log(vid);
-            //console.log(container);
-            // vidToStart.play();
-            // console.log('current is ' + vidToStart.attr('src'));
+            document.getElementById(whichToStart).getElementsByTagName('video')[0].play();
         }, 50);
     });
 
@@ -101,7 +94,7 @@ function restart() {
 //scroll play video
 $(document).ready(function() {
     // Get media - with autoplay disabled (audio or video)
-    var media = $('.m-multi-feature .f-active video');
+    var media = $('#vid-slides li .f-active video');
     var tolerancePixel = 40;
 
     function checkMedia() {

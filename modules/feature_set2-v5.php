@@ -1,6 +1,6 @@
 <!-- feature set 2  V5 pivot multi feature     -->
 
-<section data-grid="container stack-2" class="m-multi-feature f-align-center" >
+<section data-grid="container stack-2" class="m-multi-feature f-align-center" id="vid-slides">
     <section data-grid="container">
         <div data-grid="col-12" class="m-area-heading">
             <h2 class="c-heading-8 f-lean">Immerse yourself in a new reality</h2>
@@ -43,17 +43,17 @@
                     </li>
                     <li id="newRTBItemImage2" data-f-theme="light"  role="tabpanel">
                         <div class="m-ambient-video">
-                            <video role="img" alt="Ambient video alt text" poster="assets/video/controllers.jpg" src="assets/video/header-16-6.mp4" muted controls autoplay loop preload="none"></video>
+                            <video role="img" alt="Ambient video alt text" poster="assets/video/controllers.jpg" src="assets/video/header-16-6.mp4" muted controls  loop preload="none"></video>
                         </div>
                     </li>
                     <li id="newRTBItemImage3" data-f-theme="dark" role="tabpanel">
                         <div class="m-ambient-video">
-                            <video role="img" alt="Ambient video alt text" poster="assets/video/controllers.jpg" src="assets/video/header-16-6.mp4" muted controls autoplay loop preload="none"></video>
+                            <video role="img" alt="Ambient video alt text" poster="assets/video/controllers.jpg" src="assets/video/header-16-6.mp4" muted controls  loop preload="none"></video>
                         </div>
                     </li>
                     <li id="newRTBItemImage4" data-f-theme="dark" role="tabpanel">
                         <div class="m-ambient-video">
-                            <video role="img" alt="Ambient video alt text" poster="assets/video/controllers.jpg" src="assets/video/set-up.mp4" muted controls autoplay loop preload="none"></video>
+                            <video role="img" alt="Ambient video alt text" poster="assets/video/controllers.jpg" src="assets/video/set-up.mp4" muted controls  loop preload="none"></video>
                         </div>
                     </li>
                 </ul>
