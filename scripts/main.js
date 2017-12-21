@@ -2,8 +2,6 @@ jQuery(function() {
 
     // Scroll to Pivot top
     $('a.pivot-scroll').on("click", function() {
-        //     $('html, body').scrollTo('#overview', 400, 'easeOutQuart');
-        // });
         $('html, body').animate({
             scrollTop: $("#pivot-top").offset().top + 20
         }, 500);
@@ -31,8 +29,24 @@ jQuery(function() {
         setTimeout(function() {
             $('#m-multi-tiles').find('a.f-active').parent().addClass('li-active').siblings().removeClass('li-active');
         }, 100);
-        // alert('clicked');       
     });
+
+    $('.m-multi-feature a, .m-multi-feature button').on('click', function() {
+
+        setTimeout(function() {
+            target = $('.m-multi-feature').find('a.f-active').attr('aria-controls');
+            whichToStart = target.substr(0, target.indexOf(" "));
+            vid = $('.m-multi-feature #' + whichToStart + ' video').click();
+            //vid.get(0).play();
+            // container = document.getElementById(whichToStart);
+            //vidToStart = vid.getElementsByTagName('video');
+            console.log(vid);
+            //console.log(container);
+            // vidToStart.play();
+            // console.log('current is ' + vidToStart.attr('src'));
+        }, 50);
+    });
+
 });
 window.document.onkeydown = function(e) {
     if (!e) {
@@ -87,7 +101,7 @@ function restart() {
 //scroll play video
 $(document).ready(function() {
     // Get media - with autoplay disabled (audio or video)
-    var media = $('.m-multi-feature video');
+    var media = $('.m-multi-feature .f-active video');
     var tolerancePixel = 40;
 
     function checkMedia() {
@@ -99,7 +113,7 @@ $(document).ready(function() {
             var yTopMedia = $(this).offset().top;
             var yBottomMedia = $(this).height() + yTopMedia;
 
-            if (scrollTop < yBottomMedia && scrollBottom > yTopMedia) { //view explaination in `In brief` section above
+            if (scrollTop < yBottomMedia && scrollBottom > yTopMedia) {
                 $(this).get(0).play();
             } else {
                 $(this).get(0).pause();

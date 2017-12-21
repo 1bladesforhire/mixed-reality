@@ -242,6 +242,7 @@ a.m-background-neutral-20 {
 }
 .get-started h2 {
   font-weight: 100;
+  padding-bottom: 10px;
 }
 .get-started .c-logo {
   height: 133px;
@@ -267,6 +268,14 @@ a.m-background-neutral-20 {
 }
 .m-multi-feature .m-ambient-video {
   padding: 0;
+  height: 0;
+  padding-bottom: 37%;
+}
+.m-multi-feature .m-ambient-video video {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  bottom: 0;
 }
 .m-multi-feature.f-align-center > section > .c-pivot > section,
 .m-multi-feature.f-align-center > section > ul {
@@ -498,18 +507,18 @@ a.m-background-neutral-20 {
 }
 .hero {
   position: relative;
-  height: 700px;
+  height: 30vh;
 }
 .hero.v2.v1 {
   overflow: visible;
   z-index: 1;
-  margin-bottom: 180px;
+  margin-bottom: 10%;
 }
 .hero.v2.v1.video {
   background: none;
 }
 .hero.v2.v1.video [data-grid=container] {
-  bottom: 205px;
+  bottom: 200px;
   padding-left: 7.5%;
   padding-right: 7.5%;
 }
@@ -520,17 +529,18 @@ a.m-background-neutral-20 {
   -webkit-transform: translate3d(-50%, -50%, 0);
   transform: translate3d(-50%, -50%, 0);
   position: absolute;
-  top: 50%;
+  top: 48%;
   left: 50%;
   min-width: 100%;
   min-height: 100%;
   width: auto;
   height: auto;
+  width: 100%;
   z-index: -100;
 }
 .video-wrapper {
   height: 0;
-  padding-bottom: 56.25%;
+  padding-bottom: 54.25%;
   overflow: hidden;
   position: relative;
 }
@@ -547,7 +557,7 @@ a.m-background-neutral-20 {
   max-width: 1600px;
   margin-top: 0;
   width: 100%;
-  bottom: 205px;
+  bottom: 40%;
   float: left;
   top: 0;
 }

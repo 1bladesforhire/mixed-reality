@@ -1,6 +1,6 @@
 <div class="hero video v2 v1">
     <div class="video-wrapper x-hidden-focus">
-        <video autoplay="" muted="" class="bg-video">
+        <video autoplay muted class="bg-video">
             <source src="../assets/video/Acer-1920.mp4" type="video/mp4">
         </video>
     </div>

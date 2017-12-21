@@ -43,17 +43,17 @@
                     </li>
                     <li id="newRTBItemImage2" data-f-theme="light"  role="tabpanel">
                         <div class="m-ambient-video">
-                            <video role="img" alt="Ambient video alt text" poster="assets/video/controllers.jpg" src="http://wus-streaming-video-rt-microsoft-com.akamaized.net/c203e8ea-211d-41d1-8adb-cc10de0bedf8/7aecf4db-d983-4099-bdf6-764c6a40_1024x576_2810.mp4" muted controls loop preload="none"></video>
+                            <video role="img" alt="Ambient video alt text" poster="assets/video/controllers.jpg" src="assets/video/header-16-6.mp4" muted controls autoplay loop preload="none"></video>
                         </div>
                     </li>
                     <li id="newRTBItemImage3" data-f-theme="dark" role="tabpanel">
                         <div class="m-ambient-video">
-                            <video role="img" alt="Ambient video alt text" poster="assets/video/controllers.jpg" src="http://wus-streaming-video-rt-microsoft-com.akamaized.net/c203e8ea-211d-41d1-8adb-cc10de0bedf8/7aecf4db-d983-4099-bdf6-764c6a40_1024x576_2810.mp4" muted controls loop preload="none"></video>
+                            <video role="img" alt="Ambient video alt text" poster="assets/video/controllers.jpg" src="assets/video/header-16-6.mp4" muted controls autoplay loop preload="none"></video>
                         </div>
                     </li>
                     <li id="newRTBItemImage4" data-f-theme="dark" role="tabpanel">
                         <div class="m-ambient-video">
-                            <video role="img" alt="Ambient video alt text" poster="assets/video/controllers.jpg" src="https://youtu.be/oMFFYfvtxCI" muted controls loop preload="none"></video>
+                            <video role="img" alt="Ambient video alt text" poster="assets/video/controllers.jpg" src="assets/video/set-up.mp4" muted controls autoplay loop preload="none"></video>
                         </div>
                     </li>
                 </ul>
