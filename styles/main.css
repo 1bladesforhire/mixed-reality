@@ -5,14 +5,6 @@
   background: transparent;
   z-index: 10;
 }
-#headerArea .context-uhf {
-  color: #ffffff;
-}
-#headerArea .context-uhf > div:first-child .c-uhf-nav-link,
-#headerArea .context-uhf > div:first-child .c-uhf-menu button,
-#headerArea .context-uhf > div:first-child .c-search button {
-  color: #ffffff;
-}
 .c-uhfh > [class*="theme-"] .c-action-trigger,
 .c-uhfh > [class*="theme-"] .c-logo,
 #uhf-shopping-cart,
@@ -44,6 +36,32 @@
 .b_video .js-global-head {
   position: relative;
   background: rgba(0, 0, 0, 0) !important;
+  height: 50px;
+  padding: 0 5%;
+}
+.b_video .js-global-head .c-logo {
+  width: 137px;
+  height: 96%;
+  margin-top: 1px;
+  padding: 13px 20px 14px 12px;
+  margin-left: -12px;
+  float: left;
+}
+.b_video .js-global-head .c-uhf-menu button::after {
+  content: '';
+}
+.b_video .js-global-head .c-glyph.glyph-chevron-down::before {
+  font-size: 9px;
+}
+.b_video .js-global-head .nav-icons {
+  float: right;
+}
+.b_video .js-global-head #uhf-c-nav {
+  float: left;
+}
+.b_video .js-global-head .exp-menu-pad:hover p {
+  text-decoration: none;
+  border-bottom: solid 1px #000000;
 }
 .b_video .c-uhfh-gcontainer {
   z-index: 2;
@@ -526,23 +544,15 @@ a.m-background-neutral-20 {
   position: relative;
 }
 .hero video {
-  -webkit-transform: translate3d(-50%, -50%, 0);
-  transform: translate3d(-50%, -50%, 0);
   position: absolute;
-  top: 48%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
   width: 100%;
-  z-index: -100;
 }
 .video-wrapper {
   height: 0;
   padding-bottom: 54.25%;
   overflow: hidden;
   position: relative;
+  width: 101%;
 }
 .buybox.v2 {
   position: relative;
