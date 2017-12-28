@@ -1,9 +1,111 @@
-<div class="hero video v2 v1">
-    <div class="video-wrapper x-hidden-focus">
-        <video autoplay muted class="bg-video" poster="assets/smoke_immersive_bgX2400.jpg">
-            <source src="assets/video/acer-v4.mp4" type="video/mp4">
-        </video>
+<div class="hero fixed-img v2">
+    <div class="c-carousel f-multi-slide" role="region" aria-label="Hero carousel">
+        <div class="c-sequence-indicator" role="tablist">
+            <button role="tab" aria-selected="true" aria-label="View slide one" aria-controls="hero-slide-one" title="Slide one"></button>
+            <button role="tab" aria-selected="false" aria-label="View slide two" aria-controls="hero-slide-two" title="Slide two"></button>
+            <button role="tab" aria-selected="false" aria-label="View slide three" aria-controls="hero-slide-three" title="Slide three"></button>
+        </div>
+        <button class="c-flipper f-previous" aria-hidden="true" tabindex="-1"></button>
+        <button class="c-flipper f-next" aria-hidden="true" tabindex="-1"></button>
+        <div itemscope itemtype="http://schema.org/ItemList">
+            <ul>
+                <li id="hero-slide-one" data-f-theme="dark" class="f-active" role="tabpanel">
+                    <section class="m-hero-item f-x-left f-y-center context-device theme-dark" itemscope itemtype="http://schema.org/Product">
+                        <picture>
+                            <source srcset="assets/video/acer-hero.jpg" media="(min-width: 1779px)">
+                            <source srcset="assets/video/acer-hero.jpg" media="(min-width: 1400px)">
+                            <source srcset="assets/video/acer-hero.jpg" media="(min-width: 1084px)">
+                            <source srcset="assets/video/acer-hero.jpg" media="(min-width:768px)">
+                            <source srcset="assets/video/acer-hero.jpg" media="(min-width:540px)">
+                            <source srcset="assets/video/acer-hero.jpg" media="(min-width:0)">
+                            <img srcset="assets/video/acer-hero.jpg" src="assets/video/acer-hero.jpg" alt="Placeholder with grey background and dimension watermark without any imagery">
+                        </picture>
+                        <div>
+                            <div>
+                                <h1 class="c-heading">Heading</h1>
+                                <p class="c-subheading">Subheading</p>
+                                <div class="c-price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                                    <meta itemprop="priceCurrency" content="USD">
+                                    <span>$</span>
+                                    <span itemprop="price">1,499</span>
+                                    <link itemprop="availability" href="http://schema.org/InStock">
+                                </div>
+                                <div>
+                                    <a href="#" class="c-call-to-action c-glyph">
+                                        <span>CALL TO ACTION</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </li>
+                <li id="hero-slide-two" data-f-theme="dark" role="tabpanel">
+                    <section class="m-hero-item f-x-left f-y-center context-game theme-dark" itemscope itemtype="http://schema.org/VideoGame">
+                        <picture>
+                            <source srcset="http://placehold.it/1600x600/2F2F2F/171717" media="(min-width: 1779px)">
+                            <source srcset="http://placehold.it/1600x600/2F2F2F/171717" media="(min-width: 1400px)">
+                            <source srcset="http://placehold.it/1259x472/2F2F2F/171717" media="(min-width: 1084px)">
+                            <source srcset="http://placehold.it/1083x609/2F2F2F/171717" media="(min-width:768px)">
+                            <source srcset="http://placehold.it/767x431/2F2F2F/171717" media="(min-width:540px)">
+                            <source srcset="http://placehold.it/539x303/2F2F2F/171717" media="(min-width:0)">
+                            <img srcset="http://placehold.it/1259x472/2F2F2F/171717" src="http://placehold.it/1259x472/2F2F2F/171717" alt="Placeholder with grey background and dimension watermark without any imagery">
+                        </picture>
+                        <div>
+                            <div>
+                                <h1 class="c-product-title">
+                                    <cite>Product-title</cite>
+                                </h1>
+                                <p class="c-product-subtitle">Product-subtitle</p>
+                                <div class="c-rating" data-value="3" data-max="5" itemscope itemtype="https://schema.org/AggregateRating">
+                                    <p class="x-screen-reader">Community rating:
+                                        <span itemprop="ratingValue">3</span>/
+                                        <span itemprop="bestRating">5</span>
+                                    </p>
+                                    <div></div>
+                                </div>
+                                <div>
+                                    <a href="#" class="c-call-to-action c-glyph">
+                                        <span>CALL TO ACTION</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </li>
+                <li id="hero-slide-three" data-f-theme="dark" role="tabpanel">
+                    <section class="m-hero-item f-x-left f-y-center context-article theme-dark" itemscope itemtype="http://schema.org/Article">
+                        <picture>
+                            <source srcset="http://placehold.it/1600x600/2F2F2F/171717" media="(min-width: 1779px)">
+                            <source srcset="http://placehold.it/1600x600/2F2F2F/171717" media="(min-width: 1400px)">
+                            <source srcset="http://placehold.it/1259x472/2F2F2F/171717" media="(min-width: 1084px)">
+                            <source srcset="http://placehold.it/1083x609/2F2F2F/171717" media="(min-width:768px)">
+                            <source srcset="http://placehold.it/767x431/2F2F2F/171717" media="(min-width:540px)">
+                            <source srcset="http://placehold.it/539x303/2F2F2F/171717" media="(min-width:0)">
+                            <img srcset="http://placehold.it/1259x472/2F2F2F/171717" src="http://placehold.it/1259x472/2F2F2F/171717" alt="Placeholder with grey background and dimension watermark without any imagery">
+                        </picture>
+                        <div>
+                            <div>
+                                <h1 class="c-heading">Heading</h1>
+                                <p class="c-paragraph">Paragraph fusce vel feugiat libero. Quisque eu est in dui facilisis faucibus. Donec tincidunt eget felis ac semper. In egestas nunc id tellus pellentesque, vel ullamcorper ex dictum. Vivamus a tempor arcu, et laoreet sem.
+                                    Mauris ac aliquam dui. Curabitur bibendum, nisi sed gravida gravida, sapien nisl sollicitudin sem, sed blandit quam arcu eleifend dolor. Maecenas tristique nibh ullamcorper ante pellentesque faucibus. Cras non nulla
+                                    vitae urna porttitor sagittis. Cras vitae pretium dolor.</p>
+                                <div class="c-logo">
+                                    <img itemprop="logo" class="c-image" src="http://placehold.it/350x40" alt="Placeholder with grey background and dimension watermark without any imagery" itemscope itemtype="http://schema.org/ImageObject">
+                                    <span>Logo</span>
+                                </div>
+                                <div>
+                                    <a href="#" class="c-call-to-action c-glyph">
+                                        <span>CALL TO ACTION</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </li>
+            </ul>
+        </div>
     </div>
+
     <div data-grid="container">
 
         <div class="buybox v2">
@@ -66,7 +168,7 @@
                         </div>
                         <a class="store">Find in store</a
                     </div>
-               
+                
                 <div class="leading-action">
                     <p class="save">Save $400 instantly</p>  
                     <p class="bundle"> Bundle this headset with an Acer Aspire Nitro 5 for instant savings. <a href="#" class="f-blue">Bundle now</a></p>
@@ -76,4 +178,5 @@
         </div>
     </div>
 </div>
+
 </div>

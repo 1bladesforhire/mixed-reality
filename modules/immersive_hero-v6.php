@@ -1,7 +1,7 @@
 <div class="hero video v2 v1">
     <div class="video-wrapper x-hidden-focus">
         <video autoplay muted class="bg-video" poster="assets/smoke_immersive_bgX2400.jpg">
-            <source src="assets/video/acer-v4.mp4" type="video/mp4">
+            <source src="assets/video/acer-v6.mp4" type="video/mp4">
         </video>
     </div>
     <div data-grid="container">

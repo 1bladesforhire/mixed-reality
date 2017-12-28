@@ -1,4 +1,11 @@
 <style type="text/css">
+    header.context-uhf {
+        position: absolute;
+        z-index: 2;
+        background: linear-gradient(white 70%, transparent) !important;
+        width: 100%;
+    }
+    
     .search-icon {
         display: inline-block;
         width: 16px;
@@ -10,51 +17,34 @@
     .c-uhf-menu>button {
         padding-right: 27px;
     }
-    .c-universal-header > div:first-child .c-uhf-menu > button::before{
+    
+    .c-universal-header>div:first-child .c-uhf-menu>button::before {
         bottom: 12px;
         width: calc(100% - 50px) !important;
     }
-    .c-universal-header .c-uhf-menu > button:hover::before{
+    
+    .c-universal-header .c-uhf-menu>button:hover::before {
         display: block;
     }
-    .c-universal-header .c-uhf-menu > button::before {
+    
+    .c-universal-header .c-uhf-menu>button::before {
         background: currentColor;
         content: "";
         display: none;
         height: 2px;
         position: absolute;
     }
+    
     .c-universal-header>div:first-child .c-uhf-menu>button:before {
         border: none;
         width: 0;
     }
-    /* 
-    button span:first-of-type:hover {
-        border-bottom: 2px solid black;
-    }
-    
-    button:hover,
-    button:hover,
-    button:active,
-    button:focus,
-    button:hover span,
-    button:active span,
-    button:focus span,
-    a.button:hover,
-    a.button:active,
-    a.button:focus,
-    a.button:hover span,
-    a.button:active span,
-    a.button:focus span {
-        text-decoration: none!important;
-    }*/
     
     .c-search button:before {
         content: "";
         text-indent: 0px;
         font-size: 16px;
-    } 
-    
+    }
     
     @media only screen and (min-width: 1400px) {
         .exp-9514823286 #search::after {
@@ -158,20 +148,24 @@
     .exp-menu-pad:hover p {
         text-decoration: underline;
     }
-    #der-waffle{
+    
+    #der-waffle {
         display: inline-block;
         height: 16px;
         width: 20px;
         margin-top: -2px;
     }
-    #nav-menu{
+    
+    #nav-menu {
         font-size: 13px;
         top: -2px;
         position: relative;
     }
-    #nav-menu:hover{
+    
+    #nav-menu:hover {
         text-decoration: underline;
     }
+    
     .c-universal-header>div>div {
         max-width: 1600px;
     }
@@ -183,7 +177,7 @@
 
     <div class="theme-light js-global-head f-closed " style="height: 50px; overflow: hidden;" data-m="{&quot;cN&quot;:&quot;Universal Header_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;m1r1a1&quot;}">
         <div>
-            
+
             <a data-m="{&quot;pid&quot;:&quot;h:32f2fa12&quot;,&quot;id&quot;:&quot;n3c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c1m1r1a1&quot;}" id="uhfLogo" class="c-logo" itemprop="url" href="https://www.microsoft.com" aria-label="Microsoft">
                 <img itemprop="logo" itemscope="itemscope" class="c-image" alt="Microsoft" src="https://assets.onestore.ms/cdnfiles/external/uhf/long/9a49a7e9d8e881327e81b9eb43dabc01de70a9bb/images/microsoft-gray.png">
                 <span>Microsoft</span>
@@ -225,27 +219,22 @@
             <div class="nav-icons">
                 <span class="exp-menu-pad" id='der-waffle'>
                     <span class="exp-1"></span>
-                    <span class="exp-2"></span>
-                    <span class="exp-3"></span>
-                    <span class="exp-4"></span>
-                    <span class="exp-5"></span>
-                    <span class="exp-6"></span>
-                    <span class="exp-7"></span>
-                    <span class="exp-8"></span>
-                    <span class="exp-9"></span>
+                <span class="exp-2"></span>
+                <span class="exp-3"></span>
+                <span class="exp-4"></span>
+                <span class="exp-5"></span>
+                <span class="exp-6"></span>
+                <span class="exp-7"></span>
+                <span class="exp-8"></span>
+                <span class="exp-9"></span>
                 </span>
                 <span id="nav-menu">Menu</span>
-                
+
                 <span class="FUI" style="font-family: MWF-MDL2" ;> <span style="font-family: Segoe UI;">Search </span></span>
                 <span class="FUI" style="font-family: MWF-MDL2" ;> <span style="font-family: Segoe UI;">Cart </span></span>
                 <span class="FUI"><span>Sign in</span></span>
             </div>
         </div>
-    </div>
-    </div>
-
-
-
     </div>
 
 </header>

@@ -4,7 +4,7 @@
             <div class="product" data-grid="col-2">
                 <h3 class="c-heading-6">Acer Headset</h3>
             </div>
-            <div  class="f-center x-type-center" data-grid="col-7">
+            <div  class="f-center x-type-center" data-grid="col-8">
                 <button class="c-flipper f-previous" aria-hidden="true" tabindex="-1"></button>
                 <header role="tablist" >
                     <a class="f-active pivot-scroll" role="tab" tabindex="0" aria-controls="overview" >Overview</a>
@@ -14,7 +14,7 @@
                 </header>
                 <button class="c-flipper f-next" aria-hidden="true" tabindex="-1"></button>
             </div>
-            <div class="buy-box" data-grid="col-3">
+            <div class="buy-box" data-grid="col-2">
                 <div class="c-price price-info">
                     <div class="c-price">
 

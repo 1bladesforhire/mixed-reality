@@ -50,14 +50,6 @@
 .b_video h2 {
   font: 700 32px/38px "Segoe UI";
 }
-.b_video .m-hero-item {
-  overflow: visible;
-  height: 700px;
-  margin-bottom: 180px;
-}
-.b_video .m-hero-item .c-rating {
-  margin-top: 0;
-}
 .b_video section.c-pivot {
   margin-top: -170px;
   margin-bottom: 50px;

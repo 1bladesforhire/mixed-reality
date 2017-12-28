@@ -82,14 +82,6 @@
 .b_video h2 {
   font: 700 32px/38px "Segoe UI";
 }
-.b_video .m-hero-item {
-  overflow: visible;
-  height: 700px;
-  margin-bottom: 180px;
-}
-.b_video .m-hero-item .c-rating {
-  margin-top: 0;
-}
 .b_video section.c-pivot {
   margin-top: -170px;
   margin-bottom: 50px;
@@ -209,7 +201,7 @@ a.m-background-neutral-20 {
 }
 .c-pivot a.pivot-scroll.f-active {
   border-bottom: 4px #0078D7 solid;
-  font-weight: 500;
+  font-weight: 700;
   padding-bottom: 6px;
   font-size: 15px;
   opacity: 1;
@@ -525,7 +517,6 @@ a.m-background-neutral-20 {
 }
 .hero {
   position: relative;
-  height: 30vh;
 }
 .hero.v2.v1 {
   overflow: visible;
@@ -533,6 +524,7 @@ a.m-background-neutral-20 {
   margin-bottom: 10%;
 }
 .hero.v2.v1.video {
+  height: 30vh;
   background: none;
 }
 .hero.v2.v1.video [data-grid=container] {
