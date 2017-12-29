@@ -1,6 +1,6 @@
 .hero{
   position:relative;
- 
+
   &.v2.v1{
     overflow: visible;
     z-index: 1;
@@ -20,16 +20,20 @@
     }
   }
   video{
-    // transform: translate3d(-50%, -50%, 0);
     position: absolute;
-    // top: 48%;
-    // left: 50%;
-    // min-width: 100%;
-    // min-height: 100%;
-    // width: auto;
-    // height: auto;
     width: 100%;
-    // z-index: -100;
+  }
+
+  //fixed height carousel
+  &.fixed-car{
+    margin-bottom: 200px;
+    .m-immersive-hero{
+      max-height: 80vh;
+      
+      .c-sequence-indicator{
+        bottom: 25vh;
+      }
+    }
   }
 }
 .video-wrapper{

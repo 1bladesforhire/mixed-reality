@@ -3,6 +3,7 @@
         <video autoplay muted class="bg-video" poster="assets/smoke_immersive_bgX2400.jpg">
             <source src="assets/video/acer-v6.mp4" type="video/mp4">
         </video>
+        <button class="c-action-toggle c-glyph glyph-play f-toggle" data-toggled-label="Pause" data-toggled-glyph="glyph-pause" aria-label="Play"></button>
     </div>
     <div data-grid="container">
 

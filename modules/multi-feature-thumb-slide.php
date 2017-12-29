@@ -68,13 +68,13 @@
                 <ul>
                 <li id="newIconItemImage11" data-f-theme="light" class="f-active" role="tabpanel">
                         <picture class="c-image">
-                            <source srcset="assets/video/steam-wmr-logo.jpg" media="(min-width: 1779px)">
-                            <source srcset="assets/video/steam-wmr-logo.jpg" media="(min-width:1400px)">
-                            <source srcset="assets/video/steam-wmr-logo.jpg" media="(min-width:1084px)">
-                            <source srcset="assets/video/steam-wmr-logo.jpg" media="(min-width:768px)">
-                            <source srcset="assets/video/steam-wmr-logo.jpg" media="(min-width:540px)">
-                            <source srcset="assets/video/steam-wmr-logo.jpg" media="(min-width:0)">
-                            <img srcset="assets/video/steam-wmr-logo.jpg" src="assets/video/steam-wmr-logo.jpg" alt="Placeholder with grey background and dimension watermark without any imagery">
+                            <source srcset="assets/video/steam-vr-1600.jpg" media="(min-width: 1779px)">
+                            <source srcset="assets/video/steam-vr-1600.jpg" media="(min-width:1400px)">
+                            <source srcset="assets/video/steam-vr-1600.jpg" media="(min-width:1084px)">
+                            <source srcset="assets/video/steam-vr-1600.jpg" media="(min-width:768px)">
+                            <source srcset="assets/video/steam-vr-1600.jpg" media="(min-width:540px)">
+                            <source srcset="assets/video/steam-vr-1600.jpg" media="(min-width:0)">
+                            <img srcset="assets/video/steam-vr-1600.jpg" src="assets/video/steam-vr-1600.jpg" alt="Placeholder with grey background and dimension watermark without any imagery">
                         </picture>
                         <a class="c-glyph glyph-play" id="playme" onclick="revealVideo('video','youtube')"></a>
                     </li>
@@ -95,13 +95,13 @@
                         </div>
                     <li id="newIconItemImage12" data-f-theme="light"  role="tabpanel">
                         <picture class="c-image">
-                            <source srcset="assets/video/mf-1600x600.jpg" media="(min-width: 1779px)">
-                            <source srcset="assets/video/mf-1259x471.jpg" media="(min-width:1400px)">
-                            <source srcset="assets/video/mf-1259x471.jpg" media="(min-width:1084px)">
-                            <source srcset="assets/video/mf-1259x471.jpg" media="(min-width:768px)">
-                            <source srcset="assets/video/mf-1259x471.jpg" media="(min-width:540px)">
-                            <source srcset="assets/video/mf-1259x471.jpg" media="(min-width:0)">
-                            <img srcset="assets/video/mf-1259x471.jpg" src="assets/video/mf-1259x471.jpg" alt="Placeholder with grey background and dimension watermark without any imagery">
+                            <source srcset="assets/video/superhot-1600.jpg" media="(min-width: 1779px)">
+                            <source srcset="assets/video/superhot-1600.jpg" media="(min-width:1400px)">
+                            <source srcset="assets/video/superhot-1600.jpg" media="(min-width:1084px)">
+                            <source srcset="assets/video/superhot-1600.jpg" media="(min-width:768px)">
+                            <source srcset="assets/video/superhot-1600.jpg" media="(min-width:540px)">
+                            <source srcset="assets/video/superhot-1600.jpg" media="(min-width:0)">
+                            <img srcset="assets/video/superhot-1600.jpg" src="assets/video/superhot-1600.jpg" alt="Placeholder with grey background and dimension watermark without any imagery">
                         </picture>
                             <a class="c-glyph glyph-play" id="playme" onclick="revealVideo('video2','youtube2')"></a>
                     </li>

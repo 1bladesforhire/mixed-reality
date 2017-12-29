@@ -539,6 +539,15 @@ a.m-background-neutral-20 {
   position: absolute;
   width: 100%;
 }
+.hero.fixed-car {
+  margin-bottom: 200px;
+}
+.hero.fixed-car .m-immersive-hero {
+  max-height: 80vh;
+}
+.hero.fixed-car .m-immersive-hero .c-sequence-indicator {
+  bottom: 25vh;
+}
 .video-wrapper {
   height: 0;
   padding-bottom: 54.25%;
