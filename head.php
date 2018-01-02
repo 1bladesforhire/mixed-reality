@@ -40,6 +40,9 @@
 </head>
 
 <body>
+    <a href="immersive-video.php">Video</a>
+    <a href="immersive-carousel.php">Carousel</a>
+    <a href="immersive-static-img.php">Static</a>
     <!-- <section id="headerArea" data-m='{"cN":"headerArea","cT":"Area_coreuiArea","id":"a1Body","sN":1,"aN":"Body"}'>
         <div id="headerRegion" data-region-key="headerregion" data-m='{"cN":"headerRegion","cT":"Region_coreui-region","id":"r1a1","sN":1,"aN":"a1"}'>
 
