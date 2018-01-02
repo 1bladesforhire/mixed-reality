@@ -393,6 +393,9 @@ a.m-background-neutral-20 {
 #three_dark #shop-all a.c-call-to-action:hover span {
   text-decoration: underline;
 }
+#m-multi-tiles {
+  padding-top: 100px;
+}
 #m-multi-tiles ul {
   display: -webkit-box;
   display: -ms-flexbox;

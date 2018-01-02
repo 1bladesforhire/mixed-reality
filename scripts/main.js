@@ -40,6 +40,14 @@ jQuery(function() {
         }, 50);
     });
 
+    //trigger resize to make the arrows show up on item carousel
+    $('[aria-controls="comparison"]').on('click', function() {
+        console.log('clicked comparison tab');
+        setTimeout(function() {
+            window.dispatchEvent(new Event('resize'));
+        }, 50);
+    });
+
 });
 window.document.onkeydown = function(e) {
     if (!e) {

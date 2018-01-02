@@ -35,8 +35,17 @@
             </div>
         </div>
     </div>
-    <section id="overview" role="tabpanel" aria-hidden="false" data-grid="container" class="pad-6x">
-        <?php include('feature_left_video.php');?>
+    <section id="overview" role="tabpanel" aria-hidden="false"  class="pad-6x">
+        <div data-grid="container">
+        <?php 
+        include('feature_left_video.php');?>
+         </div>
+         <?php
+        include('modules/multi-feature-thumb-slide.php');
+        include('modules/feature_set2-v5.php');
+        include('modules/three_up_dark.php');
+        ?>
+
     </section>
     <section id="tech-specs" role="tabpanel" aria-hidden="true" data-grid="container">
         

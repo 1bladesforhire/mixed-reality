@@ -2,7 +2,7 @@
     <div class="m-product-placement f-software" data-grid="col-12">
         <div class="c-carousel f-single-slide f-scrollable-next" role="region" aria-label="">
             <button class="c-flipper f-previous" aria-hidden="true" tabindex="-1"></button>
-            <button class="c-flipper f-next" aria-hidden="false" tabindex="-1"></button>
+            <button class="c-flipper f-next" aria-hidden="false"  tabindex="-1"></button>
             <div itemscope itemtype="http://schema.org/ItemList">
                 <ul class="c-group">
                     <li>

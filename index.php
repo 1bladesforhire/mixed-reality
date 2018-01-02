@@ -1,5 +1,5 @@
 <?php
-    include('head.php');
+    include('head-waffle.php');
 
     include('modules/main.php');
   
