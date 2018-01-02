@@ -3,10 +3,10 @@
     <!-- Modules should be stacked with a sibling relationship in order to programmatically adjust their position, margins, and padding. -->
     <div data-grid="col-12 stack-3" class="m-hyperlink-group-content-placement"> 
         <ul>
-            <li><a href="immersive.php">Immersive Header</a></li>
-            <li><a href="optionb.php">Video Header</a></li>
+            <li><a href="immersive-video.php">Video</a></li>
+            <li><a href="immersive-carousel.php">Carousel</a></li>
          <li>
-            <a href="immersive-v5.php">Immersive header v5/v6</a>
+            <a href="immersive-static-img.php">static</a>
         </li>
         <!--<li><a href=""></a></li>
         <li><a href=""></a></li>
