@@ -34,15 +34,28 @@ jQuery(function() {
     $('#vid-slides a, #vid-slides button').on('click', function() {
 
         setTimeout(function() {
+
             target = $('#vid-slides a.f-active').attr('aria-controls');
             whichToStart = target.substr(0, target.indexOf(" "));
-            document.getElementById(whichToStart).getElementsByTagName('video')[0].play();
+            current = document.getElementById(whichToStart);
+
+            //start active video
+            current.getElementsByTagName('video')[0].play();
+
+            //pause all other videos in carousel
+            otherVids = $('#vid-slides video');
+
+            otherVids.each(function() {
+                if (!$(this).parent().parent().hasClass('f-active')) {
+                    $(this).get(0).pause();
+                }
+            });
         }, 50);
     });
 
     //trigger resize to make the arrows show up on item carousel
     $('[aria-controls="comparison"]').on('click', function() {
-        console.log('clicked comparison tab');
+
         setTimeout(function() {
             window.dispatchEvent(new Event('resize'));
         }, 50);
