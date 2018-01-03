@@ -7,7 +7,7 @@
 
     <?php 
         include('modules/pivot_tabs-video.php');
-        include('modules/two_sections.php');?>
+        ?>
 
 </main>
     <?php

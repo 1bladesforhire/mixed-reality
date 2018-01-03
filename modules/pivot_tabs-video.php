@@ -44,6 +44,7 @@
         include('modules/multi-feature-thumb-slide.php');
         include('modules/feature_set2-v5.php');
         include('modules/three_up_dark.php');
+        include('modules/two_sections.php');
         ?>
 
     </section>
