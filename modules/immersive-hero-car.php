@@ -227,78 +227,74 @@
                     </section>
                 </li>
                 <li id="default-align-bottom" data-f-theme="light">
-                    <section class="m-immersive-hero-item theme-light f-align-bottom">
+                    <section class="m-immersive-hero-item theme-light f-align-top">
+
                         <picture class="c-image">
-                            <source srcset="http://placehold.it/2400x1600" media="(min-width: 1779px)">
-                            <source srcset="http://placehold.it/1778x1185" media="(min-width:1400px)">
-                            <source srcset="http://placehold.it/1399x931" media="(min-width:1084px)">
-                            <source srcset="http://placehold.it/1083x1805" media="(min-width:768px)">
-                            <source srcset="http://placehold.it/768x1280" media="(min-width:540px)">
-                            <source srcset="http://placehold.it/539x898" media="(min-width:0)">
-                            <img srcset="http://placehold.it/1399x931" src="http://placehold.it/1399x931" alt="Placeholder with grey background and dimension watermark without any imagery">
+                            <source srcset="assets/video/acer-hero-2.jpg" media="(min-width: 1779px)">
+                            <source srcset="assets/video/acer-hero-2.jpg" media="(min-width:1400px)">
+                            <source srcset="assets/video/acer-hero-2.jpg" media="(min-width:1084px)">
+                            <source srcset="assets/video/acer-hero-2.jpg" media="(min-width:768px)">
+                            <source srcset="assets/video/acer-hero-2.jpg" media="(min-width:540px)">
+                            <source srcset="assets/video/acer-hero-2.jpg" media="(min-width:0)">
+                            <img srcset="assets/video/acer-hero-2.jpg" src="assets/video/acer-hero-2.jpg" alt="Placeholder with grey background and dimension watermark without any imagery">
                         </picture>
-                        <div>
-                            <picture class="c-image">
-                                <source srcset="http://placehold.it/2048x1152/666666/171717" media="(min-width: 1779px)">
-                                <source srcset="http://placehold.it/1778x1000/666666/171717" media="(min-width:1400px)">
-                                <source srcset="http://placehold.it/1399x787/666666/171717" media="(min-width:1084px)">
-                                <source srcset="http://placehold.it/1083x812/666666/171717" media="(min-width:768px)">
-                                <source srcset="http://placehold.it/767x575/666666/171717" media="(min-width:540px)">
-                                <source srcset="http://placehold.it/539x404/666666/171717" media="(min-width:0)">
-                                <img srcset="http://placehold.it/1399x787/666666/171717" src="http://placehold.it/1399x787/666666/171717" alt="Placeholder image">
-                            </picture>
-                            <div>
-                                <h1 class="c-heading">Default align bottom</h1>
-                                <p class="c-subheading">Subheading</p>
-                                <a href="#" class="c-call-to-action c-glyph" aria-label="More verbose call to action text">
-                                    <span>CALL TO ACTION</span>
-                                </a>
-                            </div>
-                        </div>
+
                     </section>
                 </li>
-                <li id="no-image-align-top" data-f-theme="light">
+                <li id="default-align-top" data-f-theme="light" >
                     <section class="m-immersive-hero-item theme-light f-align-top">
                         <picture class="c-image">
-                            <source srcset="http://placehold.it/2400x1600/666666/171717" media="(min-width: 1779px)">
-                            <source srcset="http://placehold.it/1778x1185/666666/171717" media="(min-width:1400px)">
-                            <source srcset="http://placehold.it/1399x931/666666/171717" media="(min-width:1084px)">
-                            <source srcset="http://placehold.it/1083x1805/666666/171717" media="(min-width:768px)">
-                            <source srcset="http://placehold.it/768x1280/666666/171717" media="(min-width:540px)">
-                            <source srcset="http://placehold.it/539x898/666666/171717" media="(min-width:0)">
-                            <img srcset="http://placehold.it/1399x931/666666/171717" src="http://placehold.it/1399x931/666666/171717" alt="Placeholder with grey background and dimension watermark without any imagery">
+                            <source srcset="assets/video/acer-hero-3.jpg" media="(min-width: 1779px)">
+                            <source srcset="assets/video/acer-hero-3.jpg" media="(min-width:1400px)">
+                            <source srcset="assets/video/acer-hero-3.jpg" media="(min-width:1084px)">
+                            <source srcset="assets/video/acer-hero-3.jpg" media="(min-width:768px)">
+                            <source srcset="assets/video/acer-hero-3.jpg" media="(min-width:540px)">
+                            <source srcset="assets/video/acer-hero-3.jpg" media="(min-width:0)">
+                            <img srcset="assets/video/acer-hero-3.jpg" src="assets/video/acer-hero-3.jpg" alt="Placeholder with grey background and dimension watermark without any imagery">
                         </picture>
-                        <div>
-                            <div>
-                                <h1 class="c-heading">No image align top</h1>
-                                <p class="c-subheading">Subheading</p>
-                                <a href="#" class="c-call-to-action c-glyph" aria-label="More verbose call to action text">
-                                    <span>CALL TO ACTION</span>
-                                </a>
-                            </div>
-                        </div>
+
                     </section>
                 </li>
-                <li id="no-image-align-bottom" data-f-theme="light">
-                    <section class="m-immersive-hero-item theme-light f-align-bottom">
+                <li id="default-align-top" data-f-theme="light" >
+                <section class="m-immersive-hero-item theme-light f-align-top">
+                    <picture class="c-image">
+                        <source srcset="assets/video/acer-hero-4.jpg" media="(min-width: 1779px)">
+                        <source srcset="assets/video/acer-hero-4.jpg" media="(min-width:1400px)">
+                        <source srcset="assets/video/acer-hero-4.jpg" media="(min-width:1084px)">
+                        <source srcset="assets/video/acer-hero-4.jpg" media="(min-width:768px)">
+                        <source srcset="assets/video/acer-hero-4.jpg" media="(min-width:540px)">
+                        <source srcset="assets/video/acer-hero-4.jpg" media="(min-width:0)">
+                        <img srcset="assets/video/acer-hero-4.jpg" src="assets/video/acer-hero-4.jpg" alt="Placeholder with grey background and dimension watermark without any imagery">
+                    </picture>
+
+                </section>
+            </li>
+            <li id="default-align-top" data-f-theme="light" >
+                    <section class="m-immersive-hero-item theme-light f-align-top">
                         <picture class="c-image">
-                            <source srcset="http://placehold.it/2400x1600" media="(min-width: 1779px)">
-                            <source srcset="http://placehold.it/1778x1185" media="(min-width:1400px)">
-                            <source srcset="http://placehold.it/1399x931" media="(min-width:1084px)">
-                            <source srcset="http://placehold.it/1083x1805" media="(min-width:768px)">
-                            <source srcset="http://placehold.it/768x1280" media="(min-width:540px)">
-                            <source srcset="http://placehold.it/539x898" media="(min-width:0)">
-                            <img srcset="http://placehold.it/1399x931" src="http://placehold.it/1399x931" alt="Placeholder with grey background and dimension watermark without any imagery">
+                            <source srcset="assets/video/acer-hero-5.jpg" media="(min-width: 1779px)">
+                            <source srcset="assets/video/acer-hero-5.jpg" media="(min-width:1400px)">
+                            <source srcset="assets/video/acer-hero-5.jpg" media="(min-width:1084px)">
+                            <source srcset="assets/video/acer-hero-5.jpg" media="(min-width:768px)">
+                            <source srcset="assets/video/acer-hero-5.jpg" media="(min-width:540px)">
+                            <source srcset="assets/video/acer-hero-5.jpg" media="(min-width:0)">
+                            <img srcset="assets/video/acer-hero-5.jpg" src="assets/video/acer-hero-5.jpg" alt="Placeholder with grey background and dimension watermark without any imagery">
                         </picture>
-                        <div>
-                            <div>
-                                <h1 class="c-heading">No image align bottom</h1>
-                                <p class="c-subheading">Subheading</p>
-                                <a href="#" class="c-call-to-action c-glyph" aria-label="More verbose call to action text">
-                                    <span>CALL TO ACTION</span>
-                                </a>
-                            </div>
-                        </div>
+
+                    </section>
+                </li>
+                <li id="default-align-top" data-f-theme="light" >
+                    <section class="m-immersive-hero-item theme-light f-align-top">
+                        <picture class="c-image">
+                            <source srcset="assets/video/acer-hero-6.jpg" media="(min-width: 1779px)">
+                            <source srcset="assets/video/acer-hero-6.jpg" media="(min-width:1400px)">
+                            <source srcset="assets/video/acer-hero-6.jpg" media="(min-width:1084px)">
+                            <source srcset="assets/video/acer-hero-6.jpg" media="(min-width:768px)">
+                            <source srcset="assets/video/acer-hero-6.jpg" media="(min-width:540px)">
+                            <source srcset="assets/video/acer-hero-6.jpg" media="(min-width:0)">
+                            <img srcset="assets/video/acer-hero-6.jpg" src="assets/video/acer-hero-6.jpg" alt="Placeholder with grey background and dimension watermark without any imagery">
+                        </picture>
+
                     </section>
                 </li>
             </ul>
