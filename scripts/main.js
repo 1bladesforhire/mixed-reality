@@ -35,12 +35,12 @@ jQuery(function() {
 
         setTimeout(function() {
 
-            target = $('#vid-slides a.f-active').attr('aria-controls');
-            whichToStart = target.substr(0, target.indexOf(" "));
-            current = document.getElementById(whichToStart);
+            // target = $('#vid-slides a.f-active').attr('aria-controls');
+            // whichToStart = target.substr(0, target.indexOf(" "));
+            // current = document.getElementById(whichToStart);
 
-            //start active video
-            current.getElementsByTagName('video')[0].play();
+            // //start active video
+            // current.getElementsByTagName('video')[0].play();
 
             //pause all other videos in carousel
             otherVids = $('#vid-slides video');
@@ -48,6 +48,9 @@ jQuery(function() {
             otherVids.each(function() {
                 if (!$(this).parent().parent().hasClass('f-active')) {
                     $(this).get(0).pause();
+                } else {
+                    //start video with active class
+                    $(this).get(0).play();
                 }
             });
         }, 50);
