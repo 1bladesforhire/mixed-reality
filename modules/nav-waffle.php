@@ -2,7 +2,7 @@
     header.context-uhf {
         position: absolute;
         z-index: 2;
-        background: linear-gradient(white 70%, transparent) !important;
+        background: linear-gradient(rgba(255,255,255,.65) 70%, transparent) !important;
         width: 100%;
         top: 0;
     }

@@ -283,7 +283,7 @@ a.m-background-neutral-20 {
 }
 .m-multi-feature .m-ambient-video video {
   position: absolute;
-  width: 100%;
+  width: 101%;
   height: auto;
   bottom: 0;
 }
@@ -458,8 +458,8 @@ a.m-background-neutral-20 {
 .glyph-pause:before {
   content: "||";
 }
-#shellmenu_73 {
-  padding-right: 0 !important;
+#footerArea {
+  clear: both;
 }
 #immerse {
   overflow: hidden;
@@ -559,6 +559,9 @@ a.m-background-neutral-20 {
   padding-bottom: 54.25%;
   overflow: hidden;
   position: relative;
+  width: 100%;
+}
+.video-wrapper video {
   width: 101%;
 }
 .buybox.v2 {
