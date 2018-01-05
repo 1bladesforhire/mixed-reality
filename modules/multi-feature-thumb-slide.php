@@ -76,7 +76,7 @@
                                 <source srcset="assets/video/skyworld.jpg" media="(min-width:0)">
                                 <img srcset="assets/video/skyworld.jpg" src="assets/video/skyworld.jpg" alt="Placeholder with grey background and dimension watermark without any imagery">
                             </picture>
-                            <a class="c-glyph glyph-play" id="playme" onclick="revealVideo('video3','youtube3')"></a>
+                            <a class="c-glyph glyph-play playme" onclick="revealVideo('video3','youtube3')"></a>
                         </li>
                         <div id="video3" class="lightbox" onclick="hideVideo('video3','youtube3')">
                             <div class="lightbox-container">  
@@ -102,7 +102,7 @@
                             <source srcset="assets/video/steam-vr-1600.jpg" media="(min-width:0)">
                             <img srcset="assets/video/steam-vr-1600.jpg" src="assets/video/steam-vr-1600.jpg" alt="Placeholder with grey background and dimension watermark without any imagery">
                         </picture>
-                        <a class="c-glyph glyph-play" id="playme" onclick="revealVideo('video','youtube')"></a>
+                        <a class="c-glyph glyph-play playme" onclick="revealVideo('video','youtube')"></a>
                     </li>
                     <div id="video" class="lightbox" onclick="hideVideo('video','youtube')">
                             <div class="lightbox-container">  
@@ -129,7 +129,7 @@
                             <source srcset="assets/video/superhot-1600.jpg" media="(min-width:0)">
                             <img srcset="assets/video/superhot-1600.jpg" src="assets/video/superhot-1600.jpg" alt="Placeholder with grey background and dimension watermark without any imagery">
                         </picture>
-                            <a class="c-glyph glyph-play" id="playme" onclick="revealVideo('video2','youtube2')"></a>
+                            <a class="c-glyph glyph-play playme" onclick="revealVideo('video2','youtube2')"></a>
                     </li>
                     
                     <div id="video2" class="lightbox" onclick="hideVideo('video2','youtube2')">
@@ -159,7 +159,7 @@
                             <source srcset="assets/video/free-the-night.jpg" media="(min-width:0)">
                             <img srcset="assets/video/free-the-night.jpg" src="assets/video/free-the-night.jpg" alt="Placeholder with grey background and dimension watermark without any imagery">
                         </picture>
-                        <a class="c-glyph glyph-play" id="playme" onclick="revealVideo('video4','youtube4')"></a>
+                        <a class="c-glyph glyph-play playme" onclick="revealVideo('video4','youtube4')"></a>
                     </li>
                     <div id="video4" class="lightbox" onclick="hideVideo('video4','youtube4')">
                         <div class="lightbox-container">  
@@ -185,7 +185,7 @@
                             <source srcset="assets/video/minecraft-thumb-1259.jpg" media="(min-width:0)">
                             <img srcset="assets/video/minecraft-thumb-1259.jpg" src="assets/video/minecraft-thumb-1259.jpg" alt="Placeholder with grey background and dimension watermark without any imagery">
                         </picture>
-                        <a class="c-glyph glyph-play" id="playme" onclick="revealVideo('video5','youtube5')"></a>
+                        <a class="c-glyph glyph-play playme" onclick="revealVideo('video5','youtube5')"></a>
                     </li>
                     <div id="video5" class="lightbox" onclick="hideVideo('video5','youtube5')">
                         <div class="lightbox-container">  
