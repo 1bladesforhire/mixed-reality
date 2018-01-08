@@ -337,8 +337,8 @@
                     <ul class="bullets">
                         <li>Flip Visor means that you don’t have to remove the headset, just lift the visor up and engage with the real world again.</li>
                         <li>Inside-Out Tracking automatically changes the perspective of the outside world without needing to install additional sensors in the room.</li>
-                        <li>Spatial audio lets you hear sounds from specific locations just like in the real world​</li>
-                        <li>Windows Mixed Reality Headset Controllers included</li>
+                        <li>Spatial audio lets you hear sounds from specific locations just like in the real world.​</li>
+                        <li>Windows Mixed Reality Headset Controllers included.</li>
                     </ul>
                 </div>
             </div>
