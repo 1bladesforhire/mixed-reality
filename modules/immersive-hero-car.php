@@ -207,6 +207,8 @@
             <button role="tab" aria-selected="false" aria-label="View default align bottom" aria-controls="default-align-bottom" title="default-align-bottom"></button>
             <button role="tab" aria-selected="false" aria-label="View no image align top" aria-controls="no-image-align-top" title="no-image-align-top"></button>
             <button role="tab" aria-selected="false" aria-label="View no image align bottom" aria-controls="no-image-align-bottom" title="no-image-align-bottom"></button>
+            <button role="tab" aria-selected="false" aria-label="View no image align top" aria-controls="no-image-align-top" title="no-image-align-top"></button>
+            <button role="tab" aria-selected="false" aria-label="View no image align bottom" aria-controls="no-image-align-bottom" title="no-image-align-bottom"></button>
         </div>
         <button class="c-flipper f-previous f-large" aria-hidden="true" tabindex="-1"></button>
         <button class="c-flipper f-next f-large" aria-hidden="true" tabindex="-1"></button>
