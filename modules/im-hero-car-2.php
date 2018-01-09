@@ -27,7 +27,7 @@
 
                     </section>
                 </li> -->
-                <li id="default-align-top" data-f-theme="light" class="f-active">> 
+                <li id="default-align-top" data-f-theme="light" class="f-active"> 
                     <section class="m-immersive-hero-item theme-light f-align-top">
 
                         <picture class="c-image">

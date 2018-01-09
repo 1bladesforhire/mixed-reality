@@ -905,7 +905,7 @@
     <!-- <script type="text/javascript" src="https://www.microsoft.com/videoplayer/js/oneplayeriframe.js"></script> -->
 </head>
 
-<body>
+<body class="b_video">
 <?php
 include('modules/nav-waffle.php');
 ?>

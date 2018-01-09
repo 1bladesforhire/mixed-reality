@@ -3,7 +3,7 @@
     include('head-waffle.php');
     include('modules/immersive_hero-v6.php');
     ?>
-    <main id="main-content main" class="optionb" role="main" >
+    <main id="main-content main" class="im-video" role="main" >
 
     <?php 
         include('modules/pivot_tabs-video.php');

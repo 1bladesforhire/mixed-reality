@@ -11,12 +11,18 @@ jQuery(function() {
     $('.sticky-tabs').stickThis();
 
     $(window).on('load', function() {
-        //set styles for option b page with body class
-        if ($('main').hasClass('optionb')) {
-
-            $('body').addClass('b_video');
+        //set styles for different headers with body class
+        if ($('main').hasClass('im-car-2')) {
+            $('body').addClass('solid-waffle');
+        } else if ($('main').hasClass('im-car')) {
+            $('body').addClass('faded-waffle');
+        } else if ($('main').hasClass('im-video')) {
+            $('body').addClass('big-fade');
+        } else if ($('main').hasClass('rotational')) {
+            $('body').addClass('last-waffle');
+        } else if ($('main').hasClass('static')) {
+            $('body').addClass('no-waffle');
         }
-
         //set li to active class for thumb carousel
         $('#m-multi-tiles').find('a.f-active').parent().addClass('li-active');
     });
@@ -167,172 +173,6 @@ function hideVideo(div, video_id) {
     document.getElementById(div).style.display = 'none';
 }
 
-//XBOX rotator
-$(function() {
-
-    $('#xp-accolade-panel .no-js').removeClass('no-js');
-
-    // Browser detection is not recommended :)
-    var isIE = /* @cc_on!@*/ false || !!document.documentMode,
-        isEdge = !isIE && !!window.StyleMedia,
-        isAndroid = navigator.userAgent.match(/android/i);
-
-    if (isIE) { $('body').addClass('isIE'); }
-    if (isEdge) { $('body').addClass('isEdge'); }
-    if (isAndroid) { $('body').addClass('isAndroid'); }
-
-    var winWidth = $(window).width(),
-        container = $('#xp-accolade-panel'),
-        staticImg = container.find('.xp-accolade-media'),
-        slider = container.find('.slider'),
-        scrubberContainer = container.find('.accoladeFooter .holder'),
-        frameWidth = 0,
-        frameHeight = 0,
-        maxBreakpoint = 767,
-        imgAttr = (winWidth > maxBreakpoint) ? 'data-spritesrc-xl' : 'data-spritesrc-xs',
-        framesAttr = (winWidth > maxBreakpoint) ? 'data-spritenumframes-xl' : 'data-spritenumframes-xs',
-        imgSrc = staticImg.attr(imgAttr),
-        numFrames = staticImg.attr(framesAttr),
-        imgElm,
-        spriteElm,
-        isLoaded = false,
-        runningTime = 0,
-        sliderWidth = 100;
-
-    function onResize() {
-        winWidth = $(window).width();
-        goToFrame(slider[0].value);
-    }
-    window.addEventListener('resize', onResize);
-    onResize();
-
-    // Indicate loading state while video is loaded
-    var circle = $('<div/>').addClass('circle');
-    var loader = $('<div/>')
-        .addClass('xp-loader')
-        .append(circle.clone())
-        .append(circle.clone())
-        .append(circle.clone())
-        .append(circle.clone())
-        .append(circle.clone());
-    container.addClass('xp-accolade-loading').append(loader);
-
-    // Inject hidden img element onto page and wait for it to fully load
-    imgElm = $('<img/>')
-        .attr('src', imgSrc)
-        .addClass('xp-spriteloader')
-        .on('load', onImageLoaded)
-        .appendTo(container);
-
-    function onImageLoaded() {
-        frameWidth = imgElm.width();
-        frameHeight = imgElm.height() / numFrames;
-        imgElm.remove();
-        loader.remove();
-        scrubberContainer.show();
-
-        spriteElm = $('<div/>')
-            .addClass('xp-rotator-sprite')
-            .css({
-                'background-image': 'url(' + imgSrc + ')',
-                'background-size': '100% ' + (numFrames * 100) + '%'
-            });
-
-        // Swap static image for sprite animation
-        staticImg.after(spriteElm).hide();
-
-        isLoaded = true;
-
-        // update slider range to match exact number of frames and set handlers
-        slider
-            .attr('max', numFrames - 1)
-            .val(Math.floor(numFrames / 2))
-            .on('input change touchmove', playback)
-            .trigger('input');
-    }
-
-    /**
-     * Control playback per scrubbing
-     */
-    function goToFrame(pos) {
-        if (isLoaded) {
-            var frameCorrection = (pos == (numFrames - 1)) ? -1 : 0;
-            var multiplier = winWidth / frameWidth; // assumes rotator element is full-bleed
-            spriteElm.css('background-position', '0px -' + (Math.floor(pos * frameHeight * multiplier) + frameCorrection) + 'px');
-        }
-    };
-
-    function playback() {
-        goToFrame(this.value);
-    };
-
-});
-
-var windowresized2 = (function() {
-    var timers = {};
-    return function(callback, ms, uniqueId) {
-        if (!uniqueId) {
-            uniqueId = "Fires only once.";
-        }
-        if (timers[uniqueId]) {
-            clearTimeout(timers[uniqueId]);
-        }
-        timers[uniqueId] = setTimeout(callback, ms);
-    };
-})();
-
-$(window).resize(function() {
-    windowresized2(function() {
-        accPar();
-    }, 200, "pageresize");
-});
-
-
-//store rotator
-// function O() {
-//     H();
-//     qa();
-//     P = location.href;
-//     W = document.location.pathname.toLowerCase();
-//     X = document.location.href.toLowerCase();
-//     if (ta)
-//         ta = h;
-//     else
-//         for (var a = window.ClickTaleSettings && window.ClickTaleSettings.PTC && window.ClickTaleSettings.PTC.InitFuncs ? window.ClickTaleSettings.PTC.InitFuncs : [], b = 0, c = a.length; b < c; b++)
-//             if ("function" === typeof a[b])
-//                 a[b]();
-//             // Q ? va() : s(function() {
-//             //     Q = e;
-//             //     va()
-//             // });
-//             // ua();
-
-//             //"www.styleguide.com" === document.location.host,
-//             // "/en-us/windows/windows-mixed-reality" === W && (V = "Windows Mixed Reality",
-//     $(function() {
-//         for (var a = document.querySelectorAll(".windows-sliderimages"), b = {}, c = 0; c < a.length; c++) {
-//             b["number" + c] = new MutationObserver(function(a, c) {
-//                 return function() {
-//                     a && a.style.backgroundPositionY && 0 !== parseInt(a.style.backgroundPositionY, 10) && (S("Action | test site | 360 degree Image rotated", e),
-//                         b["number" + c].disconnect())
-//                 }
-//             }(a[c], c));
-//             var o = {
-//                     attributes: e
-//                 },
-//                 u = a[c];
-//             u && b["number" + c].observe(u, o)
-//         }
-//     }, function() {
-//         return !!document.querySelectorAll(".windows-sliderimages").length
-//     }, 250, 40)));
-
-// na([
-//     [".msame_Header .msame_Header_name", e],
-//     [".logoImg p", e],
-//     ["#windows-mixed-15-product-placement .windows-slider", e]
-// ])
-// }
 
 
 // MS video player

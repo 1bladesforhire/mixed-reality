@@ -30,6 +30,9 @@
 .c-uhfh > [class*="theme-"] .c-uhf-menu > ul > li > ul {
   background: transparent;
 }
+.solid-waffle.b_video .js-global-head {
+  background: #ffffff !important;
+}
 .b_video .js-cat-head {
   background: rgba(0, 0, 0, 0) !important;
 }
