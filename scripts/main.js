@@ -173,7 +173,51 @@ function hideVideo(div, video_id) {
     document.getElementById(div).style.display = 'none';
 }
 
+//store rotator
+function O() {
+    // H();
+    // qa();
+    // P = location.href;
+    // W = document.location.pathname.toLowerCase();
+    // X = document.location.href.toLowerCase();
+    // if (ta)
+    //     ta = h;
+    // else
+    //     for (var a = window.ClickTaleSettings && window.ClickTaleSettings.PTC && window.ClickTaleSettings.PTC.InitFuncs ? window.ClickTaleSettings.PTC.InitFuncs : [], b = 0, c = a.length; b < c; b++)
+    //         if ("function" === typeof a[b])
+    //             a[b]();
+    // Q ? va() : s(function() {
+    //     Q = e;
+    //     va()
+    // });
+    // ua();
 
+    //"www.styleguide.com" === document.location.host,
+    // "/en-us/windows/windows-mixed-reality" === W && (V = "Windows Mixed Reality",
+    $(function() {
+        for (var a = document.querySelectorAll(".windows-sliderimages"), b = {}, c = 0; c < a.length; c++) {
+            b["number" + c] = new MutationObserver(function(a, c) {
+                return function() {
+                    a && a.style.backgroundPositionY && 0 !== parseInt(a.style.backgroundPositionY, 10) && (S("Action | test site | 360 degree Image rotated", e),
+                        b["number" + c].disconnect())
+                }
+            }(a[c], c));
+            var o = {
+                    attributes: e
+                },
+                u = a[c];
+            u && b["number" + c].observe(u, o)
+        }
+    }, function() {
+        return !!document.querySelectorAll(".windows-sliderimages").length
+    }, 250, 40)));
+
+na([
+    [".msame_Header .msame_Header_name", e],
+    [".logoImg p", e],
+    ["#windows-mixed-15-product-placement .windows-slider", e]
+])
+}
 
 // MS video player
 

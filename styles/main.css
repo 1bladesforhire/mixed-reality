@@ -33,6 +33,16 @@
 .solid-waffle.b_video .js-global-head {
   background: #ffffff !important;
 }
+.c-uhf-menu button {
+  font-size: 13px;
+  padding: 13px 8px 13px 26px;
+}
+nav div:first-of-type button span {
+  font-weight: bold;
+}
+nav .active-links {
+  font-weight: 700;
+}
 .b_video .js-cat-head {
   background: rgba(0, 0, 0, 0) !important;
 }

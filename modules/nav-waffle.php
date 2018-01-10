@@ -1,4 +1,19 @@
 <style type="text/css">
+
+        .c-uhf-menu:nth-of-type(1) button span:first-of-type {
+            padding-right: 6px;
+        }
+
+        .c-uhf-menu:nth-of-type(2) button {
+            padding-left: 6px;
+        }
+                
+        
+        */
+    
+    
+    
+    
     header.context-uhf {
         position: absolute;
         z-index: 2;
@@ -23,6 +38,9 @@
         bottom: 12px;
         width: calc(100% - 50px) !important;
     }
+    .c-universal-header>div:first-child .c-uhf-menu>button#windows-mixed-reality-menu-link::before{
+        width: calc(100% - 35px) !important;
+    }   
     
     .c-universal-header .c-uhf-menu>button:hover::before {
         display: block;
@@ -124,7 +142,7 @@
     }
     
     .FUI {
-        margin-left: 30px;
+        margin-left: 20px;
     }
     
     .FUI span {
@@ -144,7 +162,20 @@
     .nav-icons>span {
         cursor: pointer;
     }
-    
+    @media only screen and (max-width: 1200px) {
+        .nav-icons > span > span {
+        display: none;
+        }
+        .nav-icons .exp-menu-pad span {
+        display:inline-block;
+        }
+        .nav-icons .exp-menu-pad p {
+        display: none!important;
+        }
+        .nav-icons .exp-menu-pad {
+        padding-right: 20px;
+        }
+    }
     .nav-icons>span:hover>span,
     .exp-menu-pad:hover p {
         text-decoration: underline;
@@ -169,6 +200,23 @@
     
     .c-universal-header>div>div {
         max-width: 1600px;
+    }
+
+    .glyph-chevron-right {
+        font-size: 9px;
+        font-weight: bold;
+
+    }
+
+    .glyph-chevron-right.first {
+        position:relative;
+        left: 7px;
+        font-weight: 700;
+        padding-left: 8px;
+    }
+    .glyph-chevron-right.second{
+        font-weight: 700;
+        padding-left:2px;
     }
 </style>
 
@@ -201,7 +249,10 @@
                     }
                 </style>
                 <div class="c-uhf-menu">
-                    <button><span>Office</span></button>
+                    <button id="store-menu-link"><span class="active-links">Store</span><span class="c-glyph glyph-chevron-right first"></span><span class="c-glyph glyph-chevron-right second"></span></button>
+                </div>
+                <div class="c-uhf-menu">
+                    <button id="windows-mixed-reality-menu-link"><span class="active-links">Windows Mixed Reality</span><span class="c-glyph glyph-chevron-right first"></span><span class="c-glyph glyph-chevron-right second"></span></button>
                 </div>
                 <div class="c-uhf-menu">
                     <button><span>Products</span> <span class="c-glyph glyph-chevron-down"></span></button>
@@ -229,10 +280,10 @@
                 <span class="exp-8"></span>
                 <span class="exp-9"></span>
                 </span>
-                <span id="nav-menu">Menu</span>
+                <span id="nav-menu" style="display: none;">Menu</span>
 
-                <span class="FUI" style="font-family: MWF-MDL2" ;> <span style="font-family: Segoe UI;">Search </span></span>
-                <span class="FUI" style="font-family: MWF-MDL2" ;> <span style="font-family: Segoe UI;">Cart </span></span>
+                <span class="FUI" style="font-family: MWF-MDL2" ;> <span style="font-family: Segoe UI; display: none;">Search </span></span>
+                <span class="FUI" style="font-family: MWF-MDL2" ;> <span style="font-family: Segoe UI; font-size: 13px; display: none;">Cart </span></span>
                 <span class="FUI"><span>Sign in</span></span>
             </div>
         </div>
