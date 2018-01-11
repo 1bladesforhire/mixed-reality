@@ -17,7 +17,7 @@ jQuery(function() {
         } else if ($('main').hasClass('im-car')) {
             $('body').addClass('faded-waffle');
         } else if ($('main').hasClass('im-video')) {
-            $('body').addClass('big-fade');
+            $('body').addClass('minor-fade');
         } else if ($('main').hasClass('rotational')) {
             $('body').addClass('spinner');
         } else if ($('main').hasClass('static')) {

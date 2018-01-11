@@ -7,12 +7,6 @@
         .c-uhf-menu:nth-of-type(2) button {
             padding-left: 6px;
         }
-                
-        
-        */
-    
-    
-    
     
     header.context-uhf {
         position: absolute;

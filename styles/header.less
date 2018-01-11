@@ -19,10 +19,13 @@
 .c-uhfh>[class*="theme-"] .c-uhf-menu>ul>li>a:hover, .c-uhfh>[class*="theme-"] .c-uhf-menu>ul>li>a:focus, .c-uhfh>[class*="theme-"] .c-uhf-menu>ul>li>button:hover, .c-uhfh>[class*="theme-"] .c-uhf-menu>ul>li>button:focus, .c-uhfh>[class*="theme-"] .c-uhf-menu>ul>li>[aria-expanded="true"], .c-uhfh>[class*="theme-"] .c-uhf-menu>ul>li>ul{
     background: transparent;
 }
-
+//header for macro version
 .solid-waffle.b_video{
     .js-global-head{
-        background: @white !important;
+        background: transparent !important;
+    }
+    .context-uhf{
+        background-color: rgba(255,255,255,.75)
     }
 }
 
@@ -36,7 +39,22 @@
 nav .active-links{
     font-weight: 700;
 }
-//   .c-uhf-menu button {
-//     font-size: 13px;
-//     padding: 13px 8px 13px 26px;
-//   }
+
+
+//header for macro version
+.solid-waffle.b_video{
+    .js-global-head{
+        background: transparent !important;
+    }
+    .context-uhf{
+        background: rgba(255,255,255,.75);
+    }
+}
+
+//header for video version
+.minor-fade.b_video{
+    header.context-uhf{
+        background: linear-gradient(rgba(255,255,255,.65), transparent) !important;
+        padding-bottom: 50px;
+    }
+}
