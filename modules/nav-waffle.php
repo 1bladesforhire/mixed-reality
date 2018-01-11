@@ -39,8 +39,12 @@
         width: calc(100% - 50px) !important;
     }
     .c-universal-header>div:first-child .c-uhf-menu>button#windows-mixed-reality-menu-link::before{
-        width: calc(100% - 35px) !important;
+        width: 86% !important;
     }   
+    .c-universal-header>div:first-child .c-uhf-menu>button#windows-mixed-reality-menu-link{
+        padding-left: 0;
+
+    }
     
     .c-universal-header .c-uhf-menu>button:hover::before {
         display: block;
@@ -255,16 +259,10 @@
                     <button id="windows-mixed-reality-menu-link"><span class="active-links">Windows Mixed Reality</span><span class="c-glyph glyph-chevron-right first"></span><span class="c-glyph glyph-chevron-right second"></span></button>
                 </div>
                 <div class="c-uhf-menu">
-                    <button><span>Products</span> <span class="c-glyph glyph-chevron-down"></span></button>
+                    <button><span>Windows Mixed Reality headsets</span> <span class="c-glyph glyph-chevron-down"></span></button>
                 </div>
                 <div class="c-uhf-menu">
-                    <button><span>Resources</span> <span class="c-glyph glyph-chevron-down"></span></button>
-                </div>
-                <div class="c-uhf-menu">
-                    <button><span>Templates</span></button>
-                </div>
-                <div class="c-uhf-menu">
-                    <button><span>Support</span></button>
+                    <button><span>Windows Mixed Reality-ready PCs</span> <span class="c-glyph glyph-chevron-down"></span></button>
                 </div>
             </nav>
 

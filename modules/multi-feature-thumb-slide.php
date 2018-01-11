@@ -1,4 +1,7 @@
 <section data-grid="container stack-2" class="m-multi-feature f-align-center" id="m-multi-tiles">
+    <div data-grid="col-12" class="m-area-heading">
+        <h2 class="c-heading-8 f-lean">A New World of Gaming</h2>
+    </div>
     <section data-grid="container">
         <ul role="tablist">
             <li class="c-glyph" role="presentation">

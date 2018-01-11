@@ -210,13 +210,13 @@ function O() {
         }
     }, function() {
         return !!document.querySelectorAll(".windows-sliderimages").length
-    }, 250, 40)));
+    }, 250, 40);
 
-na([
-    [".msame_Header .msame_Header_name", e],
-    [".logoImg p", e],
-    ["#windows-mixed-15-product-placement .windows-slider", e]
-])
+    na([
+        [".msame_Header .msame_Header_name", e],
+        [".logoImg p", e],
+        ["#windows-mixed-15-product-placement .windows-slider", e]
+    ])
 }
 
 // MS video player
