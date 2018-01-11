@@ -798,3 +798,9 @@ ul.bullets li a {
   position: absolute;
   top: 50%;
 }
+.spinner.b_video section.c-pivot {
+  margin-top: 0;
+}
+.spinner.b_video .buybox.v2 {
+  margin-bottom: 50px;
+}

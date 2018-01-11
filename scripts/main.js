@@ -19,7 +19,7 @@ jQuery(function() {
         } else if ($('main').hasClass('im-video')) {
             $('body').addClass('big-fade');
         } else if ($('main').hasClass('rotational')) {
-            $('body').addClass('last-waffle');
+            $('body').addClass('spinner');
         } else if ($('main').hasClass('static')) {
             $('body').addClass('no-waffle');
         }
