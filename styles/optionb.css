@@ -1,9 +1,5 @@
-.b_video .js-cat-head {
-  background: rgba(0, 0, 0, 0) !important;
-}
 .b_video .js-global-head {
   position: relative;
-  background: rgba(0, 0, 0, 0) !important;
   height: 50px;
   padding: 0 5%;
 }

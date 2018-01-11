@@ -57,12 +57,8 @@ nav .active-links {
   background: linear-gradient(rgba(255, 255, 255, 0.65), transparent) !important;
   padding-bottom: 50px;
 }
-.b_video .js-cat-head {
-  background: rgba(0, 0, 0, 0) !important;
-}
 .b_video .js-global-head {
   position: relative;
-  background: rgba(0, 0, 0, 0) !important;
   height: 50px;
   padding: 0 5%;
 }
