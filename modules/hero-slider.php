@@ -449,9 +449,9 @@
 <div id="ContentBlockList_1" class="" ms.pgarea="body">
     <section id="xp-accolade-panel" class="xp-accolade-loading" ms.cmpgrp="designed for every angle">
         <div class="hero-video">
-            <picture class="c-image xp-accolade-media" data-spritesrc-xs="assets/video/Acer_Rotator_16_6.jpg" data-spritesrc-xl="assets/video/Acer_Rotator_16_6.jpg" data-spritenumframes-xs="51" data-spritenumframes-xl="51">
-                <source srcset="https://c.s-microsoft.com/en-us/CMSImages/WinMR_Acer_Rotator000_382x258.jpg?version=138ee399-7576-afea-1bb1-150a621a42b2" media="(min-width:0px)">
-                <img srcset="https://c.s-microsoft.com/en-us/CMSImages/WinMR_Acer_Rotator000_382x258.jpg?version=138ee399-7576-afea-1bb1-150a621a42b2" src="https://compass-ssl.xbox.com/assets/90/74/9074aead-2d66-4cd3-8b8c-bcc90e64061a.jpg?n=Charlie_767_Rotator_STATIC-BACKUP_img.jpg"
+            <picture class="c-image xp-accolade-media" data-spritesrc-xs="assets/video/acer_sprite.jpg" data-spritesrc-xl="assets/video/acer_sprite.jpg" data-spritenumframes-xs="30" data-spritenumframes-xl="30">
+                <source srcset="../assets/video/acer_sprite.jpg" media="(min-width:0px)">
+                <img srcset="../assets/video/acer_sprite.jpg" src="../assets/video/acer_sprite.jpg"
                     alt="Slider that rotates Acer Headset 360 degrees" ms.title="slider that rotates acer headset 360 degrees">
             </picture>
             <!-- <div class="xp-rotator-sprite" style=" display:none;"></div> -->
@@ -473,7 +473,7 @@
                 <div class="holder clearfix" style="display: block;">
                     <div class="sliderHolder" aria-label="360 view of Acer Headset slider">
                         <div class="ieTrack"></div>
-                        <input class="slider" type="range" min="0" max="51" value="1" step="1" ms.ea_action="rotator">
+                        <input class="slider" type="range" min="0" max="30" value="1" step="1" ms.ea_action="rotator">
                     </div>
                     <div class="rotate-descriptor">
                         <p class="c-paragraph-3">DRAG TO ROTATE 360º</p>
@@ -515,10 +515,11 @@
                         </div>
                         <p class="social"><a href="#" class="c-glyph f-heart">Favorite</a> <a href="#" class="c-glyph f-share"> Share</a></p>
                         <ul class="bullets">
-                            <li>Flip Visor means that you don’t have to remove the headset, just lift the visor up and engage with the real world again.</li>
-                            <li>Inside-Out Tracking automatically changes the perspective of the outside world without needing to install additional sensors in the room.</li>
-                            <li>Spatial audio lets you hear sounds from specific locations just like in the real world​.</li>
-                            <li>Windows Mixed Reality Headset Controllers included.</li>
+                            <li>Go from real to virtual with the convenient flip visor</li>
+                            <li>Built-in inside-out tracking—no external sensors required</li>
+                            <li>Six degrees of freedom (6DoF) gives you the space to explore new worlds</li>
+                            <li>Spatial audio delivers latency-free sounds in lifelike detail as you roam</li>
+                            <li>Includes motion controllers</li>
                         </ul>
                     </div>
                 </div>

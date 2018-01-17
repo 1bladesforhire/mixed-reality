@@ -5,24 +5,8 @@
   background: transparent;
   z-index: 10;
 }
-.c-uhfh > [class*="theme-"] .c-action-trigger,
-.c-uhfh > [class*="theme-"] .c-logo,
-#uhf-shopping-cart,
-.c-uhfh > [class*="theme-"] .c-uhf-nav-link,
-.c-uhfh > [class*="theme-"] .c-uhf-menu a,
-.c-uhfh > [class*="theme-"] .c-uhf-menu button,
-.c-uhfh > [class*="theme-"] .c-me:not(.msame_open) .msame_Header_name {
-  color: #ffffff;
-}
-.c-uhfh > [class*="theme-"] .c-uhf-menu > button[aria-expanded="true"],
-.c-uhfh > [class*="theme-"] .c-uhf-menu > ul {
-  background: rgba(0, 0, 0, 0.75);
-}
-.c-uhfh > [class*="theme-"] .c-uhf-menu > button[aria-expanded="true"]:hover,
-.c-uhfh > [class*="theme-"] .c-uhf-menu > ul:hover {
-  background: rgba(0, 0, 0, 0.75);
-}
 .c-uhfh > [class*="theme-"] .c-uhf-menu > ul > li > a:hover,
+.context-uhf .theme-light,
 .c-uhfh > [class*="theme-"] .c-uhf-menu > ul > li > a:focus,
 .c-uhfh > [class*="theme-"] .c-uhf-menu > ul > li > button:hover,
 .c-uhfh > [class*="theme-"] .c-uhf-menu > ul > li > button:focus,
@@ -30,37 +14,212 @@
 .c-uhfh > [class*="theme-"] .c-uhf-menu > ul > li > ul {
   background: transparent;
 }
+header.context-uhf {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  top: 0;
+}
+.search-icon {
+  display: inline-block;
+  width: 16px;
+  position: relative;
+  left: -212px;
+  top: 15px;
+}
+.c-universal-header .c-uhf-menu > button:hover::before {
+  display: block;
+}
+.c-universal-header > div > div {
+  max-width: 1600px;
+}
+.c-universal-header .c-uhf-menu > button::before {
+  background: currentColor;
+  content: "";
+  display: none;
+  height: 2px;
+  position: absolute;
+}
+.c-universal-header > div:first-child .c-uhf-menu > button::before {
+  border: none;
+  width: 0;
+  bottom: 12px;
+  width: calc(50%) !important;
+}
+.c-universal-header > div:first-child .c-uhf-menu > button#windows-mixed-reality-menu-link {
+  padding-left: 0;
+}
+.c-universal-header > div:first-child .c-uhf-menu > button#windows-mixed-reality-menu-link::before {
+  width: 86% !important;
+}
+.c-search button:before {
+  content: "";
+  text-indent: 0px;
+  font-size: 16px;
+}
+@media only screen and (min-width: 1400px) {
+  .exp-9514823286 #search::after {
+    content: 'Search';
+    float: right;
+    position: relative;
+    top: -2px;
+    font-family: inherit;
+    font-size: 15px;
+  }
+  .exp-9514823286 #search::after {
+    font-size: 13px;
+    left: -4px;
+    top: 0;
+  }
+}
+.exp-menu-pad {
+  position: relative;
+}
+.exp-menu-pad > span {
+  width: 4px;
+  height: 4px;
+  background-color: #000;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.exp-menu-pad > span.exp-2 {
+  left: 6px;
+}
+.exp-menu-pad > span.exp-3 {
+  left: 12px;
+}
+.exp-menu-pad > span.exp-4 {
+  top: 6px;
+}
+.exp-menu-pad > span.exp-5 {
+  left: 6px;
+  top: 6px;
+}
+.exp-menu-pad > span.exp-6 {
+  left: 12px;
+  top: 6px;
+}
+.exp-menu-pad > span.exp-7 {
+  top: 12px;
+}
+.exp-menu-pad > span.exp-8 {
+  left: 6px;
+  top: 12px;
+}
+.exp-menu-pad > span.exp-9 {
+  left: 12px;
+  top: 12px;
+}
+.exp-menu-pad p {
+  display: inline-block !important;
+  font-size: 13px;
+  position: relative;
+  top: -2px;
+}
+.FUI {
+  margin-left: 20px;
+}
+.FUI span {
+  display: inline-block;
+  font-size: 13px;
+  position: relative;
+  top: -2px;
+  padding-left: 4px;
+}
+.nav-icons {
+  position: relative;
+  top: 17px;
+  float: right;
+}
+.nav-icons > span {
+  cursor: pointer;
+}
+@media only screen and (max-width: 1200px) {
+  .nav-icons > span > span {
+    display: none;
+  }
+  .nav-icons .exp-menu-pad {
+    padding-right: 20px;
+  }
+  .nav-icons .exp-menu-pad span {
+    display: inline-block;
+  }
+  .nav-icons .exp-menu-pad p {
+    display: none!important;
+  }
+}
+.nav-icons > span:hover > span,
+.exp-menu-pad:hover p {
+  text-decoration: underline;
+}
+#der-waffle {
+  display: inline-block;
+  height: 16px;
+  width: 20px;
+  margin-top: -2px;
+}
+#nav-menu {
+  font-size: 13px;
+  top: -2px;
+  position: relative;
+}
+#nav-menu:hover {
+  text-decoration: underline;
+}
+.exp-singlestack-v2 #uhfCatLogo,
+.exp-singlestack-v2 #windows-mixed-reality {
+  border: 1px solid transparent;
+  margin: 1px 0 1px 1px;
+  padding: 0 25px 0 6px;
+}
+.exp-singlestack-v2 #uhfCatLogo:hover::before,
+.exp-singlestack-v2 #windows-mixed-reality:hover::before {
+  width: calc(61%);
+  background: currentColor;
+  content: "";
+  display: none;
+  height: 2px;
+  position: absolute;
+}
+.exp-singlestack-v2 #uhfCatLogo span,
+.exp-singlestack-v2 #windows-mixed-reality span {
+  font-size: 13px;
+  line-height: 46px;
+}
+.exp-singlestack-v2 #uhfCatLogo::after,
+.exp-singlestack-v2 #windows-mixed-reality::after {
+  content: url('../assets/video/chev-1.svg');
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 10px;
+}
 .solid-waffle.b_video .js-global-head {
   background: transparent !important;
 }
 .solid-waffle.b_video .context-uhf {
   background-color: rgba(255, 255, 255, 0.75);
 }
-.c-uhf-menu button {
+.c-uhf-menu a {
+  position: relative;
   font-size: 13px;
-  padding: 13px 8px 13px 26px;
-}
-nav div:first-of-type button span {
-  font-weight: bold;
+  padding: 13px 8px 13px 16px;
 }
 nav .active-links {
   font-weight: 700;
 }
-.solid-waffle.b_video .js-global-head {
-  background: transparent !important;
-}
-.solid-waffle.b_video .context-uhf {
-  background: rgba(255, 255, 255, 0.75);
-}
 .minor-fade.b_video header.context-uhf {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.65)), to(transparent)) !important;
-  background: linear-gradient(rgba(255, 255, 255, 0.65), transparent) !important;
-  padding-bottom: 50px;
+  background: #ffffff !important;
 }
 .b_video .js-global-head {
   position: relative;
   height: 50px;
   padding: 0 5%;
+}
+.b_video .js-global-head #uhf-c-nav {
+  margin-top: 4px;
 }
 .b_video .js-global-head .c-logo {
   width: 137px;
@@ -72,9 +231,6 @@ nav .active-links {
 }
 .b_video .js-global-head .c-uhf-menu button::after {
   content: '';
-}
-.b_video .js-global-head .c-glyph.glyph-chevron-down::before {
-  font-size: 9px;
 }
 .b_video .js-global-head .nav-icons {
   float: right;
@@ -392,6 +548,12 @@ a.m-background-neutral-20 {
 #three_dark .m-content-placement-item p {
   color: #919191;
 }
+#three_dark .m-content-placement-item .c-list {
+  text-align: left;
+  margin: 0 auto;
+  max-width: 300px;
+  padding: 20px;
+}
 #three_dark .c-price {
   width: 60px;
   margin: 0 auto;
@@ -419,6 +581,9 @@ a.m-background-neutral-20 {
 #m-multi-tiles {
   padding-top: 100px;
 }
+#m-multi-tiles [role=tablist] li > a.f-active .c-image {
+  border: 1px solid #ffffff;
+}
 #m-multi-tiles ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -433,6 +598,7 @@ a.m-background-neutral-20 {
 }
 #m-multi-tiles > section > [role=tablist] a.f-active {
   text-decoration: underline;
+  outline: #fff solid 1px;
 }
 #m-multi-tiles > section > [role=tablist] li.li-active {
   padding-bottom: 4Px;

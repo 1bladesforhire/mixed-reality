@@ -4,9 +4,9 @@
     </div>
     <section data-grid="container">
         <ul role="tablist">
-            <li class="c-glyph" role="presentation">
-                    <a href="#" role="tab" class="c-logo" itemprop="url" aria-label="Item 13" aria-controls="newIconItemImage13 newIconItemContent13">
-                        <img itemprop="logo" class="c-image" src="assets/video/nav2.jpg" alt="Mail icon" itemscope itemtype="http://schema.org/ImageObject">
+            <li class="c-glyph" role="presentation" class="li-active" >
+                    <a href="#" role="tab" class="c-logo f-active" itemprop="url" aria-label="Item 13" aria-controls="newIconItemImage13 newIconItemContent13">
+                        <img itemprop="logo" class="c-image f-active" src="assets/video/nav2.jpg" alt="Mail icon" itemscope itemtype="http://schema.org/ImageObject">
                         <span>Skyworld</span>
                     </a>
                 </li>
@@ -39,7 +39,7 @@
             <li id="newIconItemContent13" role="tabpanel" class="f-active">
                 <h4 class="c-heading-10">VERTIGO GAMES</h4>
                     <h3 class="c-heading">Skyworld</h3>
-                    <p class="c-paragraph">Manage your economy, build and lead royal armies, rule dragons to restore your kingdom to glory. Battle the forces of evil as you conquer and reunite all Skyworlds in this turn-based strategy game that brings the beloved gameplay of strategy classics to VR.</p>
+                    <p class="c-paragraph">Battle the forces of evil as you conquer and reunite all Skyworlds in this turn-based strategy game that brings the beloved gameplay of strategy classics to VR.</p>
                 </li>
             <li id="newIconItemContent11" role="tabpanel" >
                 <!-- <h4 class="c-heading-10">Microsoft</h4> -->

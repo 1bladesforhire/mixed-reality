@@ -1,24 +1,226 @@
+//HEADER START
 #headerArea{
     position: absolute;
     width: 100%;
     top: 0;
     background: transparent;
     z-index: 10;
-
 }
 
-.c-uhfh>[class*="theme-"] .c-action-trigger, .c-uhfh>[class*="theme-"] .c-logo, #uhf-shopping-cart, .c-uhfh>[class*="theme-"] .c-uhf-nav-link, .c-uhfh>[class*="theme-"] .c-uhf-menu a, .c-uhfh>[class*="theme-"] .c-uhf-menu button, .c-uhfh>[class*="theme-"] .c-me:not(.msame_open) .msame_Header_name{
-    color: @white;
-}
-.c-uhfh>[class*="theme-"] .c-uhf-menu>button[aria-expanded="true"], .c-uhfh>[class*="theme-"] .c-uhf-menu>ul{
-    background: rgba(0,0,0,.75);
-    &:hover{
-        background: rgba(0,0,0,.75);
-    }
-}
-.c-uhfh>[class*="theme-"] .c-uhf-menu>ul>li>a:hover, .c-uhfh>[class*="theme-"] .c-uhf-menu>ul>li>a:focus, .c-uhfh>[class*="theme-"] .c-uhf-menu>ul>li>button:hover, .c-uhfh>[class*="theme-"] .c-uhf-menu>ul>li>button:focus, .c-uhfh>[class*="theme-"] .c-uhf-menu>ul>li>[aria-expanded="true"], .c-uhfh>[class*="theme-"] .c-uhf-menu>ul>li>ul{
+.c-uhfh>[class*="theme-"] .c-uhf-menu>ul>li>a:hover,.context-uhf .theme-light, .c-uhfh>[class*="theme-"] .c-uhf-menu>ul>li>a:focus, .c-uhfh>[class*="theme-"] .c-uhf-menu>ul>li>button:hover, .c-uhfh>[class*="theme-"] .c-uhf-menu>ul>li>button:focus, .c-uhfh>[class*="theme-"] .c-uhf-menu>ul>li>[aria-expanded="true"], .c-uhfh>[class*="theme-"] .c-uhf-menu>ul>li>ul{
     background: transparent;
 }
+
+//waffle menu fixes
+
+header.context-uhf {
+    position: absolute;
+    z-index: 2;
+    //background: linear-gradient(rgba(255,255,255,.65) 70%, transparent) !important;
+    width: 100%;
+    top: 0;
+}
+
+.search-icon {
+    display: inline-block;
+    width: 16px;
+    position: relative;
+    left: -212px;
+    top: 15px;
+}
+
+.c-universal-header {
+    .c-uhf-menu>button:hover::before {
+        display: block;
+    }
+    &>div>div {
+        max-width: 1600px;
+    }
+    .c-uhf-menu>button::before {
+        background: currentColor;
+        content: "";
+        display: none;
+        height: 2px;
+        position: absolute;
+    }
+    &>div:first-child {
+        .c-uhf-menu>button::before {
+            border: none;
+            width: 0;
+            bottom: 12px;
+            width: calc(100% - 50px) !important;
+        }
+        .c-uhf-menu>button#windows-mixed-reality-menu-link{
+            padding-left: 0;
+        }
+        .c-uhf-menu>button#windows-mixed-reality-menu-link::before{
+            width: 86% !important;
+        }   
+    }
+}
+.c-search button:before {
+    content: "";
+    text-indent: 0px;
+    font-size: 16px;
+}
+
+@media only screen and (min-width: 1400px) {
+    .exp-9514823286 #search::after {
+        content: 'Search';
+        float: right;
+        position: relative;
+        top: -2px;
+        font-family: inherit;
+        font-size: 15px;
+    }
+    .exp-9514823286 #search::after {
+        font-size: 13px;
+        left: -4px;
+        top: 0;
+    }
+}
+
+.exp-menu-pad {
+    position: relative;
+    &>span {
+        width: 4px;
+        height: 4px;
+        background-color: #000;
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    &>span.exp-2 {
+        left: 6px;
+    }
+    &>span.exp-3 {
+        left: 12px;
+    }
+    &>span.exp-4 {
+        top: 6px;
+    }
+    &>span.exp-5 {
+        left: 6px;
+        top: 6px;
+    }
+    &>span.exp-6 {
+        left: 12px;
+        top: 6px;
+    }
+    &>span.exp-7 {
+        top: 12px;
+    }
+    &>span.exp-8 {
+        left: 6px;
+        top: 12px;
+    }
+    &>span.exp-9 {
+        left: 12px;
+        top: 12px;
+    }
+    & p {
+        display: inline-block!important;
+        font-size: 13px;
+        position: relative;
+        top: -2px;
+    }
+}
+.FUI {
+    margin-left: 20px;
+    span {
+        display: inline-block;
+        font-size: 13px;
+        position: relative;
+        top: -2px;
+        padding-left: 4px;
+    }
+}
+
+.nav-icons {
+    position: relative;
+    top: 17px;
+    float: right;
+    &>span {
+    cursor: pointer;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .nav-icons > span > span {
+    display: none;
+    }
+    .nav-icons .exp-menu-pad {
+        span {
+            display:inline-block;
+            }
+        p {
+        display: none!important;
+        }
+    padding-right: 20px;
+    }
+}
+.nav-icons>span:hover>span,
+.exp-menu-pad:hover p {
+    text-decoration: underline;
+}
+
+#der-waffle {
+    display: inline-block;
+    height: 16px;
+    width: 20px;
+    margin-top: -2px;
+}
+
+#nav-menu {
+    font-size: 13px;
+    top: -2px;
+    position: relative;
+    &:hover {
+    text-decoration: underline;
+    }
+}
+
+// .glyph-chevron-right {
+//     font-size: 9px;
+//     font-weight: bold;
+
+// }
+// .glyph-chevron-right.first {
+//     position:relative;
+//     left: 7px;
+//     font-weight: 700;
+//     padding-left: 8px;
+// }
+// .glyph-chevron-right.second{
+//     font-weight: 700;
+//     padding-left:2px;
+// }
+.exp-singlestack-v2 #uhfCatLogo, .exp-singlestack-v2 #windows-mixed-reality{
+    border: 1px solid transparent;
+    margin: 1px 0 1px 1px;
+    padding: 0 25px 0 6px;
+    &:hover::before {
+        width: calc(100% - 39px);
+        background: currentColor;
+        content: "";
+        display: none;
+        height: 2px;
+        position: absolute;
+    }
+    span{
+        font-size: 13px;
+        line-height: 46px;
+    }
+    &::after{
+        content: url('../assets/video/chev-1.svg');
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 10px;
+    }
+}
+
+
 //header for macro version
 .solid-waffle.b_video{
     .js-global-head{
@@ -29,32 +231,30 @@
     }
 }
 
-.c-uhf-menu button {
+.c-uhf-menu a {
+    position: relative;
     font-size: 13px;
-    padding: 13px 8px 13px 26px;
-  }
-  nav div:first-of-type button span {
-    font-weight: bold;
-  }
+    padding: 13px 8px 13px 16px;
+    }
+
 nav .active-links{
     font-weight: 700;
 }
 
 
 //header for macro version
-.solid-waffle.b_video{
-    .js-global-head{
-        background: transparent !important;
-    }
-    .context-uhf{
-        background: rgba(255,255,255,.75);
-    }
-}
+// .solid-waffle.b_video{
+//     .js-global-head{
+//         background: transparent !important;
+//     }
+//     .context-uhf{
+//         background: rgba(255,255,255,.75);
+//     }
+// }
 
 //header for video version
 .minor-fade.b_video{
     header.context-uhf{
-        background: linear-gradient(rgba(255,255,255,.65), transparent) !important;
-        padding-bottom: 50px;
+        background: @white !important;
     }
 }

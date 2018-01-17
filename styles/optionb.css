@@ -4,7 +4,7 @@
   padding: 0 5%;
 }
 .b_video .js-global-head .c-logo {
-  width: 137px;
+  width: 187px;
   height: 96%;
   margin-top: 1px;
   padding: 13px 20px 14px 12px;
@@ -13,9 +13,6 @@
 }
 .b_video .js-global-head .c-uhf-menu button::after {
   content: '';
-}
-.b_video .js-global-head .c-glyph.glyph-chevron-down::before {
-  font-size: 9px;
 }
 .b_video .js-global-head .nav-icons {
   float: right;

@@ -1,8 +1,5 @@
 //Hero
 .m-immersive-hero{
-    &-item{
-        //height: 100vh;
-    }
     .c-price{
         margin-left: calc(~"50% - 28px");
         padding-top: 16px;
@@ -285,6 +282,12 @@ a.m-background-neutral-20{
         p{
             color: @dark-gray;
         }
+        .c-list{
+            text-align: left;
+            margin: 0 auto;
+            max-width: 300px;
+            padding: 20px;
+        }
       
     }
     .c-price{
@@ -317,11 +320,16 @@ a.m-background-neutral-20{
 
 //mutli feature tile
 #m-multi-tiles{
+
     padding-top: 100px;
+    [role=tablist] li>a.f-active .c-image {
+        border: 1px solid @white;
+    }
     ul{display: flex;}
     &>section>[role=tablist]{
         a.f-active{
             text-decoration: underline;
+            outline: #fff solid 1px;
         }
         z-index: 3;
         width: auto;

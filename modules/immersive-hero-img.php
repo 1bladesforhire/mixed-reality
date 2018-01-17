@@ -42,10 +42,11 @@
                     </div>
                     <p class="social"><a href="#" class="c-glyph f-heart">Favorite</a> <a href="#" class="c-glyph f-share"> Share</a></p>
                     <ul class="bullets">
-                        <li>Flip Visor means that you don’t have to remove the headset, just lift the visor up and engage with the real world again.</li>
-                        <li>Inside-Out Tracking automatically changes the perspective of the outside world without needing to install additional sensors in the room.</li>
-                        <li>Spatial audio lets you hear sounds from specific locations just like in the real world.​</li>
-                        <li>Windows Mixed Reality Headset Controllers included.</li>
+                        <li>Go from real to virtual with the convenient flip visor</li>
+                        <li>Built-in inside-out tracking—no external sensors required</li>
+                        <li>Six degrees of freedom (6DoF) gives you the space to explore new worlds</li>
+                        <li>Spatial audio delivers latency-free sounds in lifelike detail as you roam</li>
+                        <li>Includes motion controllers</li>
                     </ul>
                 </div>
             </div>

@@ -10,24 +10,24 @@
             <div role="tablist">
                 <a class="f-active" role="tab" tabindex="0" aria-controls="newRTBItemImage1 newRTBItemContent1">Motion controllers</a>
                 <a role="tab" aria-controls="newRTBItemImage2 newRTBItemContent2">Spatial audio</a>
-                <a role="tab" aria-controls="newRTBItemImage3 newRTBItemContent3">Interact with Cortana</a>
-                <a role="tab" aria-controls="newRTBItemImage4 newRTBItemContent4">Easy set-up &amp; portability</a>
+                <a role="tab" aria-controls="newRTBItemImage3 newRTBItemContent3">Hey, Cortana</a>
+                <a role="tab" aria-controls="newRTBItemImage4 newRTBItemContent4">Quick set-up</a>
             </div>
             <button class="c-flipper f-next" aria-hidden="true" tabindex="-1"></button>
             <section id="newRTBItemContent1" role="tabpanel" aria-hidden="false">
-                <p class="c-paragraph">In Windows Mixed Reality, your motion controllers are directly tracked by your headset sensors, so they’re more naturally responsive to your movements. </p>
+                <p class="c-paragraph">The included motion controllers are tracked by your built-in headset sensors for a more fluid, responsive experience as you move through your virtual spaces.</p>
             </section>
             <section id="newRTBItemContent2" role="tabpanel" aria-hidden="true">
-                <p class="c-paragraph">Spatial audio lets you hear sounds from specific locations just like in the real world, and your advanced motion controller makes it easy to move through virtual spaces. The combined effect is a sensation where your virtual and physical worlds are in perfect sync, free of latency or distortion, for a phenomenal sense of presence.</p>
+                <p class="c-paragraph">With 360 degrees of spatial sound, Windows Mixed Reality fills your virtual worlds with rich, immersive audio that’s detectable from every direction.</p>
                 
                 
             </section>
             <section id="newRTBItemContent3" role="tabpanel" aria-hidden="true">
-                <p class="c-paragraph">Chat with friends and foes alike with the only Mixed Reality headset to feature an integrated microphone array. Built directly into the headset, the array reduces noise so you can communicate clearly and even interact with Cortana.</p>
+                <p class="c-paragraph">From quick internet searches on the fly to making calls and sending text messages, the digital assistant responds to your voice as you traverse, build, and explore in mixed reality.</p>
                 
             </section>
             <section id="newRTBItemContent4" role="tabpanel" aria-hidden="true">
-                <p class="c-paragraph">Set-up and get started in 10 minutes. Inside-out tracking is built right into each headset - no external set-up required. Experience new worlds at home or anywhere you want. Wherever your devices go, Windows Mixed Reality follows. </p>
+                <p class="c-paragraph">With Windows Mixed Reality, there’s no hardware to install. Setup starts automatically and takes about ten minutes, making it one of the only virtual experiences made for a mobile world.</p>
                 
             </section>
         </div>
