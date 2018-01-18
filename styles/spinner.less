@@ -1,10 +1,3575 @@
-.spinner{
-    &.b_video{
-        section.c-pivot{
+.spinner {
+    &.b_video {
+        section.c-pivot {
             margin-top: 0;
         }
-        .buybox.v2{
+        .buybox.v2 {
             margin-bottom: 50px;
         }
     }
+}
+
+
+/* 360-slider Css */
+
+#view-all .windows-360slider .ui-state-default {
+    height: 4px;
+    width: 30px;
+    border-radius: 0px;
+    top: inherit !important;
+}
+
+#view-all .windows-360slider .ui-slider-horizontal .ui-slider-range-min {
+    display: none;
+}
+
+#view-all .windows-360slider .ui-widget-content {
+    border: 1px solid #FFFFFF;
+    background: rgba(0, 0, 0, 0.2);
+    color: #333333;
+}
+
+.view-all .Headsets .c-badge.f-small.f-highlight.no-badge,
+.view-all .MRDevices .c-badge.f-small.f-highlight.no-badge {
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.view-all .Headsets .windows-posterimage {
+    margin-top: 90px;
+}
+
+.view-all .Headsets .windows-360slider .windows-slider.ui-slider.ui-slider-horizontal.ui-widget.ui-widget-content.ui-corner-all {
+    width: 250px !important;
+}
+
+.view-all .Headsets .c-badge.f-small.f-highlight.no-badge, .en-us .view-all .Headsets .c-badge.f-small.f-highlight.no-badge {
+    display: block !important;
+}
+
+.view-all .windows-360slider .windows-slidercomp {
+    margin-top: -12px;
+}
+
+.windows-rotatebox p {
+    margin-bottom: 10px;
+}
+
+
+#view-all [data-item="Headsets"] .mscom-link.c-call-to-action.c-glyph.disabled-button {
+    text-decoration: none !important;
+    color: rgba(0, 0, 0, .6) !important;
+    background-color: transparent !important;
+    cursor: not-allowed;
+    display: inline-block !important;
+    padding-left: 0 !important;
+    border: none;
+}
+
+#view-all [data-item="Headsets"] .mscom-link.c-call-to-action.c-glyph.disabled-button:hover {
+    background: none !important;
+    color: rgba(0, 0, 0, .6) !important;
+}
+
+#view-all [data-item="Headsets"] .mscom-link.c-call-to-action.c-glyph.disabled-button:after {
+    content: none;
+}
+
+
+/*code to show glyph > and on focus making blue BG*/
+
+[data-item="Headsets"] p.c-group a.mscom-link.c-call-to-action.c-glyph:not(.ps-widget) {
+    background: #005da6 !important;
+    color: #FFFFFF !important;
+}
+
+#view-all .m-product-placement-item[data-item="Headsets"] p.c-group a.mscom-link.c-call-to-action.c-glyph:not(.ps-widget):after {
+    content: "î¬" !important;
+}
+
+
+#view-all .windows-sliderimages {
+    min-height: 250px
+}
+
+@media screen and (max-width:767px) {
+    #view-all.f-wmr-devices #resultblock {
+        padding-top: 56px !important;
+    }
+}
+
+#view-all section,
+#view-all div {
+    outline: none !important;
+}
+
+
+
+
+
+@keyframes test {
+    0% {
+        -webkit-transform: translate(10px, 0%);
+        transform: translate(10px, 0%)
+    }
+    100% {
+        -webkit-transform: translate(0, 0%);
+        transform: translate(0, 0%)
+    }
+}
+
+@-webkit-keyframes test {
+    0% {
+        -webkit-transform: translate(-10px, 0%);
+        transform: translate(-10px, 0%)
+    }
+    100% {
+        -webkit-transform: translate(0, 0%);
+        transform: translate(0, 0%)
+    }
+}
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1399px) {
+    .fr-fr #atl-Windows #atl-hero-banner-desktop div[data-vg='windows-mwf-atl-cle-1-hero-banner-VG'] p.c-subheading-1,
+    .de-de #atl-Windows #atl-hero-banner-desktop div[data-vg='windows-mwf-atl-cle-1-hero-banner-VG'] p.c-subheading-1 {
+        font-size: 28px !important;
+        padding-bottom: 11px;
+    }
+}
+
+@media screen and (min-width: 540px) and (max-width: 1083px) {
+    #atl-Windows.atl-offer-pcs .cle-360slider .cle-slidercomp {
+        margin-bottom: 30px !important;
+    }
+}
+
+@media screen and (max-width: 1083px) {
+    #atl-Windows .cle-360slider .cle-slider.ui-slider.ui-slider-horizontal.ui-widget.ui-widget-content.ui-corner-all {
+        width: 90%;
+    }
+    #atl-fifty-panel .retailer-batch {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    #atl-mosaic .c-feature.f-align-left>div {
+        padding-bottom: 20px !important;
+    }
+}
+
+    
+#sliderone-v1 div.cle-all-images,
+#slidertwo-v2 div.cle-all-images {
+    display: none;
+}
+
+.windows-360slider .windows-rotatebox .windows-sliderimages {
+    height: 300px;
+    position: relative;
+}
+
+.windows-360slider .windows-rotatebox .windows-posterimage img {
+    width: 100%;
+}
+
+.windows-360slider .windows-viewportimages {
+    display: none;
+}
+
+.windows-360slider .ui-slider {
+    position: relative;
+    text-align: left;
+}
+
+.windows-360slider .windows-slidercomp {
+    position: relative;
+    display: none;
+}
+
+.windows-360slider .ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+}
+
+.windows-360slider .ui-slider .ui-slider-range {
+    position: absolute;
+    z-index: 1;
+}
+
+
+/* For IE8 - See #6727 */
+
+.windows-360slider .ui-slider.ui-state-disabled .ui-slider-handle,
+.windows-360slider .ui-slider.ui-state-disabled .ui-slider-range {
+    filter: inherit;
+}
+
+.windows-360slider .ui-slider-horizontal .ui-slider-handle {
+    top: -10px;
+    margin-left: -.5em;
+}
+
+.windows-360slider .ui-slider-horizontal .ui-slider-range {
+    top: 0;
+    height: 100%;
+}
+
+.windows-360slider .ui-slider-horizontal .ui-slider-range-min {
+    left: 0;
+}
+
+.windows-360slider .ui-slider-horizontal .ui-slider-range-max {
+    right: 0;
+}
+
+.windows-360slider .ui-slider-vertical {
+    width: .8em;
+    height: 100px;
+}
+
+.windows-360slider .ui-slider-vertical .ui-slider-handle {
+    left: -.3em;
+    margin-left: 0;
+    margin-bottom: -.6em;
+}
+
+.windows-360slider .ui-slider-vertical .ui-slider-range {
+    left: 0;
+    width: 100%;
+}
+
+.windows-360slider .ui-slider-vertical .ui-slider-range-min {
+    bottom: 0;
+}
+
+.windows-360slider .ui-slider-vertical .ui-slider-range-max {
+    top: 0;
+}
+
+
+/* Component containers
+----------------------------------*/
+
+.windows-360slider .ui-widget-content {
+    border: 1px solid #dddddd;
+    background: rgba(0, 0, 0, 0.4);
+    color: #333333;
+}
+
+.windows-360slider .ui-widget-content a {
+    color: #333333;
+}
+
+.windows-360slider .ui-widget-header {
+    border: 1px solid #e78f08;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.windows-360slider .ui-widget-header a {
+    color: #ffffff;
+}
+
+.windows-360slider .windows-slider {
+    position: relative;
+}
+
+.windows-360slider .ui-widget-header {
+    border: 1px solid #aaaaaa;
+    background: #0078d7 50% 50% repeat-x;
+    height: 4px;
+}
+
+.windows-360slider .ui-slider-horizontal .ui-slider-range {
+    top: -13px;
+    height: 100%;
+}
+
+.windows-360slider .ui-slider-horizontal .ui-slider-range-min {
+    left: 0;
+    width: 48.45%;
+}
+
+.windows-360slider .ui-slider-horizontal .ui-slider-range-max {
+    right: 0;
+}
+
+
+/* .windows-360slider .ui-slider-handle.ui-state-active,.windows-360slider .ui-slider-handle.ui-state-focus,.windows-360slider .ui-slider-handle.ui-state-hover { background: #0078d7; border:1px solid #0078d7;}
+*/
+
+.windows-360slider .ui-slider-handle {
+    left: 48.455%;
+}
+
+.windows-360slider .windows-slider div {
+    margin-top: 12px;
+    border-radius: 6px;
+}
+
+.windows-360slider .ui-state-default {
+    height: 24px;
+    width: 8px;
+    background: #0078D7;
+    border: 0;
+    padding: 0;
+    border-radius: 4px;
+    outline: none;
+    /*-webkit-appearance: button;*/
+    cursor: pointer;
+}
+
+.windows-360slider .ui-state-default:active {
+    background: #004881;
+}
+
+.windows-360slider .ui-state-default:focus {
+    outline: 1px dashed #000;
+}
+
+.windows-360slider .ui-state-default:hover {
+    background: #000;
+}
+
+.windows-360slider .windows-slider div span {
+    border-radius: 6px 0px 0px 6px;
+}
+
+.windows-360slider .windows-rotatebox .windows-sliderimages {
+    display: none;
+}
+
+.windows-360slider .windows-rotatebox .windows-sliderimages,
+.windows-360slider .windows-slidercomp {
+    position: relative;
+    margin-top: 12px;
+}
+
+.windows-360slider .windows-rotatebox .windows-sliderimages,
+.windows-360slider .windows-slidercomp .c-slider {
+    margin: 0 auto;
+}
+
+.windows-360slider .windows-slider.ui-slider.ui-slider-horizontal.ui-widget.ui-widget-content.ui-corner-all {
+    width: 296px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 6px;
+}
+
+.windows-360slider .ui-slider-handle span {
+    display: none;
+    position: absolute;
+    min-width: 36px;
+    height: 36px;
+    text-align: center;
+    top: -40px;
+    left: 4px;
+    padding: 8px 8px 10px;
+    background: #e6e6e6;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border: none;
+}
+
+.windows-360slider .ui-slider-handle.ui-state-active span {
+    display: block;
+}
+
+.windows-360slider .ui-slider-horizontal .ui-slider-range-min {
+    background: #0078D7;
+    background-position: 0 0;
+    height: 6px;
+}
+
+.c-feature.f-align-right .windows-360slider {
+    width: 65%;
+    float: left;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1083px) {
+    .c-feature.f-align-right .windows-360slider {
+        width: 100%;
+        float: none;
+    }
+}
+
+
+/*cle-start*/
+
+.cle-360slider .cle-rotatebox .cle-sliderimages {
+    position: relative;
+}
+
+.cle-360slider .cle-rotatebox .cle-posterimage img {
+    width: 100%;
+}
+
+.cle-360slider .cle-viewportimages {
+    display: none;
+}
+
+.cle-360slider .ui-slider {
+    position: relative;
+    text-align: left;
+}
+
+.cle-360slider .cle-slidercomp {
+    position: relative;
+}
+
+.cle-360slider .ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    /*width: 9px;
+height: 25px;
+            cursor: default;*/
+}
+
+.cle-360slider .ui-slider .ui-slider-range {
+    position: absolute;
+    z-index: 1;
+}
+
+
+/* For IE8 - See #6727 */
+
+.cle-360slider .ui-slider.ui-state-disabled .ui-slider-handle,
+.cle-360slider .ui-slider.ui-state-disabled .ui-slider-range {
+    filter: inherit;
+}
+
+.cle-360slider .ui-slider-horizontal .ui-slider-handle {
+    top: -10px;
+    margin-left: -.5em;
+}
+
+.cle-360slider .ui-slider-horizontal .ui-slider-range {
+    top: 0;
+    height: 100%;
+}
+
+.cle-360slider .ui-slider-horizontal .ui-slider-range-min {
+    left: 0;
+}
+
+.cle-360slider .ui-slider-horizontal .ui-slider-range-max {
+    right: 0;
+}
+
+.cle-360slider .ui-slider-vertical {
+    width: .8em;
+    height: 100px;
+}
+
+.cle-360slider .ui-slider-vertical .ui-slider-handle {
+    left: -.3em;
+    margin-left: 0;
+    margin-bottom: -.6em;
+}
+
+.cle-360slider .ui-slider-vertical .ui-slider-range {
+    left: 0;
+    width: 100%;
+}
+
+.cle-360slider .ui-slider-vertical .ui-slider-range-min {
+    bottom: 0;
+}
+
+.cle-360slider .ui-slider-vertical .ui-slider-range-max {
+    top: 0;
+}
+
+
+/* Component containers
+----------------------------------*/
+
+.cle-360slider .ui-widget-content {
+    border: 1px solid #dddddd;
+    background: rgba(0, 0, 0, 0.4);
+    color: #333333;
+}
+
+.cle-360slider .ui-widget-content a {
+    color: #333333;
+}
+
+.cle-360slider .ui-widget-header {
+    border: 1px solid #e78f08;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.cle-360slider .ui-widget-header a {
+    color: #ffffff;
+}
+
+.cle-360slider .cle-slider {
+    position: relative;
+}
+
+.cle-360slider .ui-widget-header {
+    border: 1px solid #aaaaaa;
+    background: #0078d7 50% 50% repeat-x;
+    height: 4px;
+}
+
+.cle-360slider .ui-slider-horizontal .ui-slider-range {
+    top: -13px;
+    height: 100%;
+}
+
+.cle-360slider .ui-slider-horizontal .ui-slider-range-min {
+    left: 0;
+}
+
+.cle-360slider .ui-slider-horizontal .ui-slider-range-max {
+    right: 0;
+}
+
+
+/* .cle-360slider .ui-slider-handle.ui-state-active,.cle-360slider .ui-slider-handle.ui-state-focus,.cle-360slider .ui-slider-handle.ui-state-hover { background: #0078d7; border:1px solid #0078d7;}
+*/
+
+.cle-360slider .ui-slider-handle {
+    left: 48.455%;
+}
+
+.cle-360slider .cle-slider div {
+    margin-top: 12px;
+    border-radius: 6px;
+}
+
+.cle-360slider .ui-state-default {
+    height: 24px;
+    width: 8px;
+    background: #0078D7;
+    border: 0;
+    padding: 0;
+    border-radius: 4px;
+    outline: none;
+    /*-webkit-appearance: button;*/
+    cursor: pointer;
+}
+
+.cle-360slider .ui-state-default:active {
+    background: #004881;
+}
+
+.cle-360slider .ui-state-default:focus {
+    outline: 1px dashed #000;
+}
+
+.cle-360slider .ui-state-default:hover {
+    background: #000;
+}
+
+.cle-360slider .cle-slider div span {
+    border-radius: 6px 0px 0px 6px;
+}
+
+.cle-360slider .cle-rotatebox .cle-sliderimages {
+    position: relative;
+    margin-top: 12px;
+}
+
+.cle-360slider .cle-slidercomp {
+    position: relative;
+    margin-top: 40px;
+}
+
+.cle-360slider .cle-rotatebox .cle-sliderimages,
+.cle-360slider .cle-slidercomp .c-slider {
+    margin: 0 auto;
+}
+
+.cle-360slider .cle-slider.ui-slider.ui-slider-horizontal.ui-widget.ui-widget-content.ui-corner-all {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 6px;
+}
+
+.cle-360slider .ui-slider-handle span {
+    display: none;
+    position: absolute;
+    min-width: 36px;
+    height: 36px;
+    text-align: center;
+    top: -40px;
+    left: 4px;
+    padding: 8px 8px 10px;
+    background: #e6e6e6;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border: none;
+}
+
+.cle-360slider .ui-slider-handle.ui-state-active span {
+    display: block;
+}
+
+.cle-360slider .ui-slider-horizontal .ui-slider-range-min {
+    background: #0078D7;
+    background-position: 0 0;
+    height: 6px;
+}
+
+.c-feature.f-align-right .cle-360slider {
+    width: 65%;
+    float: left;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1083px) {
+    .c-feature.f-align-right .cle-360slider {
+        width: 100%;
+        float: none;
+    }
+}
+
+
+/* Mixed Reality page start */
+
+#Mixed-Reality .windows-360slider .ui-state-default {
+    height: 4px;
+    width: 30px;
+    border-radius: 0px;
+    top: inherit !important;
+}
+
+#Mixed-Reality .windows-360slider .ui-slider-horizontal .ui-slider-range-min {
+    display: none;
+}
+
+#Mixed-Reality .windows-360slider .ui-widget-content {
+    border: 1px solid #FFFFFF;
+    background: rgba(0, 0, 0, 0.2);
+    color: #333333;
+}
+
+#Mixed-Reality .m-feature .c-list li {
+    padding: 4px 0 !important;
+}
+
+@media only screen and (min-width: 1084px) {
+    #setup .youtubevidplayer {
+        width: 65%;
+        float: right;
+    }
+    #setup .youtubevidplayer .youtubevidplayer-posterimagewrap>picture {
+        width: 100%;
+    }
+}
+
+#Mixed-Reality li.expanded section.m-content-placement-item.content {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 12px;
+    margin-left: 48px;
+}
+
+#Mixed-Reality #windows-mixed-15-product-placement .m-product-placement-item .c-heading-6 {
+    padding-top: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 1083px) {
+    #Mixed-Reality #Horizontal-acc h2.c-heading-3 {
+        margin-bottom: 7vw;
+    }
+    #features #continue [data-grid="col-6"] {
+        padding-top: 30px;
+    }
+}
+
+
+/* Mixed Reality page end */
+
+
+/*#video-priority-1 .youtubevidplayer a.mscom-link.c-glyph.glyph-play {
+      top: 50%;
+      left: 69%;
+      transform: translate(-50%,-50%);
+      -webkit-transform: translate(-50%,-50%);
+      -moz-transform: translate(-50%,-50%);
+      -o-transform: translate(-50%,-50%);
+      position: absolute;
+      z-index: 99;
+      font-size: 40px;
+      color: #FFFFFF;
+      background: rgba(0,0,0,0.4);
+      border-radius: 100%;
+      padding: 5px 10px 1px 13px;
+  }*/
+
+
+/*Features page CSS start*/
+
+.en-us #features #videoplayerpopup .mscom-link.c-glyph.glyph-play {
+    left: 50%;
+}
+
+#features #two-up-panel-1 .m-content-placement-item img,
+#features #two-up-panel-2 .m-content-placement-item img {
+    margin: 0 auto;
+}
+
+
+/*#features #painted-border-bg-panel{
+      position: relative;
+  }
+  #features #painted-border-bg-panel > img{
+      width: 100%;
+  }
+  #features #painted-border-bg-panel .video-popup-banner-container{
+      position: absolute;
+      top: 0;
+  }
+  #features #painted-border-bg-panel [data-vg="windows-features-7-popupvideo-VG"] .youtubevidplayer-posterimagewrap img{
+      -moz-box-shadow: 10px 10px 50px #ccc;
+      -webkit-box-shadow: 10px 10px 50px #ccc;
+      box-shadow: 10px 30px 50px #9e9e9e;
+  }*/
+
+#features-24-banner,
+#features #features-17-imagepriority,
+#features #features-10-Image,
+#features #features-9-banner,
+#features #features-19-3content-placement,
+#features #features-13-banner,
+#features #features-16-imagepriority {
+    background: #fff;
+}
+
+
+/*End of Features page CSS*/
+
+.fortest .parallaxarea .plxbgImg {
+    transform: translateY(-128.507px) !important;
+}
+
+#Mixed-Reality #windows-mixed-reality-13-product-placement .c-badge {
+    background: #FFFFFF;
+    color: #0067B8;
+    border: 1px solid #0067B8;
+    height: 20px;
+}
+
+#Mixed-Reality #updates .m-content-placement div[data-grid='col-6']:nth-child(2) .m-content-placement-item:hover a {
+    text-decoration: none !important;
+}
+
+#Mixed-Reality #sizzle .c-video button {
+    background-color: #767676;
+}
+
+#Mixed-Reality .mscom-popup .mscom-popup-container {
+    z-index: 50000000 !important;
+}
+
+.m-product-placement-item[data-item=MRDevices] .c-badge {
+    display: inline-block !important;
+    text-transform: uppercase;
+}
+
+
+/*#Mixed-Reality #mwf-common-prefooter .c-hyperlink{
+  font-weight:400;
+  }*/
+
+#Mixed-Reality #mwf-common-prefooter .c-hyperlink:hover {
+    text-decoration: underline;
+}
+
+#Mixed-Reality #headsetscarousel {
+    outline: none;
+}
+
+
+/*MR page button hover issue*/
+
+#Mixed-Reality .m-product-placement-item .surface-bg-cta-blue:hover {
+    color: #ffffff !important;
+}
+
+#Mixed-Reality .m-product-placement .c-carousel a.c-call-to-action.c-glyph.surface-bg-cta-blue {
+    margin-top: 0;
+}
+
+#Mixed-Reality .m-product-placement .c-carousel ul li,
+#Mixed-Reality .m-product-placement .c-carousel ul li span.c-tooltip {
+    white-space: normal;
+}
+
+#Mixed-Reality .m-product-placement .c-carousel ul li {
+    z-index: auto;
+}
+
+
+/*for now hided the headset icon, but need to remove*/
+
+
+/*#Mixed-Reality #windows-mixed-reality-carousel-1 .iconimagesheading .headseticon{
+      display: none !important;
+  }*/
+
+
+/*removing the inactive icons from product placement panel*/
+
+#Mixed-Reality .m-product-placement-item .iconimagesheading li.svgimg {
+    display: none!important
+}
+
+#Mixed-Reality .m-product-placement-item .iconimagesheading li.svgimg.active {
+    display: inline-block!important
+}
+
+#Mixed-Reality .m-product-placement-item .iconimagesheading li.svgimg.active>a:hover {
+    cursor: pointer !important;
+}
+
+#windows-mixed-reality-feature-imagepriority .c-hyperlink {
+    font-weight: normal;
+}
+
+#windows-mixed-reality-feature-imagepriority p.c-paragraph-2 {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#view-all a.disabled-button,
+#windows-mixed-reality-carousel-2 .disabled-cta,
+#Mixed-Reality a.disabled-button {
+    text-decoration: none !important;
+    color: rgba(0, 0, 0, .6) !important;
+    background-color: transparent !important;
+    cursor: not-allowed;
+    display: inline-block !important;
+    padding-left: 0 !important;
+    border: none;
+    outline: none !important;
+}
+
+#Mixed-Reality #windows-mixed-reality-carousel-2 .m-product-placement-item .surface-bg-cta-blue.disabled-cta:after {
+    color: rgba(0, 0, 0, .6) !important;
+    content: "î¬" ! important;
+}
+
+#view-all .disabled-button:focus,
+#view-all .disabled-button:hover,
+#Mixed-Reality #windows-mixed-reality-carousel-2 .m-product-placement-item .surface-bg-cta-blue.disabled-cta:hover,
+#Mixed-Reality #windows-mixed-reality-carousel-2 .m-product-placement-item .surface-bg-cta-blue.disabled-cta:focus,
+#Mixed-Reality .disabled-button:focus,
+#Mixed-Reality .disabled-button:hover {
+    color: rgba(0, 0, 0, .6) !important;
+    background-color: transparent !important;
+    border: none !important;
+    outline: none !important;
+}
+
+#view-all .disabled-button:focus span,
+#view-all .disabled-button:hover span,
+#Mixed-Reality #windows-mixed-reality-carousel-2 .m-product-placement-item .surface-bg-cta-blue.disabled-cta:hover span,
+#Mixed-Reality #windows-mixed-reality-carousel-2 .m-product-placement-item .surface-bg-cta-blue.disabled-cta:focus span,
+#Mixed-Reality .disabled-button:focus span,
+#Mixed-Reality .disabled-button:hover span {
+    text-decoration: none !important;
+    color: rgba(0, 0, 0, .6) !important;
+    border: none !important;
+    outline: none !important;
+}
+
+#view-all .disabled-button:after,
+#Mixed-Reality .disabled-button:after {
+    content: ""!important;
+}
+
+#view-all #Results-div .disabled-button {
+    font-weight: bold;
+}
+
+#Mixed-Reality #windows-mixed-reality-carousel-1 .m-product-placement-item span.c-badge.f-small.f-highlight {
+    background: #FFFFFF;
+    color: #0067B8;
+    border: 1px solid #0067B8;
+}
+
+#Mixed-Reality #windows-mixed-reality-carousel-1 .m-product-placement-item span.c-badge.no-badge {
+    background: none !important;
+    border: none !important;
+}
+
+#Mixed-Reality #windows-mixed-reality-3content-1 .popup-video-trigger.glyph-play {
+    display: none;
+}
+
+#Mixed-Reality #windows-mixed-reality-3content-1 .m-content-placement-item img.c-image,
+#Mixed-Reality #windows-mixed-reality-3content-2 .m-content-placement-item img.c-image {
+    margin: 0 auto;
+}
+
+#Mixed-Reality .m-product-placement-item .c-badge {
+    height: 20px
+}
+
+#Mixed-Reality .m-product-placement-item .c-badge {
+    height: 20px
+}
+
+
+/*
+  #Mixed-Reality .m-product-placement-item  .f-default-image{
+      display: inline-block;
+  }
+  */
+
+
+/*Start email notification */
+
+div#mixed-reality-windows-modal.c-dialog.f-lightbox [role=dialog] {
+    background: #FFFFFF !important;
+    padding: 20px;
+    width: 600px;
+}
+
+@media screen and (max-width: 1083px) {
+    /* div#mixed-reality-windows-modal.c-dialog.f-lightbox [role=dialog]{
+       background: #FFFFFF !important;
+      padding: 10px;
+      width: 100%;
+      }*/
+}
+
+@media screen and (max-width: 768px) {
+    div#mixed-reality-windows-modal.c-dialog.f-lightbox>[role=presentation]+button.c-glyph:before {
+        width: 20px;
+        height: 20px;
+        font-size: 20px;
+    }
+    div#mixed-reality-windows-modal.c-dialog.f-lightbox .c-glyph.glyph-cancel {
+        font-size: inherit;
+        height: 20px !important;
+        width: 20px !important;
+    }
+    div#mixed-reality-windows-modal.c-dialog.f-lightbox [role="document"] .c-heading-2 {
+        font-size: 24px !important;
+        line-height: 28px;
+        padding: 4px 0 4px;
+        font-weight: 200;
+    }
+    div#mixed-reality-windows-modal.c-dialog.f-lightbox [role=dialog] {
+        padding: 8px;
+    }
+    div#mixed-reality-windows-modal.c-dialog.f-lightbox [role=dialog] {
+        width: 90%;
+        margin: 0 auto;
+        height: 75%;
+    }
+}
+
+@media screen and (min-width: 540px) and (max-width: 768px) {
+    div#mixed-reality-windows-modal.c-dialog.f-lightbox [role=dialog] [role=document] iframe {
+        min-height: inherit !important;
+    }
+}
+
+div#mixed-reality-windows-modal.c-dialog.f-lightbox [role=dialog] iframe {
+    min-height: 350px !important;
+    width: 100%;
+    border: none!important;
+    outline: none!important;
+}
+
+#windows-mixed-15-product-placement .m-product-placement-item .c-badge {
+    display: none;
+}
+
+.en-us #windows-mixed-15-product-placement .m-product-placement-item .c-badge {
+    display: inline-block;
+}
+
+[data-item="Headsets"] .c-badge {
+    background-color: #FFD800 !important;
+    color: #000 !important;
+    border: none !important;
+}
+
+[data-item="Headsets"] .c-badge:not(.no-badge)+h3 {
+    padding-top: 20px !important;
+}
+
+[data-item="Headsets"] .iconimagesheading {
+    display: none !important;
+}
+
+#windows-mixed-15-product-placement .windows-360slider .windows-slidercomp {
+    margin-top: -12px;
+}
+
+#windows-mixed-15-product-placement .windows-rotatebox p {
+    margin-bottom: 20px;
+}
+
+
+/*End email notification*/
+
+[data-vg='windows-mwf-rd-hero-video-carousel-VG1'] .c-carousel h1,
+[data-vg='mwf-hbi-rd-hero-video-carousel-EN-US-VG1'] .c-carousel h1 {
+    padding-top: 0px !important;
+}
+
+#Mixed-Reality .m-product-placement-item .svgimg {
+    height: 24px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#Mixed-Reality .m-product-placement-item .iconimagesheading .svgimg img.mscom-image {
+    width: 24px;
+    height: 24px;
+}
+
+
+/*Removal of background colour for disabled price spider Button */
+
+.c-call-to-action.ps-widget.ps-disabled:focus,
+.c-call-to-action.ps-widget.ps-disabled:hover {
+    background: none !important;
+}
+
+#Mixed-Reality #windows-mixed-reality-table .c-table {
+    width: 100%;
+}
+
+#Mixed-Reality #windows-mixed-15-product-placement .windows-360slider .windows-slider.ui-slider.ui-slider-horizontal.ui-widget.ui-widget-content.ui-corner-all {
+    width: 250px !important;
+}
+
+#Mixed-Reality .c-carousel .m-product-placement-item .windows-posterimage {
+    margin-top: 90px !important;
+}
+
+#Mixed-Reality #windows-mixed-15-product-placement .m-product-placement-item .c-call-to-action.c-glyph:hover {
+    color: white!important;
+}
+
+[data-vg="windows-MR-mwf-15-product-placement-VG"] a.c-call-to-action.c-glyph:focus:not(.disabled-button) {
+    color: #FFFFFF !important;
+}
+
+.fr-ca #mixed-reality-windows-modal [role="dialog"] .c-heading-2 {
+    font-size: 34px;
+    line-height: 40px;
+    padding: 0 2px;
+    font-weight: 100;
+}
+
+#features .youtube-video-popup-icon a.c-glyph.glyph-play,
+#features .youtube-video-popup-icon a.mscom-link.c-glyph.glyph-play {
+    position: absolute;
+    background: rgba(0, 0, 0, .6) !important;
+    border: transparent;
+    border-radius: 50%;
+    margin: 0;
+    height: 48px;
+    width: 48px;
+    padding: 0;
+}
+
+#features .youtube-video-popup-icon a.c-glyph.glyph-play:before {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: calc(50% - 10px);
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    content: "î¨";
+    font-weight: normal;
+    margin: 0px;
+}
+
+#features .content-placement-media-container picture img {
+    width: 100%;
+}
+
+@media (min-width: 1084px) {
+    #features #ink .m-feature .youtubevidplayer {
+        width: 50%;
+    }
+}
+
+#features #features-20-4content-placement .m-content-placement-item .c-call-to-action {
+    margin-right: 0px;
+}
+
+#Mixed-Reality #windows-mixed-15-product-placement .windows-360slider .windows-slider.ui-slider.ui-slider-horizontal.ui-widget.ui-widget-content.ui-corner-all {
+    width: 250px !important;
+}
+
+@media screen and (max-width:1083px) {
+    #windows-3d #video-priority-1 #videoplayerpopup a.mscom-link.c-glyph.glyph-play {
+        left: 50% !important;
+    }
+}
+
+@media screen and (min-width:1084px) {
+    #windows-3d #video-priority-1 #videoplayerpopup a.mscom-link.c-glyph.glyph-play {
+        left: 67.5% !important;
+    }
+}
+
+#Mixed-Reality .c-carousel .m-product-placement-item .windows-posterimage {
+    margin-top: 90px !important;
+}
+
+
+/*For immersive panel to float content right */
+
+#features .custom-immersive-panel .immersive-content .m-banner {
+    float: right;
+}
+
+
+/*For Panel below parallax to remove background */
+
+#features #edge {
+    background: #fff;
+}
+
+
+/*Hide badge if no content */
+
+#features .no-badge {
+    visibility: hidden;
+}
+
+#features .mobileonlylink {
+    display: none !important;
+}
+
+@media (max-width: 768px) {
+    #features .mobileonlylink {
+        display: block !important;
+    }
+}
+
+
+/*Features page parallax CSS*/
+
+#features #gaming .parallax-container .c-heading-2 {
+    padding: 38px 0 2px !important;
+}
+
+
+/*html{
+      overflow: hidden;
+      height: 100%;    
+  }*/
+
+body {
+    overflow-x: hidden;
+}
+
+#features #gaming .parallax-container {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 50px;
+}
+
+#features #gaming .parallax-copy-container {
+    background: #000000;
+    padding: 32px 28px;
+    color: #fff;
+}
+
+#features #gaming .parallax-copy-container .mscom-link.c-call-to-action.c-glyph {
+    color: #0078D7;
+}
+
+
+/*
+  @media (min-width: 1084px) {
+      #features #gaming .parallax-bg {
+          z-index: -1;
+          display: block;
+          background-position: center;
+         background-attachment: fixed;
+          height: 1500px;
+          background-repeat: no-repeat;
+          top: 0 !important;
+          right: 0 !important;
+          bottom: 0 !important;
+          left: 0 !important;
+          position: absolute;
+      }
+  }
+  */
+
+#features #gaming .parallax-container {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 767px) {
+    #features #gaming .parallax-container {
+        background-image: url(https://c.s-microsoft.com/en-us/CMSImages/Windows_Features_Overview_539_XboxGamesBG_img.jpg?version=ad925ed0-cd03-2c72-50ec-f1d836398d60) !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1083px) {
+    #features #gaming .parallax-container {
+        background-image: url(https://c.s-microsoft.com/en-us/CMSImages/Windows_Features_Overview_1083_XboxGamesBG_img.jpg?version=3dada50a-c2c6-b7c5-86cc-44d058f7b2a6) !important;
+    }
+}
+
+@media screen and (min-width: 1084px) {
+    #features #gaming .parallax-container {
+        background-image: url(https://c.s-microsoft.com/en-us/CMSImages/Windows_Features_Overview_1920_XboxGamesBG_img.jpg?version=5c6f7faa-06d0-978f-429a-3d0ae2c84f86) !important;
+    }
+    /*#setup .c-feature img{
+          display:none;
+      }*/
+    #setup .c-feature video {
+        display: block;
+    }
+}
+
+
+/*Features page parallax CSS END*/
+
+
+/*Features page immersive CSS START*/
+
+#features #wmr picture.c-video img {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    #features #wmr .content-holder {
+        margin: -25% auto 0 auto;
+    }
+    #features #wmr .content-holder img {
+        margin: 0 auto;
+    }
+    #features #wmr .m-highlight-feature picture {
+        z-index: -1;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #features #wmr .content-holder .vr-image-icon img {
+        position: absolute;
+        bottom: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #features #wmr .content {
+        position: relative;
+        top: 20px;
+    }
+    #features #wmr .vr-image-icon img {
+        width: 75%;
+    }
+    #features #wmr .m-highlight-feature>div {
+        height: 300px;
+    }
+    #features #wmr .c-badge.f-highlight {
+        margin: 0 auto;
+    }
+    #features #wmr .content-holder {
+        position: relative;
+    }
+    #features #wmr .m-highlight-feature.f-align-right>div {
+        transform: translateY(-45%);
+        margin: 0 24px;
+        padding: 0 15px;
+    }
+    #features #wmr .mscom-link.c-call-to-action.c-glyph {
+        padding-right: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 1083px) {
+    #features #wmr picture.c-video video {
+        display: none;
+    }
+    #features #wmr picture.c-video img {
+        display: block;
+    }
+}
+
+
+/*Features page Immersive CSS END*/
+
+@media only screen and (min-width: 1084px) {
+    #pptpanel .youtubevidplayer {
+        width: 65%;
+        float: right;
+    }
+    #pptpanel .youtubevidplayer .youtubevidplayer-posterimagewrap>picture {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1084px) {
+    #edge .c-video+picture img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1083px) {
+    #edge .c-video {
+        display: none;
+    }
+    #setup .c-feature img {
+        display: block;
+    }
+    #setup .c-feature video {
+        display: none;
+    }
+}
+
+#features .youtube-video-popup-icon a.c-glyph.glyph-play,
+#features .youtube-video-popup-icon a.mscom-link.c-glyph.glyph-play {
+    background: rgba(0, 0, 0, 0.6) !important;
+    font-size: 26px;
+}
+
+#storelocator {
+    outline: none;
+}
+
+.storemap {
+    text-align: right;
+    padding-right: 1%;
+    padding-bottom: 10px;
+}
+
+#storelocator .mappopup {
+    padding-left: 2%;
+    padding-bottom: 2%;
+}
+
+#storelocator .mappopup h3 {
+    vertical-align: middle;
+}
+
+.mappopup>div {
+    background: #FFFFFF;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+#storeDetails {
+    max-height: 500px;
+    margin-top: 0px;
+    overflow: auto;
+    padding-left: 25px
+}
+
+#storelocator #bingMap {
+    height: 500px !important;
+    width: auto !important;
+    position: relative;
+}
+
+#storelocator .searchcontainer input {
+    margin-right: 10px;
+    z-index: 10000;
+    border: 1px solid;
+    padding-top: 12px;
+    padding-bottom: 7px;
+    padding-left: 9px;
+    padding-right: 10px;
+    font-size: 13px;
+    line-height: 1.3;
+    width: 199px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+#storelocator #overlay {
+    display: none;
+}
+
+#Mixed-Reality #storelocator .searchcontainer #submit_Button {
+    margin-right: 0px !important;
+}
+
+@media screen and (min-width: 320px) and (max-width: 380px) {
+    #Mixed-Reality #storelocator .searchcontainer #submit_Button {
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 381px) {
+    #Mixed-Reality #storelocator .searchcontainer #submit_Button {
+        display: inline;
+    }
+}
+
+@media screen and (min-width: 1084px) {
+    #Mixed-Reality #storelocator dialog#window {
+        display: block;
+        position: fixed !important;
+        left: 50% !important;
+        top: 50% !important;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+}
+
+#storelocator .invalid-zip-code {
+    display: none;
+    color: red;
+}
+
+#storelocator .border-red {
+    border: 1px solid red !important;
+}
+
+#Mixed-Reality .hide {
+    display: none;
+}
+
+#Mixed-Reality .pin {
+    height: inherit !important;
+    width: inherit !important;
+    left: auto !important;
+    top: auto !important;
+}
+
+#Mixed-Reality .pin_clusterer {
+    height: inherit !important;
+    width: inherit !important;
+    left: auto !important;
+    top: auto !important;
+}
+
+#Mixed-Reality #overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    z-index: 997;
+}
+
+#Mixed-Reality #window {
+    position: absolute;
+    border: 14px;
+    padding: 8px;
+    z-index: 998;
+    width: 80%;
+    height: auto;
+    display: block;
+    background: #ffffff;
+    margin-left: 0px !important;
+}
+
+#Mixed-Reality #content {
+    border: 1px;
+    background: #fff;
+    padding: 20px;
+}
+
+@media screen and (max-width: 1083px) {
+    #Mixed-Reality .searchcontainer {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media screen and (max-width: 539px) {
+    #Mixed-Reality .searchcontainer {
+        text-align: center;
+    }
+    #Mixed-Reality #storelocator .searchcontainer label,
+    #Mixed-Reality #storelocator .searchcontainer input {
+        margin: 10px auto !important;
+        display: block;
+    }
+    #Mixed-Reality #storelocator .searchcontainer #submit_Button {
+        margin: 10px auto !important;
+        display: inline-block;
+    }
+}
+
+#features #features-1-popupvideo .youtubevidplayer-posterimagewrap img {
+    width: 100%;
+}
+
+#Mixed-Reality #Noteworthy-Apps .m-product-placement [aria-hidden=true].c-hyperlink {
+    visibility: visible !important;
+}
+
+#windows-3d a.c-call-to-action.c-glyph.surface-bg-cta-blue:hover,
+#windows-3d a.c-call-to-action.c-glyph.surface-bg-cta-blue:focus {
+    background: #006cc2 !important;
+    border-color: rgba(0, 0, 0, 0.4) !important;
+    text-decoration: none !important;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1084px) {
+    #features-4-popupvideo [data-grid="col-6"] {
+        padding-top: 20px;
+    }
+}
+
+
+/* code for ocid variations in mr start*/
+
+#Mixed-Reality #windows-mixed-15-product-placement [data-vg="windows-MR-mwf-15-product-placement-OCID-VG"] p.c-group .surface-bg-cta-blue,
+#Mixed-Reality #windows-mixed-reality-13-product-placement [data-vg="windows-MR-mwf-13-product-placement-OCID-VG"] p.c-group .surface-bg-cta-blue {
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px !important;
+}
+
+#Mixed-Reality #windows-mixed-15-product-placement [data-vg="windows-MR-mwf-15-product-placement-OCID-VG"] p.c-group,
+#Mixed-Reality #windows-mixed-reality-13-product-placement [data-vg="windows-MR-mwf-13-product-placement-OCID-VG"] p.c-group {
+    display: inline-block;
+}
+
+#Mixed-Reality #windows-mixed-15-product-placement [data-vg="windows-MR-mwf-15-product-placement-OCID-VG"] p.c-group img,
+#Mixed-Reality #windows-mixed-reality-13-product-placement [data-vg="windows-MR-mwf-13-product-placement-OCID-VG"] p.c-group img {
+    width: 80%;
+}
+
+#Mixed-Reality #windows-mixed-15-product-placement [data-vg="windows-MR-mwf-15-product-placement-OCID-VG"] p.c-group {
+    padding-top: 15px;
+}
+
+
+/* code for ocid variations in mr end */
+
+@media screen and (min-width: 1084px) {
+    .m-content-placement-item>picture img.video-img {
+        display: none;
+    }
+    #features .c-feature div .c-heading {
+        margin-top: 5px !important;
+    }
+}
+
+@media screen and (max-width: 1083px) {
+    #features #features-14-3content-placement video.hidedont {
+        display: none;
+    }
+}
+
+#features #features-14-3content-placement [data-vg="windows-features-mwf-14-3content-placement-VG"] button.videobutton.c-action-toggle.c-glyph:before {
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+}
+
+#features #features-14-3content-placement [data-vg="windows-features-mwf-14-3content-placement-VG"] button.c-action-toggle.c-glyph:before {
+    margin-left: auto;
+    margin-right: 20px;
+    top: 0;
+}
+
+.ar-xm #features #features-14-3content-placement [data-vg="windows-features-mwf-14-3content-placement-VG"] button.c-action-toggle.c-glyph:before,
+.he-il #features #features-14-3content-placement [data-vg="windows-features-mwf-14-3content-placement-VG"] button.c-action-toggle.c-glyph:before {
+    margin-left: 20px;
+    margin-right: auto;
+    top: 0;
+}
+
+#features #photos {
+    clear: both;
+}
+
+#features #gaming .parallax-container {
+    width: 100%;
+}
+
+.ar-xm #features-20-3contentPlacement .m-content-placement .m-content-placement-item .c-heading-3,
+.he-il #features-20-3contentPlacement .m-content-placement .m-content-placement-item .c-heading-3 {
+    padding-right: 0px;
+}
+
+.ar-xm #features .m-page-bar .feature-sticky-nav-bar-static .c-list,
+.he-il #features .m-page-bar .feature-sticky-nav-bar-static .c-list,
+.ar-xm #feature-sticky-pagebar_generated_clone .feature-sticky-nav-bar-static .c-list,
+.he-il #feature-sticky-pagebar_generated_clone .feature-sticky-nav-bar-static .c-list {
+    float: right;
+}
+
+.ar-xm #features .youtube-video-popup-icon a.c-glyph.glyph-play:before,
+.he-il #features .youtube-video-popup-icon a.c-glyph.glyph-play:before {
+    right: 10px;
+}
+
+.ar-xm #features #features-7-popupvideo .m-content-placement .m-content-placement-item .c-heading-3,
+.he-il#features #features-7-popupvideo .m-content-placement .m-content-placement-item .c-heading-3 {
+    padding-right: 0px;
+}
+
+.ar-xm #features #mrviewer .m-feature .c-feature .c-group .c-glyph,
+.he-il #features #mrviewer .m-feature .c-feature .c-group .c-glyph {
+    padding-right: 0px !important;
+}
+
+.ar-xm #features #ink .m-feature .c-feature .c-group .c-glyph,
+.he-il #features #ink .m-feature .c-feature .c-group .c-glyph {
+    padding-right: 0px !important;
+    direction: rtl;
+}
+
+.ar-xm #features #edge .m-feature .c-feature .c-group .c-glyph,
+.he-il #features #edge .m-feature .c-feature .c-group .c-glyph {
+    padding-right: 0px !important;
+}
+
+.ar-xm #features-14-3content-placement .m-content-placement .m-content-placement-item .c-heading-3,
+.he-il #features-14-3content-placement .m-content-placement .m-content-placement-item .c-heading-3,
+.ar-xm #features #windows-features-mwf-20-3content-placement-VG .m-content-placement .m-content-placement-item .c-heading-3,
+.he-il#features #windows-features-mwf-20-3content-placement-VG .m-content-placement .m-content-placement-item .c-heading-3 {
+    padding-right: 0px;
+}
+
+#feature-sticky-pagebar_generated_clone.m-page-bar.f-sticky.f-show {
+    display: flex;
+}
+
+.fr-fr .m-page-bar .feature-sticky-nav-bar-static,
+.fr-ca .m-page-bar .feature-sticky-nav-bar-static,
+.de-de .m-page-bar .feature-sticky-nav-bar-static {
+    margin-top: 25px !important;
+}
+
+.fr-fr .m-page-bar>div,
+.fr-ca .m-page-bar>div,
+.de-de .m-page-bar>div {
+    height: 100px;
+}
+
+.fr-fr .m-page-bar li,
+.fr-ca .m-page-bar li,
+.de-de .m-page-bar li {
+    padding: 0px;
+}
+
+@media screen and (max-width:1399px) {
+    html[lang=fr-ca] #features .m-page-bar>div .context-menu .c-list,
+    html[lang=fr-ca] #feature-sticky-pagebar_generated_clone .feature-sticky-nav-bar-static .c-list {
+        display: block !important;
+    }
+}
+
+.nb-no #features #gaming .parallax-container .m-content-placement-item .c-heading-3 {
+    word-break: break-all;
+}
+
+.ar-xm #features #features-sticky-nav-bar .m-page-bar div .context-menu .c-list li,
+.ar-xm #feature-sticky-pagebar_generated_clone .context-menu .c-list li {
+    float: right !important;
+}
+
+.he-il #features #features-sticky-nav-bar .m-page-bar div .context-menu .c-list li,
+.he-il #feature-sticky-pagebar_generated_clone .context-menu .c-list li {
+    float: right !important;
+}
+
+.he-il #features #windows-features-mwf-parallax-VG .c-content-placement .c-badge,
+.m-content-placement-item .c-badge {
+    margin: 12px 15px 4px;
+}
+
+body.he-il #features #gaming .mscom-link.c-call-to-action.c-glyph {
+    padding-right: 12px !important;
+}
+
+#Mixed-Reality #setup .videobutton {
+    background: #0067B8 !important;
+}
+
+#view-all.view-all-rd a.mscom-link.ps-widget.c-call-to-action {
+    margin-right: 15px;
+}
+
+@media screen and (max-width: 539px) {
+    #Mixed-Reality #storelocator .searchcontainer label,
+    #Mixed-Reality #storelocator .searchcontainer input {
+        margin: 10px auto !important;
+        display: block;
+    }
+    #Mixed-Reality #storelocator .searchcontainer #submit_Button {
+        margin: 10px auto !important;
+        display: inline-block;
+    }
+}
+
+
+/* custom carsouel*/
+
+
+/*
+  .spot {
+  animation: blink-animation 1s steps(2, start) infinite;
+  -webkit-animation: blink-animation 1s steps(2, start) infinite;
+  }
+  @keyframes blink-animation {
+  to {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  }
+  }
+  @-webkit-keyframes blink-animation {
+  to {
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  }
+  }
+  */
+
+.clear {
+    clear: both;
+}
+
+.carousel-container {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.right-arrow {
+    width: 60px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+}
+
+.left-arrow {
+    width: 60px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 2;
+}
+
+.carousel-image-holder,
+.carousel-content-holder {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    z-index: 1;
+    text-align: center;
+}
+
+.carousel-content-holder {
+    width: 60%;
+}
+
+.carousel-image-holder>div.carousel,
+.carousel-content-holder>div.carousel {
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+.carousel-image-holder>div.carousel.active,
+.carousel-content-holder>div.carousel.active {
+    display: inline-block;
+}
+
+div.carousel img,
+div.carousel video {
+    width: 100%;
+}
+
+.carousel-buttons-container {
+    width: 100%;
+    text-align: center;
+    margin: 15px 0 0 0;
+    padding: 0;
+}
+
+.carousel-buttons-container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-buttons {
+    background-color: #FFFFFF;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+    display: inline-block;
+    margin: 0 10px 0 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.carousel-buttons:last-of-type {
+    margin: 0;
+}
+
+.carousel-buttons:focus {
+    outline: 2px dashed #000000
+}
+
+.spots .spot:focus {
+    outline: 1px dashed #000000
+}
+
+.carousel-buttons-container .active {
+    background-color: #000000;
+}
+
+.back {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.back span {
+    background: #0078d7;
+    padding: 8px;
+    margin: 0;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+.back {
+    display: none;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.back.active {
+    display: block;
+}
+
+.back span.x {
+    margin-right: -2px;
+}
+
+.back span.x+span {
+    display: none;
+}
+
+.back span.x:hover {
+    cursor: pointer;
+}
+
+.back span.x:hover+span {
+    display: inline;
+}
+
+
+/*
+  .spot .c1 {border: 8px solid #0068b9;border-radius: 100px;}
+  .spot .c2 {border: 8px solid #027bd8;border-radius: 100px;}
+  */
+
+.spot .hotspot-image {
+    width: 50px;
+}
+
+.spot span {
+    position: absolute;
+    top: 5px;
+    width: 200px;
+    font-size: 12px !important;
+    border-bottom: 2px solid #027bd8;
+    display: none;
+}
+
+.spot2 span,
+.spot3 span {
+    right: 50px;
+    text-align: left;
+}
+
+.spot4 span,
+.spot5 span {
+    left: 50px;
+    text-align: right;
+}
+
+.spot:hover span,
+.spot:focus span {
+    color: #000000;
+    display: block;
+    padding: 3px;
+    background-color: #fff;
+}
+
+.spot {
+    position: absolute;
+    border-radius: 100px;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.spot:hover {
+    cursor: pointer;
+    /*-moz-transform: scale(1.2) !important;
+  -webkit-transform: scale(1.2) !important;
+  transform: scale(1.2) !important;*/
+}
+
+.spot2 {
+    left: 35%;
+    top: 38%;
+}
+
+.spot3 {
+    left: 33%;
+    top: 63%;
+}
+
+.spot4 {
+    left: 59%;
+    top: 57%;
+}
+
+.spot5 {
+    left: 70%;
+    top: 43%;
+}
+
+.carousel-image-holder .carousel1 {
+    position: relative;
+}
+
+@media screen and (max-width: 539px) {
+    /*
+  .spot .c1 {border: 4px solid #0068b9;border-radius: 100px;}
+  .spot .c2 {border: 4px solid #027bd8;border-radius: 100px;}
+  */
+    .spot .hotspot-image {
+        width: 30px;
+    }
+    .spot {
+        border: 2px solid #FFFFFF;
+        border-radius: 100px;
+    }
+    .spot span {
+        width: 70px;
+    }
+    .spot2 span,
+    .spot3 span {
+        right: 35px;
+        text-align: left;
+        width: 90px;
+    }
+    .spot4 span,
+    .spot5 span {
+        left: 35px;
+        text-align: right;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .spot4 span,
+    .spot5 span {
+        left: 35px;
+        width: 50px;
+    }
+}
+
+@media screen and (min-width:540px) and (max-width: 768px) {
+    /*
+  .spot .c1 {border: 5px solid #0068b9;border-radius: 100px;}
+  .spot .c2 {border: 5px solid #027bd8;border-radius: 100px;}
+  */
+    .spot .hotspot-image {
+        width: 20px;
+    }
+    .spot {
+        border: 3px solid #FFFFFF;
+        border-radius: 100px;
+    }
+    .spot span {
+        width: 85px;
+    }
+    .spot2 span,
+    .spot3 span {
+        right: 45px;
+        text-align: left;
+    }
+    .spot4 span,
+    .spot5 span {
+        left: 45px;
+        text-align: right;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width: 1083px) {
+    .spot span {
+        width: 120px;
+    }
+}
+
+[data-vg="windows-MR-mwf-6-custom-carsouel-VG"] span[aria-hidden=true] {
+    display: none;
+}
+
+.carousel-image-holder>.c-flipper {
+    position: absolute;
+    z-index: 100;
+    width: 24px;
+    height: 48px;
+}
+
+.carousel-image-holder>.c-flipper.f-previous {
+    left: 1px;
+}
+
+.carousel-image-holder>.c-flipper.f-next {
+    right: 1px;
+}
+
+.carousel-buttons-container {
+    height: 0px;
+    /*visibility: hidden;*/
+}
+
+.carousel-image-holder .carousel.active,
+
+/*.carousel-content-holder .active {
+      -webkit-animation: hero-content-next cubic-bezier(.16,1,.29,.99) 667ms both;
+      animation: hero-content-next cubic-bezier(.16,1,.29,.99) 667ms both
+  } */
+
+.carousel-buttons-container {
+    display: none;
+}
+
+@media screen and (max-width: 539px) {
+    .carousel-image-holder>.c-flipper {
+        top: 200px;
+    }
+}
+
+@media screen and (min-width: 540px) and (max-width: 1083px) {
+    .carousel-image-holder>.c-flipper {
+        top: 250px;
+    }
+}
+
+@media screen and (min-width: 1084px) {
+    .carousel-image-holder>.c-flipper {
+        top: 300px;
+    }
+}
+
+#hotspots .back .c-glyph:before {
+    position: relative;
+    top: 2px;
+}
+
+@media screen and (max-width: 539px) {
+    .back span.x {
+        background-color: transparent;
+        color: transparent;
+    }
+    #hotspots .back .c-glyph:before {
+        background: #0078D7;
+        color: #fff;
+        padding: 10px;
+    }
+    .back {
+        top: 10px;
+        left: 10px;
+    }
+}
+
+.spot span {
+    font-weight: 700;
+}
+
+.back .c-glyph:before {
+    content: "îœ«";
+}
+
+.wdg-global [data-vg="windows-MR-mwf-6a-custom-carousel-banner-VG"] .m-banner h2.c-heading {
+    font-size: 40px;
+}
+
+
+/*Hiding Flippers*/
+
+#hotspots .c-flipper {
+    visibility: hidden;
+}
+
+
+/* end custom carsouel */
+
+#windows-3d .accordion ul li.initial:nth-child(1) {
+    background-image: url("https://c.s-microsoft.com/en-us/CMSImages/Windows_3D_Sketch_1920_Accordion_Closed1_IMG.jpg?version=4d8aad4d-efcc-89e1-6e3f-ef41d573200d");
+}
+
+#windows-3d .accordion ul li.initial:nth-child(2) {
+    background-image: url("https://c.s-microsoft.com/en-us/CMSImages/Windows_3D_Sketch_1920_Accordion_Closed2_IMG.jpg?version=6937c66f-4193-5baa-5254-88b5034785a7");
+}
+
+.zh-cn #windows-3d .accordion ul li.initial:nth-child(2),
+.de-ch #windows-3d .accordion ul li.initial:nth-child(2),
+.fr-ch #windows-3d .accordion ul li.initial:nth-child(2),
+.ar-xm #windows-3d .accordion ul li.initial:nth-child(2),
+.en-id #windows-3d .accordion ul li.initial:nth-child(2),
+.en-sg #windows-3d .accordion ul li.initial:nth-child(2),
+.el-gr #windows-3d .accordion ul li.initial:nth-child(2),
+.es-xl #windows-3d .accordion ul li.initial:nth-child(2),
+.fr-xf #windows-3d .accordion ul li.initial:nth-child(2),
+.pl-pl #windows-3d .accordion ul li.initial:nth-child(2),
+.ro-ro #windows-3d .accordion ul li.initial:nth-child(2),
+.sk-sk #windows-3d .accordion ul li.initial:nth-child(2),
+.sl-si #windows-3d .accordion ul li.initial:nth-child(2),
+.tr-tr #windows-3d .accordion ul li.initial:nth-child(2),
+.uk-ua #windows-3d .accordion ul li.initial:nth-child(2) {
+    background-image: url("https://c.s-microsoft.com/en-us/CMSImages/Windows_3D_Sketch_1920_Accordion_Closed2ALT_IMG.jpg?version=cf584f7c-a81a-42cd-3a52-b5fdd33847ec");
+}
+
+#windows-3d .accordion ul li.initial:nth-child(3) {
+    background-image: url("https://c.s-microsoft.com/en-us/CMSImages/Windows_3D_Sketch_1920_Accordion_Closed3_IMG.jpg?version=1a40f092-2a24-44f6-41b7-665f7cc72868");
+}
+
+#windows-3d .accordion ul li.initial:nth-child(4) {
+    background-image: url("https://c.s-microsoft.com/en-us/CMSImages/Windows_3D_Sketch_1920_Accordion_Closed4_IMG.jpg?version=c852d6d0-2b4a-ee51-1804-30ebf387a235");
+}
+
+#windows-3d .accordion ul li.initial:nth-child(5) {
+    background-image: url("https://c.s-microsoft.com/en-us/CMSImages/Windows_3D_Sketch_1920_Accordion_Closed5_IMG.jpg?version=45cadb0a-26db-654a-5bc9-64fe653be227");
+}
+
+@media screen and (max-width: 1083px) {
+    #windows-3d .accordion ul li.initial:nth-child(1) {
+        background-image: url("https://c.s-microsoft.com/en-us/CMSImages/Windows_3D_Sketch_1083_Accordion_Closed1_IMG.jpg?version=a57d708f-4078-8f66-b3e9-05c1d21d1e7d")
+    }
+    #windows-3d .accordion ul li.initial:nth-child(2) {
+        background-image: url("https://c.s-microsoft.com/en-us/CMSImages/Windows_3D_Sketch_1083_Accordion_Closed2_IMG.jpg?version=1b75a82d-4391-cd6c-8e3a-06e74a85ce87");
+    }
+    .zh-cn #windows-3d .accordion ul li.initial:nth-child(2),
+    .de-ch #windows-3d .accordion ul li.initial:nth-child(2),
+    .fr-ch #windows-3d .accordion ul li.initial:nth-child(2),
+    .ar-xm #windows-3d .accordion ul li.initial:nth-child(2),
+    .en-id #windows-3d .accordion ul li.initial:nth-child(2),
+    .en-sg #windows-3d .accordion ul li.initial:nth-child(2),
+    .el-gr #windows-3d .accordion ul li.initial:nth-child(2),
+    .es-xl #windows-3d .accordion ul li.initial:nth-child(2),
+    .fr-xf #windows-3d .accordion ul li.initial:nth-child(2),
+    .pl-pl #windows-3d .accordion ul li.initial:nth-child(2),
+    .ro-ro #windows-3d .accordion ul li.initial:nth-child(2),
+    .sk-sk #windows-3d .accordion ul li.initial:nth-child(2),
+    .sl-si #windows-3d .accordion ul li.initial:nth-child(2),
+    .tr-tr #windows-3d .accordion ul li.initial:nth-child(2),
+    .uk-ua #windows-3d .accordion ul li.initial:nth-child(2) {
+        background-image: url("https://c.s-microsoft.com/en-us/CMSImages/Windows_3D_Sketch_1083_Accordion_Closed2ALT_IMG.jpg?version=c3b4c350-fca0-0ffe-44ce-2304a9d50c86");
+    }
+    #windows-3d .accordion ul li.initial:nth-child(3) {
+        background-image: url("https://c.s-microsoft.com/en-us/CMSImages/Windows_3D_Sketch_1083_Accordion_Closed3_IMG.jpg?version=8f63c9ce-10f7-ddf1-5595-5dd6fff4862a");
+    }
+    #windows-3d .accordion ul li.initial:nth-child(4) {
+        background-image: url("https://c.s-microsoft.com/en-us/CMSImages/Windows_3D_Sketch_1083_Accordion_Closed4_IMG.jpg?version=f62e8f82-4872-5dd6-0d36-dee89aba95b7");
+    }
+    #windows-3d .accordion ul li.initial:nth-child(5) {
+        background-image: url("https://c.s-microsoft.com//en-us/CMSImages/Windows_3D_Sketch_1083_Accordion_Closed5_IMG.jpg?version=6a0731ab-cdf7-2a1b-5778-90c396790f3c");
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #windows-3d .accordion ul li.initial:nth-child(1) {
+        background-image: url("https://c.s-microsoft.com/en-us/CMSImages/Windows_3D_Sketch_1083_Accordion_Closed1_IMG.jpg?version=a57d708f-4078-8f66-b3e9-05c1d21d1e7d")
+    }
+    #windows-3d .accordion ul li.initial:nth-child(2) {
+        background-image: url("https://c.s-microsoft.com/en-us/CMSImages/Windows_3D_Sketch_1083_Accordion_Closed2_IMG.jpg?version=1b75a82d-4391-cd6c-8e3a-06e74a85ce87");
+    }
+    .zh-cn #windows-3d .accordion ul li.initial:nth-child(2),
+    .de-ch #windows-3d .accordion ul li.initial:nth-child(2),
+    .fr-ch #windows-3d .accordion ul li.initial:nth-child(2),
+    .ar-xm #windows-3d .accordion ul li.initial:nth-child(2),
+    .en-id #windows-3d .accordion ul li.initial:nth-child(2),
+    .en-sg #windows-3d .accordion ul li.initial:nth-child(2),
+    .el-gr #windows-3d .accordion ul li.initial:nth-child(2),
+    .es-xl #windows-3d .accordion ul li.initial:nth-child(2),
+    .fr-xf #windows-3d .accordion ul li.initial:nth-child(2),
+    .pl-pl #windows-3d .accordion ul li.initial:nth-child(2),
+    .ro-ro #windows-3d .accordion ul li.initial:nth-child(2),
+    .sk-sk #windows-3d .accordion ul li.initial:nth-child(2),
+    .sl-si #windows-3d .accordion ul li.initial:nth-child(2),
+    .tr-tr #windows-3d .accordion ul li.initial:nth-child(2),
+    .uk-ua #windows-3d .accordion ul li.initial:nth-child(2) {
+        background-image: url("https://c.s-microsoft.com/en-us/CMSImages/Windows_3D_Sketch_539_Accordion_Closed2ALT_IMG.jpg?version=ce698fca-e940-6a86-7cf5-a279bba98c0f");
+    }
+    #windows-3d .accordion ul li.initial:nth-child(3) {
+        background-image: url("https://c.s-microsoft.com/en-us/CMSImages/Windows_3D_Sketch_1083_Accordion_Closed3_IMG.jpg?version=8f63c9ce-10f7-ddf1-5595-5dd6fff4862a");
+    }
+    #windows-3d .accordion ul li.initial:nth-child(4) {
+        background-image: url("https://c.s-microsoft.com/en-us/CMSImages/Windows_3D_Sketch_1083_Accordion_Closed4_IMG.jpg?version=f62e8f82-4872-5dd6-0d36-dee89aba95b7");
+    }
+    #windows-3d .accordion ul li.initial:nth-child(5) {
+        background-image: url("https://c.s-microsoft.com//en-us/CMSImages/Windows_3D_Sketch_1083_Accordion_Closed5_IMG.jpg?version=6a0731ab-cdf7-2a1b-5778-90c396790f3c");
+    }
+}
+
+#windows-3d li.expanded section.m-content-placement-item.content {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 12px;
+    margin-left: 48px;
+}
+
+#windows-3d .accordion ul li.contracted .mainCont {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.youtube-video-popup-icon a.mscom-link.c-glyph.glyph-play {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: 99;
+    font-size: 40px;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 100%;
+    padding: 5px 10px 1px 13px;
+}
+
+.youtube-video-popup-icon .youtubevidplayer {
+    position: relative;
+}
+
+@media screen and (min-width: 1083px) {
+    .youtube-video-popup-icon .c-video .youtubevidplayer {
+        position: relative;
+        display: inline-block;
+        float: inherit;
+    }
+}
+
+.youtube-video-popup-icon .youtubevidplayer-posterimagewrap picture {
+    width: 100% !important;
+}
+
+.youtube-video-popup-icon .f-align-left.c-video {
+    float: right;
+}
+
+.windows-3d #Horizontal-acc .btnClose {
+    float: right;
+    left: 0;
+    margin-right: 32px;
+}
+
+.windows-3d #Horizontal-acc .btnClose>img {
+    background: #000;
+}
+
+@media screen and (min-width: 1084px) {
+    .windows-3d #Horizontal-acc .m-content-placement-item.content {
+        margin-top: 0 !important;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 60px;
+        padding: 10px 40px 40px 40px !important;
+    }
+    .ar-xm #windows-comprehensive-security #Horizontal-acc .accordion ul li .expandBtn,
+    .he-il #windows-comprehensive-security #Horizontal-acc .accordion ul li .expandBtn {
+        bottom: 3% !important;
+    }
+}
+
+@media screen and (max-width: 1083px) {
+    .windows-3d #Horizontal-acc .logoImg {
+        top: 50%;
+        transform: translateY(-50%);
+        position: relative;
+        margin: 0;
+        padding: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    .windows-3d #Horizontal-acc .logoImg>div {
+        right: 0;
+        bottom: 0;
+        height: auto;
+        display: inline-block;
+        position: relative;
+    }
+    .windows-3d #Horizontal-acc .logoImg .c-heading-3 {
+        padding: 0;
+        float: left;
+        width: 50%;
+        bottom: 0 !important;
+    }
+}
+
+@media screen and (max-width: 539px) {
+    .windows-3d #Horizontal-acc .logoImg .c-heading-3,
+    .windows-3d #Horizontal-acc .logoImg>div {
+        width: 100%;
+    }
+    .windows-3d #Horizontal-acc .logoImg>div {
+        padding-top: 10px;
+    }
+    .windows-3d #Horizontal-acc .c-heading-3,
+    .windows-3d #Horizontal-acc .c-paragraph-1 {
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    .windows-3d #Horizontal-acc .c-paragraph-1 {
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 200;
+    }
+    .windows-3d #Horizontal-acc li.expanded section.m-content-placement-item.content {
+        margin: 0 20px !important;
+        bottom: 20px;
+    }
+    .windows-3d #Horizontal-acc .m-feature .c-heading-3 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .windows-3d #Horizontal-acc .c-paragraph-3 {
+        font-size: 12px;
+        line-height: 16px;
+        padding-top: 0px;
+    }
+    .windows-3d #Horizontal-acc .btnClose {
+        margin: 15px !important;
+    }
+    .windows-3d #Horizontal-acc .accordion ul li span p {
+        letter-spacing: 2px;
+    }
+}
+
+@media screen and (min-width: 1084px) {
+    #remix3dpanel .c-video+picture img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1083px) {
+    #remix3dpanel .c-video {
+        display: none;
+    }
+    #windows-3d #shoppanel section.c-feature.f-align-left.f-image-priority div img {
+        margin: auto;
+    }
+}
+
+#windows-3d #remix3dpanel .c-video button {
+    background-color: #767676;
+}
+
+@media only screen and (min-width: 1084px) {
+    #minecraftpanel .c-feature.f-align-right.f-image-priority picture {
+        width: 100%
+    }
+    #minecraftpanel .youtubevidplayer {
+        width: 65%;
+        float: left;
+    }
+    .ar-xm #minecraftpanel .c-feature.f-align-right.f-image-priority picture,
+    .he-il #minecraftpanel .c-feature.f-align-right.f-image-priority picture {
+        width: 100%
+    }
+    .ar-xm #windows-3d #pptpanel .youtubevidplayer,
+    .he-il #windows-3d #pptpanel .youtubevidplayer {
+        width: 65%;
+        float: left !important;
+    }
+    .he-il #windows-3d #minecraftpanel .youtubevidplayer {
+        float: right;
+    }
+    .ar-xm #windows-3d #storyremix .youtubevidplayer {
+        float: right;
+        width: 65%;
+    }
+}
+
+#disclaimers {
+    outline: none;
+}
+
+#windows-3d #pillars {
+    clear: both;
+}
+
+#windows-3d #shop {
+    clear: both;
+}
+
+#windows-3d #tools {
+    clear: both;
+}
+
+#windows-3d #minecraft .surface-youtubevidplayer-playicon {
+    display: block;
+}
+
+.ar-xm #windows-3d #minecraft .surface-youtubevidplayer-playicon,
+.bg-bg #windows-3d #minecraft .surface-youtubevidplayer-playicon,
+.cs-cz #windows-3d #minecraft .surface-youtubevidplayer-playicon,
+.da-dk #windows-3d #minecraft .surface-youtubevidplayer-playicon,
+.el-gr #windows-3d #minecraft .surface-youtubevidplayer-playicon,
+.et-ee #windows-3d #minecraft .surface-youtubevidplayer-playicon,
+.fi-fi #windows-3d #minecraft .surface-youtubevidplayer-playicon,
+.he-il #windows-3d #minecraft .surface-youtubevidplayer-playicon,
+.hr-hr #windows-3d #minecraft .surface-youtubevidplayer-playicon,
+.hu-hu #windows-3d #minecraft .surface-youtubevidplayer-playicon,
+.ja-jp #windows-3d #minecraft .surface-youtubevidplayer-playicon,
+.ko-kr #windows-3d #minecraft .surface-youtubevidplayer-playicon,
+.lt-lt #windows-3d #minecraft .surface-youtubevidplayer-playicon,
+.lv-lv #windows-3d #minecraft .surface-youtubevidplayer-playicon,
+.nb-no #windows-3d #minecraft .surface-youtubevidplayer-playicon,
+.nl-be #windows-3d #minecraft .surface-youtubevidplayer-playicon,
+.nl-nl #windows-3d #minecraft .surface-youtubevidplayer-playicon,
+.pl-pl #windows-3d #minecraft .surface-youtubevidplayer-playicon,
+.ro-ro #windows-3d #minecraft .surface-youtubevidplayer-playicon,
+.sk-sk #windows-3d #minecraft .surface-youtubevidplayer-playicon,
+.sl-si #windows-3d #minecraft .surface-youtubevidplayer-playicon,
+.sr-la #windows-3d #minecraft .surface-youtubevidplayer-playicon,
+.sv-se #windows-3d #minecraft .surface-youtubevidplayer-playicon,
+.th-th #windows-3d #minecraft .surface-youtubevidplayer-playicon,
+.tr-tr #windows-3d #minecraft .surface-youtubevidplayer-playicon,
+.uk-ua #windows-3d #minecraft .surface-youtubevidplayer-playicon,
+.vi-vn #windows-3d #minecraft .surface-youtubevidplayer-playicon,
+.de-ch #windows-3d #minecraft .surface-youtubevidplayer-playicon,
+.en-id #windows-3d #minecraft .surface-youtubevidplayer-playicon,
+.en-sg #windows-3d #minecraft .surface-youtubevidplayer-playicon,
+.es-xl #windows-3d #minecraft .surface-youtubevidplayer-playicon,
+.fr-ch #windows-3d #minecraft .surface-youtubevidplayer-playicon,
+.fr-xf #windows-3d #minecraft .surface-youtubevidplayer-playicon,
+.zh-cn #windows-3d #minecraft .surface-youtubevidplayer-playicon {
+    display: none !important;
+}
+
+.ar-xm #windows-3d #pptpanel .f-align-left .youtubevidplayer {
+    float: left !important;
+}
+
+.ar-mx #windows-3d #minecraftpanel .youtubevidplayer {
+    float: right;
+}
+
+.ar-mx #windows-3d .c-feature.f-align-left>div,
+.m-feature.f-align-left>div {
+    right: auto;
+    left: 0;
+}
+
+.he-il #windows-3d #pptpanel .f-align-left .youtubevidplayer {
+    float: left !important;
+}
+
+.he-il #windows-3d #minecraftpanel .youtubevidplayer {
+    float: right;
+}
+
+.ar-xm #windows-3d #Horizontal-acc ul li .m-content-placement-item.content,
+.he-il #windows-3d #Horizontal-acc ul li .m-content-placement-item.content,
+.ar-xm #windows-comprehensive-security #Horizontal-acc ul li .m-content-placement-item.content,
+.he-il #windows-comprehensive-security #Horizontal-acc ul li .m-content-placement-item.content {
+    float: left;
+}
+
+.ar-xm #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2,
+.he-il #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2,
+.ar-xm #windows-comprehensive-security #Horizontal-acc ul li .mainCont .c-subheading-2,
+.he-il #windows-comprehensive-security #Horizontal-acc ul li .mainCont .c-subheading-2 {
+    text-align: left;
+}
+
+.ar-xm .accordion ul li:hover .logoImg .seeDetailsBtn,
+.he-il .accordion ul li:hover .logoImg .seeDetailsBtn {
+    margin-left: 12px !important;
+}
+
+.de-de #windows-comprehensive-security #windowshello .c-call-to-action,
+.pt-br #windows-comprehensive-security #windowshello .c-call-to-action,
+.fr-fr #windows-comprehensive-security #windowshello .c-call-to-action,
+.fr-ca #windows-comprehensive-security #windowshello .c-call-to-action,
+.it-it #windows-comprehensive-security #windowshello .c-call-to-action,
+.ru-ru #windows-comprehensive-security #windowshello .c-call-to-action {
+    font-size: 11px !important;
+}
+
+[dir="rtl"] body #windows-comprehensive-security .mscom-link.c-call-to-action.c-glyph {
+    padding-right: 0px !important;
+}
+
+.ar-xm #windows-comprehensive-security #hero .mscom-link.c-call-to-action.c-glyph,
+.he-il #windows-comprehensive-security #hero .mscom-link.c-call-to-action.c-glyph {
+    padding-right: 16px !important;
+}
+
+
+/* Reducing font sizes for Accordion panel for the all markets have issues */
+
+@media screen and (min-width: 1400px) {
+    .fr-fr #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        bottom: 5%;
+        /*dont change */
+        font-size: 18px;
+    }
+    .de-de #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        bottom: 5%;
+        /*dont change */
+        font-size: 18px;
+    }
+    .it-it #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 18px;
+    }
+    .ja-jp #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 18px;
+    }
+    .pt-br #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 18px;
+    }
+    .ar-xm #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        font-size: 18px;
+    }
+    .he-il #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        font-size: 18px;
+    }
+    .es-mx #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 18px;
+    }
+    .fr-ca #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 18px;
+    }
+    .ru-ru #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 18px;
+    }
+    .es-es #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 18px;
+    }
+    .en-in #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 18px;
+    }
+    .de-at #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 18px;
+    }
+    .da-dk #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 18px;
+    }
+    .sr-latn-rs #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 18px;
+    }
+    .hr-hr #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 18px;
+    }
+    .fr-fr #windows-3d #accordian #Horizontal-acc ul li .mainCont img {
+        bottom: 5%;
+        /*dont change */
+    }
+    .de-de #windows-3d #accordian #Horizontal-acc ul li .mainCont img {
+        bottom: 5%;
+        /*dont change */
+    }
+    .de-ch #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 18px;
+    }
+    .el-gr #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 18px;
+    }
+    .uk-ua #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 18px;
+    }
+    .sl-si #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 18px;
+    }
+    .bg-bg #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 18px;
+    }
+    .cs-cz #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 18px;
+    }
+    .es-ar #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 18px;
+    }
+    .es-cl #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 18px;
+    }
+    .es-co #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 18px;
+    }
+    .et-ee #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 18px;
+    }
+    .fr-be #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 18px;
+    }
+    .hu-hu #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 18px;
+    }
+    .lv-lv #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 18px;
+    }
+    .lt-lt #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 18px;
+    }
+    .vi-vn #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 18px;
+    }
+    .de-de #windows-comprehensive-security #securitycenter .accCont ul li .mainCont .c-subheading-2 {
+        width: 40em !important;
+        /*dont change */
+        bottom: 5%;
+        /*dont change */
+        font-size: 18px !important;
+    }
+    .pl-pl #windows-comprehensive-security #securitycenter .accCont ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 17px !important;
+        letter-spacing: 1px;
+    }
+    body:not(.en-us) #windows-comprehensive-security #securitycenter .accCont ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 18px !important;
+        letter-spacing: 1px;
+    }
+}
+
+@media screen and (min-width: 1083px) and (max-width: 1399px) {
+    .fr-fr #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        bottom: 5%;
+        /*dont change */
+        font-size: 15px;
+    }
+    .de-de #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        bottom: 5%;
+        /*dont change */
+        font-size: 15px;
+    }
+    .it-it #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        font-size: 15px;
+    }
+    .ja-jp #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        font-size: 15px;
+    }
+    .pt-br #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        font-size: 15px;
+    }
+    .ar-xm #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        font-size: 15px;
+    }
+    .he-il #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        font-size: 15px;
+    }
+    .es-mx #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        font-size: 15px;
+    }
+    .fr-ca #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        font-size: 15px;
+    }
+    .ru-ru #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        font-size: 15px;
+    }
+    .es-es #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        font-size: 14px;
+    }
+    .en-in #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        font-size: 15px;
+    }
+    .de-at #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        font-size: 15px;
+    }
+    .da-dk #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        font-size: 15px;
+    }
+    .sr-latn-rs #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        font-size: 15px;
+    }
+    .hr-hr #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        font-size: 15px;
+    }
+    .fr-fr #windows-3d #accordian #Horizontal-acc ul li .mainCont img {
+        bottom: 5%;
+        /*dont change */
+    }
+    .de-de #windows-3d #accordian #Horizontal-acc ul li .mainCont img {
+        bottom: 5%;
+        /*dont change */
+    }
+    .de-ch #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        font-size: 15px;
+    }
+    .el-gr #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        font-size: 15px;
+    }
+    .uk-ua #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        font-size: 15px;
+    }
+    .sl-si #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        font-size: 15px;
+    }
+    .bg-bg #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        font-size: 15px;
+    }
+    .cs-cz #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        font-size: 15px;
+    }
+    .es-ar #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        font-size: 15px;
+    }
+    .es-cl #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        font-size: 15px;
+    }
+    .es-co #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        font-size: 15px;
+    }
+    .et-ee #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        font-size: 15px;
+    }
+    .fr-be #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        font-size: 15px;
+    }
+    .hu-hu #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        font-size: 15px;
+    }
+    .lv-lv #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        font-size: 15px;
+    }
+    .lt-lt #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        font-size: 15px;
+    }
+    .vi-vn #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        font-size: 15px;
+    }
+    .de-de #windows-comprehensive-security #securitycenter .accCont ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        bottom: 5%;
+        /*dont change */
+        font-size: 15px;
+    }
+    .pl-pl #windows-comprehensive-security #securitycenter .accCont ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 13px !important;
+        letter-spacing: 1px;
+    }
+    body:not(.en-us) #windows-comprehensive-security #securitycenter .accCont ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .fr-fr #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 14px;
+    }
+    .de-de #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 14px;
+    }
+    .it-it #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 14px;
+    }
+    .ja-jp #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 14px;
+    }
+    .pt-br #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 14px;
+    }
+    .ar-xm #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        font-size: 14px;
+    }
+    .he-il #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        font-size: 14px;
+    }
+    .es-mx #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 14px;
+    }
+    .fr-ca #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 14px;
+    }
+    .en-in #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 14px;
+    }
+    .ru-ru #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 14px;
+    }
+    .de-at #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 14px;
+    }
+    .da-dk #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 14px;
+    }
+    .sr-latn-rs #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 14px;
+    }
+    .hr-hr #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 14px;
+    }
+    .es-es #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 14px;
+    }
+    .de-ch #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 14px;
+    }
+    .el-gr #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 14px;
+    }
+    .uk-ua #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 14px;
+    }
+    .sl-si #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 14px;
+    }
+    .bg-bg #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 14px;
+    }
+    .cs-cz #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 14px;
+    }
+    .es-ar #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 14px;
+    }
+    .es-cl #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 14px;
+    }
+    .es-co #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 14px;
+    }
+    .et-ee #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 14px;
+    }
+    .fr-be #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 14px;
+    }
+    .lv-lv #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 14px;
+    }
+    .lt-lt #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 14px;
+    }
+    .vi-vn #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 14px;
+    }
+    .pl-pl #windows-comprehensive-security #securitycenter .accCont ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 13px !important;
+        letter-spacing: 1px;
+    }
+    body:not(.en-us) #windows-comprehensive-security #securitycenter .accCont ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 14px !important;
+        letter-spacing: 0px !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1083px) {
+    #windows-3d #accordian #Horizontal-acc ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+    }
+    .de-de #windows-comprehensive-security #securitycenter .accCont ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 15px;
+    }
+    .pl-pl #windows-comprehensive-security #securitycenter .accCont ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 14px !important;
+        letter-spacing: 1px;
+    }
+    body:not(.en-us) #windows-comprehensive-security #securitycenter .accCont ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        font-size: 15px !important;
+        letter-spacing: 1px;
+    }
+}
+
+@media screen and (max-width: 539px) {
+    .pl-pl #windows-comprehensive-security #securitycenter .accCont ul li .mainCont .c-subheading-2 {
+        width: 40em;
+        /*dont change */
+        font-size: 12px !important;
+        letter-spacing: 1px;
+    }
+    body:not(.en-us) #windows-comprehensive-security #securitycenter .accCont ul li .mainCont .c-subheading-2 {
+        font-size: 12px !important;
+    }
+}
+
+
+/*#windows-comprehensive-security .accordion ul li.initial:nth-child(1) {
+      background-image: url("https://cmspreview2.corp.microsoft.com/en-us/CMSImages/FPO_1920_AccordionClosed_img.jpg?version=bd8027c4-e0d7-b4a7-428e-76236eb5bc1e&CollectionId=45407611-3b1a-465b-a3d5-c0d9a3fe21a0");
+  }
+  #windows-comprehensive-security .accordion ul li.initial:nth-child(2) {  
+       background-image: url("https://cmspreview2.corp.microsoft.com/en-us/CMSImages/FPO_1920_AccordionClosed_img.jpg?version=bd8027c4-e0d7-b4a7-428e-76236eb5bc1e&CollectionId=45407611-3b1a-465b-a3d5-c0d9a3fe21a0");
+  }
+  #windows-comprehensive-security .de-de .accordion ul li.initial:nth-child(2) {  
+       background-image: url("https://cmspreview2.corp.microsoft.com/en-us/CMSImages/FPO_1920_AccordionClosed_img.jpg?version=bd8027c4-e0d7-b4a7-428e-76236eb5bc1e&CollectionId=45407611-3b1a-465b-a3d5-c0d9a3fe21a0");
+  }
+  #windows-comprehensive-security .accordion ul li.initial:nth-child(3) {
+      background-image: url("https://cmspreview2.corp.microsoft.com/en-us/CMSImages/FPO_1920_AccordionClosed_img.jpg?version=bd8027c4-e0d7-b4a7-428e-76236eb5bc1e&CollectionId=45407611-3b1a-465b-a3d5-c0d9a3fe21a0");
+  }
+  #windows-comprehensive-security .accordion ul li.initial:nth-child(4) {
+      background-image: url("https://cmspreview2.corp.microsoft.com/en-us/CMSImages/FPO_1920_AccordionClosed_img.jpg?version=bd8027c4-e0d7-b4a7-428e-76236eb5bc1e&CollectionId=45407611-3b1a-465b-a3d5-c0d9a3fe21a0");
+  }
+  #windows-comprehensive-security .accordion ul li.initial:nth-child(5) {   
+       background-image: url("https://cmspreview2.corp.microsoft.com/en-us/CMSImages/FPO_1920_AccordionClosed_img.jpg?version=bd8027c4-e0d7-b4a7-428e-76236eb5bc1e&CollectionId=45407611-3b1a-465b-a3d5-c0d9a3fe21a0");
+  }
+  @media screen and (max-width: 1083px) {
+      #windows-comprehensive-security .de-de .accordion ul li.initial:nth-child(2) {  
+       background-image: url("https://cmspreview2.corp.microsoft.com/en-us/CMSImages/FPO_1083_AccordionClosed_img.jpg?version=49d7ad63-74fc-f4a3-8c81-bdeed68a5960&CollectionId=45407611-3b1a-465b-a3d5-c0d9a3fe21a0");
+      }
+      #windows-comprehensive-security .accordion ul li.initial:nth-child(1) {
+        background-image: url("https://cmspreview2.corp.microsoft.com/en-us/CMSImages/FPO_1083_AccordionClosed_img.jpg?version=49d7ad63-74fc-f4a3-8c81-bdeed68a5960&CollectionId=45407611-3b1a-465b-a3d5-c0d9a3fe21a0");
+      }
+      #windows-comprehensive-security .accordion ul li.initial:nth-child(2) {
+         background-image: url("https://cmspreview2.corp.microsoft.com/en-us/CMSImages/FPO_1083_AccordionClosed_img.jpg?version=49d7ad63-74fc-f4a3-8c81-bdeed68a5960&CollectionId=45407611-3b1a-465b-a3d5-c0d9a3fe21a0");
+      }
+      #windows-comprehensive-security .accordion ul li.initial:nth-child(3) {
+          background-image: url("https://cmspreview2.corp.microsoft.com/en-us/CMSImages/FPO_1083_AccordionClosed_img.jpg?version=49d7ad63-74fc-f4a3-8c81-bdeed68a5960&CollectionId=45407611-3b1a-465b-a3d5-c0d9a3fe21a0");
+      }
+      #windows-comprehensive-security .accordion ul li.initial:nth-child(4) {
+          background-image: url("https://cmspreview2.corp.microsoft.com/en-us/CMSImages/FPO_1083_AccordionClosed_img.jpg?version=49d7ad63-74fc-f4a3-8c81-bdeed68a5960&CollectionId=45407611-3b1a-465b-a3d5-c0d9a3fe21a0");
+      }
+      #windows-comprehensive-security .accordion ul li.initial:nth-child(5) {
+      background-image: url("https://cmspreview2.corp.microsoft.com/en-us/CMSImages/FPO_1083_AccordionClosed_img.jpg?version=49d7ad63-74fc-f4a3-8c81-bdeed68a5960&CollectionId=45407611-3b1a-465b-a3d5-c0d9a3fe21a0");
+      }
+  }
+  @media screen and (max-width: 767px) {
+      #windows-comprehensive-security .de-de .accordion ul li.initial:nth-child(2) {  
+       background-image: url("https://cmspreview2.corp.microsoft.com/en-us/CMSImages/FPO_1083_AccordionClosed_img.jpg?version=49d7ad63-74fc-f4a3-8c81-bdeed68a5960&CollectionId=45407611-3b1a-465b-a3d5-c0d9a3fe21a0");
+      }
+       #windows-comprehensive-security .accordion ul li.initial:nth-child(1) {
+        background-image: url("https://cmspreview2.corp.microsoft.com/en-us/CMSImages/FPO_1083_AccordionClosed_img.jpg?version=49d7ad63-74fc-f4a3-8c81-bdeed68a5960&CollectionId=45407611-3b1a-465b-a3d5-c0d9a3fe21a0");
+      }
+      #windows-comprehensive-security .accordion ul li.initial:nth-child(2) {
+         background-image: url("https://cmspreview2.corp.microsoft.com/en-us/CMSImages/FPO_1083_AccordionClosed_img.jpg?version=49d7ad63-74fc-f4a3-8c81-bdeed68a5960&CollectionId=45407611-3b1a-465b-a3d5-c0d9a3fe21a0");
+      }
+      #windows-comprehensive-security .accordion ul li.initial:nth-child(3) {
+          background-image: url("https://cmspreview2.corp.microsoft.com/en-us/CMSImages/FPO_1083_AccordionClosed_img.jpg?version=49d7ad63-74fc-f4a3-8c81-bdeed68a5960&CollectionId=45407611-3b1a-465b-a3d5-c0d9a3fe21a0");
+      }
+      #windows-comprehensive-security .accordion ul li.initial:nth-child(4) {
+          background-image: url("https://cmspreview2.corp.microsoft.com/en-us/CMSImages/FPO_1083_AccordionClosed_img.jpg?version=49d7ad63-74fc-f4a3-8c81-bdeed68a5960&CollectionId=45407611-3b1a-465b-a3d5-c0d9a3fe21a0");
+      }
+      #windows-comprehensive-security .accordion ul li.initial:nth-child(5) {
+      background-image: url("https://cmspreview2.corp.microsoft.com/en-us/CMSImages/FPO_1083_AccordionClosed_img.jpg?version=49d7ad63-74fc-f4a3-8c81-bdeed68a5960&CollectionId=45407611-3b1a-465b-a3d5-c0d9a3fe21a0");
+      }
+  }
+  */
+
+#windows-comprehensive-security .accordion ul li span p {
+    text-transform: none;
+    /*text-align: center;*/
+}
+
+.m-content-placement-item .c-call-to-action.no-border {
+    border-width: 0px;
+}
+
+
+/*body .mscom-link.c-call-to-action.c-glyph.no-padding-right{
+      padding-right: 0px !important;
+  }*/
+
+.m-content-placement-item .c-call-to-action.no-margin-right {
+    margin-right: 0px;
+}
+
+
+/*#windows-comprehensive-security .accordion ul li .expandBtn {
+      bottom: 10%;
+  }*/
+
+
+/*#windows-comprehensive-security .accordion .c-subheading-2  {
+      font-size: 1.5vw;
+  }*/
+
+#windows-comprehensive-security .accordion ul {
+    margin: 2px;
+}
+
+#windows-comprehensive-security .accordion ul li span p {
+    /*width: 22em;*/
+}
+
+#windows-comprehensive-security .accordion ul li.contracted .mainCont {
+    background: #7e7e7e;
+}
+
+#windows-comprehensive-security .accordion ul:hover li.contracted:hover .mainCont {
+    background: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+#windows-comprehensive-security .accordion ul li>.mainCont {
+    border: 1px solid #7e7e7e;
+}
+
+#windows-comprehensive-security li.expanded section.m-content-placement-item.content {
+    background-color: #7e7e7e;
+    padding: 12px;
+    margin-left: 48px;
+}
+
+@media screen and (min-width: 1084px) and (max-width: 1200px) {
+    #windows-comprehensive-security .accordion ul li span p {
+        left: 3px;
+    }
+}
+
+@media screen and (min-width: 1084px) {
+    #windows-comprehensive-security #Horizontal-acc .m-content-placement-item.content {
+        margin-top: 0 !important;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 60px;
+        padding: 40px !important;
+    }
+    body:not(.en-us) #windows-comprehensive-security #Horizontal-acc .m-content-placement-item.content {
+        padding: 20px !important;
+    }
+    #windows-comprehensive-security .accordion ul li span p {
+        bottom: 2%;
+    }
+    #windows-comprehensive-security .accordion ul li .expandBtn {
+        bottom: 5%;
+    }
+}
+
+@media screen and (max-width: 1083px) {
+    #windows-comprehensive-security #Horizontal-acc .logoImg {
+        top: 50%;
+    }
+    #windows-comprehensive-security #Horizontal-acc .logoImg .c-heading-3 {
+        padding: 0;
+    }
+    #windows-comprehensive-security #Horizontal-acc .accordion .m-content-placement-item p:first-of-type {
+        display: none;
+    }
+    #windows-comprehensive-security #Horizontal-acc .accordion .m-content-placement-item a.mscom-link.c-call-to-action.c-glyph.white-c {
+        display: none;
+    }
+    #windows-comprehensive-security #defender .m-feature .c-feature .mscom-link,
+    #windows-comprehensive-security #Horizontal-acc .mscom-link,
+    #windows-comprehensive-security .mscom-link.sec-link {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 539px) {
+    #Horizontal-acc .logoImg .c-heading-3,
+    #Horizontal-acc .logoImg>div {
+        width: 100%;
+    }
+    #Horizontal-acc .logoImg>div {
+        padding-top: 10px;
+    }
+    #Horizontal-acc .c-heading-3,
+    #Horizontal-acc .c-paragraph-1 {
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    #Horizontal-acc .c-paragraph-1 {
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 200;
+    }
+    #Horizontal-acc li.expanded section.m-content-placement-item.content {
+        margin: 0 20px !important;
+        bottom: 20px;
+    }
+    #Horizontal-acc .m-feature .c-heading-3 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    #Horizontal-acc .c-paragraph-3 {
+        font-size: 12px;
+        line-height: 16px;
+        padding-top: 0px;
+    }
+    #Horizontal-acc .btnClose {
+        margin: 15px !important;
+    }
+    #Horizontal-acc .accordion ul li span p {
+        letter-spacing: 2px;
+        font-size: 14px;
+    }
+}
+
+#windows-comprehensive-security #windowshello img.mscom-image.c-image.blue {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+}
+
+#windows-comprehensive-security section {
+    outline: none!important;
+}
+
+#windows-comprehensive-security #Horizontal-acc .btnClose {
+    display: none !important;
+}
+
+#windows-comprehensive-security #windowsupdates .m-feature,
+#windows-comprehensive-security #defender .m-feature {
+    margin-top: 48px !important;
+}
+
+@media screen and (max-width: 539px) {
+    .ar-xm #windows-comprehensive-security #Horizontal-acc li.expanded section.m-content-placement-item.content {
+        bottom: 5px;
+    }
+}
+
+.popupVideoPlayer {
+    text-align: center;
+}
+
+.accordion ul:focus {
+    outline: #000 dashed 2px;
+}
+
+.accordion ul li:focus>.mainCont {
+    outline: #000 dashed 2px;
+}
+
+.m-product-placement.f-app .c-carousel ul li :focus {
+    border: 1px dashed;
+    outline: none;
+}
+
+#view-all .m-product-placement-item a.mscom-link.windows-hyperlink-CTA:focus {
+    text-decoration: underline !important;
+}
+
+#mwf-common-prefooter .theme-dark [data-vg="mwf-common-prefooter-VG"] a.mscom-link.c-hyperlink:focus {
+    color: #0067b8 !important;
+}
+
+.high-contrast-mode #social-network img,
+.high-contrast-mode #prefooterNav img {
+    filter: invert(100%);
+    background: #FFFFFF !important;
+}
+
+#Mixed-Reality #storelocator .searchcontainer a.c-call-to-action:after {
+    content: "" !important;
+    margin-left: 0px !important;
+    display: inline !important;
+}
+
+[data-vg="Surface_L_Overview_HeroWithPivot_VG"] .c-call-to-action.surface-outline-white.c-glyph {
+    margin-right: 0;
+}
+
+
+/*@media screen and (-ms-high-contrast:active){
+    img[src*=".svg"] {
+      -ms-high-contrast-adjust: background !important;
+      background: #fff !important;
+    }
+    .devices-microsite img[src*=".svg"] {
+      background: none;
+    }
+  }*/
+
+.accordion ul li:hover .logoImg div::before {
+    content: "+";
+    padding: 1px 5px;
+    outline: 1px solid #fff;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.accordion ul li:hover .logoImg img {
+    display: none !important;
+}
+
+.accordion ul li:hover .logoImg p {
+    padding-left: 10px
+}
+
+#windows-3d #accordian .btnClose::before,
+#windows-mixed-reality-3-horizontal-acc .btnClose::before {
+    content: "X";
+    padding: 2px 6px;
+    outline: 1px solid #fff;
+    cursor: pointer;
+    font-family: sans-serif;
+    background: #000
+}
+
+#windows-3d #accordian .btnClose:focus::before,
+#windows-mixed-reality-3-horizontal-acc .btnClose:focus::before {
+    outline: 2px dotted #fff;
+}
+
+#windows-3d #accordian .btnClose>img,
+#windows-mixed-reality-3-horizontal-acc .btnClose>img {
+    display: none;
+}
+
+.accordion ul li .expandBtn {
+    width: 19px;
+}
+
+.ratingPlugin .reviewsCount.reviewsCount-blue a.c-hyperlink {
+    text-decoration: underline;
+}
+
+#pmp-big5 .m-system-requirements.devices-techspecspanel .c-table th {
+    font-weight: 100;
+}
+
+#videoplayerpopup a.mscom-link.c-glyph.glyph-play:focus {
+    outline: #000000 dashed 2px;
+}
+
+
+/*Code for changing "#videoplayerpopup" to ".videoplayerpopup" for duplicate ID issue in 3D page*/
+
+.videoplayerpopup a.mscom-link.c-glyph.glyph-play {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: 99;
+    font-size: 40px;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 100%;
+    padding: 5px 10px 1px 13px;
+}
+
+.videoplayerpopup img.mscom-image.c-image {
+    width: 100%;
+}
+
+.videoplayerpopup .youtubevidplayer {
+    position: relative;
+}
+
+@media screen and (max-width:1083px) {
+    #windows-3d #video-priority-1 .videoplayerpopup a.mscom-link.c-glyph.glyph-play {
+        left: 50% !important;
+    }
+}
+
+@media screen and (min-width:1084px) {
+    #windows-3d #video-priority-1 .videoplayerpopup a.mscom-link.c-glyph.glyph-play {
+        left: 67.5% !important;
+    }
+}
+
+.videoplayerpopup a.mscom-link.c-glyph.glyph-play:focus {
+    outline: #000000 dashed 2px;
+}
+
+
+/*code to bix button and hyperlink alignment in PMP-cross-sell panel*/
+
+#pmp-cross-sell .m-product-placement-item div.c-group {
+    display: block;
+}
+
+#pmp-cross-sell .m-product-placement-item div.c-group a+a {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    float: left;
+    margin-top: 5px;
+}
+
+
+/*removing udnerline for hyperlinks in normal mode and adding underline on Focus + HC mode*/
+
+html.high-contrast-mode .c-hyperlink {
+    text-decoration: none !important;
+}
+
+html.high-contrast-mode .c-hyperlink:focus {
+    text-decoration: underline !important;
+}
+
+
+/*Focus border for CTAs in accordion panel 3D and WMR pages*/
+
+#windows-3d #Horizontal-acc .m-content-placement-item.content a.c-call-to-action.c-glyph.white-c:focus {
+    outline: #fff dashed 1px !important;
+}
+
+
+/*Focus border for review link in HC mode*/
+
+.ratingPlugin .reviewsCount.reviewsCount-blue a.c-hyperlink:focus {
+    border: 1px dashed #000;
+}
+
+
+/*making cursor pointer on hover for icon images*/
+
+.m-product-placement-item ul.iconimagesheading .svgimg.active .c-hyperlink {
+    cursor: pointer;
+}
+
+
+/*Custom Play pause Button Code*/
+
+.video-holder {
+    position: relative;
+}
+
+video {
+    width: 100%;
+}
+
+.video_pp_button span {
+    display: inline-block;
+}
+
+.video_pp_button span:before {
+    font-family: MWF-MDL2;
+}
+
+.video_pp_button.play-button span:before {
+    content: "\E768";
+}
+
+.video_pp_button.pause-button span:before {
+    content: "\E769";
+}
+
+.video_pp_button {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    padding: 8px;
+    border: none;
+}
+
+.video_pp_button:focus {
+    outline: 1px dashed #fff;
+}
+
+.play-tooltip,
+.pause-tooltip {
+    display: none;
+}
+
+.pause-button:hover+div .pause-tooltip,
+.pause-button:focus+div .pause-tooltip {
+    display: block !important;
+}
+
+.play-button:hover+div .play-tooltip,
+.play-button:focus+div .play-tooltip {
+    display: block !important;
+}
+
+.video_pp_button:focus+div .play-pause-tooltip,
+.video_pp_button:hover+div .play-pause-tooltip {
+    position: absolute;
+    left: 55px;
+    bottom: 15px;
+    background: #fff;
+    padding: 5px;
+}
+
+.play-pause-grey-white {
+    background: #434343 !important;
+    color: #fff !important;
+}
+
+.play-pause-lightgrey-blue {
+    background: #CCCCCC !important;
+    color: #0078D7 !important;
+}
+
+.play-pause-black-white {
+    background: #000 !important;
+    color: #fff !important;
 }

@@ -1,13 +1,13 @@
 <div class="hero fixed-car v2">
 <section class="m-immersive-hero f-transparent theme-light" itemscope itemtype="http://schema.org/SoftwareApplication">
     <picture>
-        <source srcset="assets/video/acer-hero-Lifestyle-Static.jpg" media="(min-width: 1779px)">
-        <source srcset="assets/video/acer-hero-Lifestyle-Static.jpg" media="(min-width: 1400px)">
-        <source srcset="assets/video/acer-hero-Lifestyle-Static.jpg" media="(min-width: 1084px)">
-        <source srcset="assets/video/acer-hero-Lifestyle-Static.jpg" media="(min-width:768px)">
-        <source srcset="assets/video/acer-hero-Lifestyle-Static.jpg" media="(min-width:540px)">
-        <source srcset="assets/video/acer-hero-Lifestyle-Static.jpg" media="(min-width:0)">
-        <img srcset="assets/video/acer-hero-Lifestyle-Static.jpg" src="assets/video/acer-hero-Lifestyle-Static.jpg" alt="Placeholder with grey background and dimension watermark without any imagery">
+        <source srcset="assets/video/acer-hero-Lifestyle-Static-2.jpg" media="(min-width: 1779px)">
+        <source srcset="assets/video/acer-hero-Lifestyle-Static-2.jpg" media="(min-width: 1400px)">
+        <source srcset="assets/video/acer-hero-Lifestyle-Static-2.jpg" media="(min-width: 1084px)">
+        <source srcset="assets/video/acer-hero-Lifestyle-Static-2.jpg" media="(min-width:768px)">
+        <source srcset="assets/video/acer-hero-Lifestyle-Static-2.jpg" media="(min-width:540px)">
+        <source srcset="assets/video/acer-hero-Lifestyle-Static-2.jpg" media="(min-width:0)">
+        <img srcset="assets/video/acer-hero-Lifestyle-Static-2.jpg" src="assets/video/acer-hero-Lifestyle-Static-2.jpg" alt="Placeholder with grey background and dimension watermark without any imagery">
     </picture>
 </section>
     <div data-grid="container">
