@@ -20,6 +20,14 @@ header.context-uhf {
   width: 100%;
   top: 0;
 }
+header .visible-v5 {
+  display: none;
+}
+@media screen AND (min-width: 1240px) {
+  header .visible-v5 {
+    display: inline-block;
+  }
+}
 .search-icon {
   display: inline-block;
   width: 16px;
@@ -27,30 +35,27 @@ header.context-uhf {
   left: -212px;
   top: 15px;
 }
-.c-universal-header .c-uhf-menu > button:hover::before {
+.c-universal-header .c-uhf-menu > a:hover {
+  cursor: pointer;
+}
+.c-universal-header .c-uhf-menu > a:hover:before {
   display: block;
 }
 .c-universal-header > div > div {
   max-width: 1600px;
 }
-.c-universal-header .c-uhf-menu > button::before {
+.c-universal-header .c-uhf-menu > a::before {
   background: currentColor;
   content: "";
   display: none;
   height: 2px;
   position: absolute;
 }
-.c-universal-header > div:first-child .c-uhf-menu > button::before {
+.c-universal-header > div:first-child .c-uhf-menu > a::before {
   border: none;
-  width: 0;
-  bottom: 12px;
-  width: calc(50%) !important;
-}
-.c-universal-header > div:first-child .c-uhf-menu > button#windows-mixed-reality-menu-link {
-  padding-left: 0;
-}
-.c-universal-header > div:first-child .c-uhf-menu > button#windows-mixed-reality-menu-link::before {
-  width: 86% !important;
+  width: calc(100% - 24px);
+  bottom: 10px;
+  margin-left: 16px;
 }
 .c-search button:before {
   content: "";
@@ -174,14 +179,11 @@ header.context-uhf {
   margin: 1px 0 1px 1px;
   padding: 0 25px 0 6px;
 }
-.exp-singlestack-v2 #uhfCatLogo:hover::before,
-.exp-singlestack-v2 #windows-mixed-reality:hover::before {
-  width: calc(61%);
-  background: currentColor;
-  content: "";
-  display: none;
-  height: 2px;
-  position: absolute;
+.exp-singlestack-v2 #uhfCatLogo:hover:before,
+.exp-singlestack-v2 #windows-mixed-reality:hover:before {
+  width: calc(100% - 32px);
+  bottom: -3px;
+  margin-left: 8px;
 }
 .exp-singlestack-v2 #uhfCatLogo span,
 .exp-singlestack-v2 #windows-mixed-reality span {
@@ -211,7 +213,7 @@ nav .active-links {
   font-weight: 700;
 }
 .minor-fade.b_video header.context-uhf {
-  background: #ffffff !important;
+  background: rgba(255, 255, 255, 0.75) !important;
 }
 .b_video .js-global-head {
   position: relative;

@@ -28,10 +28,10 @@
                     <a id="windows-mixed-reality" href="#" itemprop="url" alt="Windows Mixed Reality"><span class="active-links">Windows Mixed Reality</span></a>
                 </div>
                 <div class="c-uhf-menu">
-                    <a><span>Windows Mixed Reality headsets</span></span></a>
+                    <a href="#"><span>Windows Mixed Reality headsets</span></span></a>
                 </div>
                 <div class="c-uhf-menu">
-                    <a><span>Windows Mixed Reality-ready PCs</span></span></a>
+                    <a href="#"><span>Windows Mixed Reality-ready PCs</span></span></a>
                 </div>
             </nav>
 
@@ -47,10 +47,10 @@
                     <span class="exp-8"></span>
                     <span class="exp-9"></span>
                 </span>
-                <span id="nav-menu" style="display: none;">Menu</span>
+                <span class="visible-v5" id="nav-menu" >Menu</span>
 
-                <span class="FUI" style="font-family: MWF-MDL2" ;> <span style="font-family: Segoe UI; display: none;">Search </span></span>
-                <span class="FUI" style="font-family: MWF-MDL2" ;> <span style="font-family: Segoe UI; font-size: 13px; display: none;">Cart </span></span>
+                <span class="FUI" style="font-family: MWF-MDL2" ;> <span style="font-family: Segoe UI;"  class="visible-v5">Search </span></span>
+                <span class="FUI" style="font-family: MWF-MDL2" ;> <span style="font-family: Segoe UI; font-size: 13px;"  class="visible-v5">Cart </span></span>
                 <span class="FUI"><span>Sign in</span></span>
             </div>
         </div>

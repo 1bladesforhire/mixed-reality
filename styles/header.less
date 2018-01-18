@@ -13,12 +13,19 @@
 
 //waffle menu fixes
 
-header.context-uhf {
-    position: absolute;
-    z-index: 2;
-    //background: linear-gradient(rgba(255,255,255,.65) 70%, transparent) !important;
-    width: 100%;
-    top: 0;
+header {
+    &.context-uhf {
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+        top: 0;
+    }
+    .visible-v5{
+        display: none;
+        @media screen AND (min-width:1240px){
+            display: inline-block;
+        }
+    }
 }
 
 .search-icon {
@@ -30,13 +37,16 @@ header.context-uhf {
 }
 
 .c-universal-header {
-    .c-uhf-menu>button:hover::before {
-        display: block;
+    .c-uhf-menu > a:hover {
+        cursor: pointer;
+        &:before {
+            display: block;
+        }
     }
     &>div>div {
         max-width: 1600px;
     }
-    .c-uhf-menu>button::before {
+    .c-uhf-menu > a::before {
         background: currentColor;
         content: "";
         display: none;
@@ -44,18 +54,12 @@ header.context-uhf {
         position: absolute;
     }
     &>div:first-child {
-        .c-uhf-menu>button::before {
+        .c-uhf-menu>a::before {
             border: none;
-            width: 0;
-            bottom: 12px;
-            width: calc(100% - 50px) !important;
+            width: calc(~"100% - 24px");
+            bottom: 10px;
+            margin-left: 16px;
         }
-        .c-uhf-menu>button#windows-mixed-reality-menu-link{
-            padding-left: 0;
-        }
-        .c-uhf-menu>button#windows-mixed-reality-menu-link::before{
-            width: 86% !important;
-        }   
     }
 }
 .c-search button:before {
@@ -180,32 +184,15 @@ header.context-uhf {
     }
 }
 
-// .glyph-chevron-right {
-//     font-size: 9px;
-//     font-weight: bold;
 
-// }
-// .glyph-chevron-right.first {
-//     position:relative;
-//     left: 7px;
-//     font-weight: 700;
-//     padding-left: 8px;
-// }
-// .glyph-chevron-right.second{
-//     font-weight: 700;
-//     padding-left:2px;
-// }
 .exp-singlestack-v2 #uhfCatLogo, .exp-singlestack-v2 #windows-mixed-reality{
     border: 1px solid transparent;
     margin: 1px 0 1px 1px;
     padding: 0 25px 0 6px;
-    &:hover::before {
-        width: calc(100% - 39px);
-        background: currentColor;
-        content: "";
-        display: none;
-        height: 2px;
-        position: absolute;
+    &:hover:before {
+        width: calc(~"100% - 32px");
+        bottom: -3px;
+        margin-left: 8px;
     }
     span{
         font-size: 13px;
@@ -241,20 +228,9 @@ nav .active-links{
     font-weight: 700;
 }
 
-
-//header for macro version
-// .solid-waffle.b_video{
-//     .js-global-head{
-//         background: transparent !important;
-//     }
-//     .context-uhf{
-//         background: rgba(255,255,255,.75);
-//     }
-// }
-
 //header for video version
 .minor-fade.b_video{
     header.context-uhf{
-        background: @white !important;
+        background: rgba(255,255,255,.75) !important;
     }
 }
