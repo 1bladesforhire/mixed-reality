@@ -449,26 +449,11 @@
 <div id="ContentBlockList_1" class="" ms.pgarea="body">
     <section id="xp-accolade-panel" class="xp-accolade-loading" ms.cmpgrp="designed for every angle">
         <div class="hero-video">
-            <picture class="c-image xp-accolade-media" data-spritesrc-xs="assets/video/acer_sprite.jpg" data-spritesrc-xl="assets/video/acer_sprite.jpg" data-spritenumframes-xs="30" data-spritenumframes-xl="30">
-                <source srcset="../assets/video/acer_sprite.jpg" media="(min-width:0px)">
-                <img srcset="../assets/video/acer_sprite.jpg" src="../assets/video/acer_sprite.jpg"
+            <picture class="c-image xp-accolade-media" data-spritesrc-xs="assets/video/acer_sprite_2.jpg" data-spritesrc-xl="assets/video/acer_sprite_2.jpg" data-spritenumframes-xs="30" data-spritenumframes-xl="30">
+                <source srcset="../assets/video/acer_sprite_2.jpg" media="(min-width:0px)">
+                <img srcset="../assets/video/acer_sprite_2.jpg" src="../assets/video/acer_sprite_2.jpg"
                     alt="Slider that rotates Acer Headset 360 degrees" ms.title="slider that rotates acer headset 360 degrees">
             </picture>
-            <!-- <div class="xp-rotator-sprite" style=" display:none;"></div> -->
-            <!-- <div class="windows-rotatebox" data-grid="col-12" data-totalimages="51" data-slider-position="0">
-               <div class="windows-posterimage" style="display: none;">
-                    <picture><img src="https://c.s-microsoft.com/en-us/CMSImages/WinMR_Acer_Rotator000_382x258.jpg?version=138ee399-7576-afea-1bb1-150a621a42b2" alt="Acer Windows Mixed Reality headset" class="mscom-image c-image" style="" ms.cmpnm="acer headset new"></picture>
-                </div>
-                <div class="windows-sliderimages x-hidden-focus" style="height: 293px; background-size: 100% 5100%; background-position: 0px 0px; background-image: url(" https://c.s-microsoft.com/en-us/CMSImages/WinMR_Acer_Rotator_long_12.jpg?version=1438444c-4e1a-da62-2d52-79d568fe74bc
-                    "); display: block;"></div>
-                <div class="windows-slidercomp" style="display: block;">
-                    <div class="windows-slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" data-aria="Drag the slider button or use your left and right arrow keys for a 360 degree view of the headset." data-bi-name="windows_rotationslider2"
-                        data-bi-id="n1c1c1c2c1m1r25a3">
-                        <div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min" style="width: 0%;"></div><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" role="slider" aria-label="Drag the slider button or use your left and right arrow keys for a 360 degree view of the headset." style="left: 0%;" aria-live="rude"></span></div>
-                </div>
-                <p class="x-type-center margin-top-20">Drag for 360 degree view</p>
-            </div>
-        </div> -->
             <div class="accoladeFooter">
                 <div class="holder clearfix" style="display: block;">
                     <div class="sliderHolder" aria-label="360 view of Acer Headset slider">

@@ -244,3 +244,17 @@ function O() {
 //         player.addPlayerEventListener(function(e) { console.log('player event: ' + JSON.stringify(e)) });
 //     }
 // );
+
+//pause video start for 2 seconds
+//learn more cta in the multithumb
+//change first image to #7 
+//remove last line from 3 up and replace check compatability language in 2 up
+//three up change all to left aligned text and buttons/price
+//add some padding to the shop all link top in 3 up
+//add some padding to match left video for most sections
+//transparent menu on product carousel, and lifestyle
+//New sprite with 50% bigger image -get with adan
+//fix buybox on rotator page
+//swap minecraft with 360 video make first slide in mulithumb
+//change video pop up back to 16/9 part of the screen instead of fullscreen
+//rotate slider blue of buttons

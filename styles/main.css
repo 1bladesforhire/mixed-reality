@@ -215,6 +215,12 @@ nav .active-links {
 .minor-fade.b_video header.context-uhf {
   background: rgba(255, 255, 255, 0.75) !important;
 }
+.spinner.b_video section.c-pivot {
+  margin-top: 0;
+}
+.spinner.b_video .buybox.v2 {
+  margin-bottom: 50px;
+}
 .b_video .js-global-head {
   position: relative;
   height: 50px;
