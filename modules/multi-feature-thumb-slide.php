@@ -42,32 +42,32 @@
                 <h4 class="c-heading-10">MICROSOFT</h4>
                 <h3 class="c-heading">Minecraft</h3>
                 <p class="c-paragraph">Get right inside the world of Minecraft with mixed reality. Build, explore and battle mobs - do all the things you know and love - but from a fresh perspective.</p>
-                <a href="https://www.microsoft.com/en-us/store/p/minecraft/9nblggh537bl" target="_blank" rel="no-follow" class="c-call-to-action c-glyph">Learn More</a>
+                <a href="https://www.microsoft.com/en-us/store/p/minecraft/9nblggh537bl" target="_blank" rel="no-follow" class="c-call-to-action c-glyph">LEARN MORE</a>
             </li>
             <li id="newIconItemContent13" role="tabpanel" >
                 <h4 class="c-heading-10">VERTIGO GAMES</h4>
                     <h3 class="c-heading">Skyworld</h3>
                     <p class="c-paragraph">Battle the forces of evil as you conquer and reunite all Skyworlds in this turn-based strategy game that brings the beloved gameplay of strategy classics to VR.</p>
-                    <a href="https://www.microsoft.com/en-us/store/p/skyworld/9ndg5v15t4nl" target="_blank" rel="no-follow" class="c-call-to-action c-glyph">Learn More</a>
+                    <a href="https://www.microsoft.com/en-us/store/p/skyworld/9ndg5v15t4nl" target="_blank" rel="no-follow" class="c-call-to-action c-glyph">LEARN MORE</a>
                 </li>
             <li id="newIconItemContent11" role="tabpanel" >
                 <!-- <h4 class="c-heading-10">Microsoft</h4> -->
                 <h3 class="c-heading">Steam®VR</h3>
                 <p class="c-paragraph">Dive into many of the most popular VR games available today. Experience more than 2,000 titles from the Steam®VR library on Windows Mixed Reality.<sup>11</sup></p>
-                <a target="_blank" rel="nofollow" href="https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/using-steamvr-with-windows-mixed-reality" class="c-call-to-action c-glyph">Learn More</a>
+                <a target="_blank" rel="nofollow" href="https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/using-steamvr-with-windows-mixed-reality" class="c-call-to-action c-glyph">LEARN MORE</a>
             </li>
             <li id="newIconItemContent12" role="tabpanel">
                 <h4 class="c-heading-10">SUPERHOT TEAM</h4>
                 <h3 class="c-heading">SUPERHOT VR</h3>
                 <p>The iconic VR FPS is here; time moves only when you do. </p>
-                <a href="https://www.microsoft.com/en-us/store/p/superhot/bvz0d05w8mp2" target="_blank" rel="no-follow" class="c-call-to-action c-glyph">Learn More</a>
+                <a href="https://www.microsoft.com/en-us/store/p/superhot/bvz0d05w8mp2" target="_blank" rel="no-follow" class="c-call-to-action c-glyph">LEARN MORE</a>
             </li>
            
             <li id="newIconItemContent14" role="tabpanel">
                 <h4 class="c-heading-10">JAUNT</h4>   
                 <h3 class="c-heading">Free the Night</h3>
                 <p class="c-paragraph">A magical interactive VR journey that invites you to blow out city lights and return the stars back into the night sky.</p>
-                <a href="https://www.microsoft.com/en-us/store/p/free-the-night/9ntl9pfzp9f3" target="_blank" rel="no-follow" class="c-call-to-action c-glyph">Learn More</a>
+                <a href="https://www.microsoft.com/en-us/store/p/free-the-night/9ntl9pfzp9f3" target="_blank" rel="no-follow" class="c-call-to-action c-glyph">LEARN MORE</a>
             </li>
 
         </ul>
