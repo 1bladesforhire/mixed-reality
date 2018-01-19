@@ -232,95 +232,9 @@ a.m-background-neutral-20{
     overflow: visible !important;
 }
 
-//Three Dark
-#three_dark{
-    color: #919191;
-    margin-top: 60px;
-    padding-bottom: 100px;
-    .m-feature .c-paragraph{
-        color: @dark-gray;
-        max-width: 70%;
-        margin: 0 auto;
-       
-        a.highlight{
-            color: @white;
-            text-decoration: underline;
-            &:hover{
-                color: #919191;
-            }
-        }
-    }
-    .m-content-placement-item{
-        text-align: center;
-        padding-bottom: 0;
-        min-height: 580px;
-        color: @white;
-        @media @smartphones{
-            clear: both;
-        }
-         &:hover >div .c-heading{
-             text-decoration: none;
-            }
-        img{
-            width: auto;
-        }
-        picture{
-            min-height: 300px;
-        }
-        h2, h3{
-            color:@white; 
-        }
-        .c-heading{
-            font-size: 24px;
-            font-weight: 100;
-            padding-top: 48px;
-            padding-bottom: 24px;
-        }
-        button:hover{
-            background: darken(@ms-blue, 20%);
-        }
-        p{
-            color: @dark-gray;
-        }
-        .c-list{
-            text-align: left;
-            margin: 0 auto;
-            max-width: 300px;
-            padding: 20px;
-        }
-      
-    }
-    .c-price{
-        width: 60px;
-        margin: 0 auto;
-        padding: 8px 0;
-        color: @white;
-    }
-    button{
-        background: @ms-blue;
-        color: @white;
-        &:hover{
-            background: darken(@ms-blue, 20%);
-        }
-    }
-    #shop-all{
-        text-align: center;
-        a.c-call-to-action{
-            background: @black;
-            color: @white;
-            text-transform: uppercase;
-            &:hover{
-                span{
-                    text-decoration: underline;
-                }
-            }
-        }
-    }
-}
 
 //mutli feature tile
 #m-multi-tiles{
-
     padding-top: 100px;
     [role=tablist] li>a.f-active .c-image {
         border: 1px solid @white;
@@ -360,35 +274,39 @@ a.m-background-neutral-20{
    
 }
 
+//video slides
+#vid-slides{
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
 //ambient video
-
-
-    .glyph-play, .glyph-pause{
+.glyph-play, .glyph-pause{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%,0);
+    background: rgba(0,0,0,0.6);
+    border-radius: 50%;
+    padding: 26px;
+    color: #fff !important;
+    z-index: 5;
+    &:before{
         position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate3d(-50%, -50%,0);
-        background: rgba(0,0,0,0.6);
-        border-radius: 50%;
-        padding: 26px;
-        color: #fff !important;
-        z-index: 5;
-        &:before{
-            position: absolute;
-            left: calc(50%);
-            top: calc(50%);
-            transform: translate(-50%,-50%);
-            font-size: 24px; 
-        }
-        &:hover{
-            opacity: 0.8;
-        }
+        left: calc(50%);
+        top: calc(50%);
+        transform: translate(-50%,-50%);
+        font-size: 24px; 
     }
-    .glyph-pause{
-        &:before{
-            content: "||";
-        }
+    &:hover{
+        opacity: 0.8;
     }
+}
+.glyph-pause{
+    &:before{
+        content: "||";
+    }
+}
 
 
 #footerArea{

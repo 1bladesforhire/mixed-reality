@@ -4,3 +4,93 @@
 .m-feature-group{
     background: #ffffff;
 }
+
+//Three Dark
+#three_dark{
+    color: #919191;
+    margin-top: 60px;
+    padding-bottom: 100px;
+    .m-feature .c-paragraph{
+        color: @dark-gray;
+        max-width: 70%;
+        margin: 0 auto;
+       
+        a.highlight{
+            color: @white;
+            text-decoration: underline;
+            &:hover{
+                color: #919191;
+            }
+        }
+    }
+    picture{
+        text-align: center;
+    }
+    .m-content-placement-item{
+        text-align: left;
+        padding-bottom: 0;
+        min-height: 580px;
+        color: @white;
+        @media @smartphones{
+            clear: both;
+        }
+         &:hover >div .c-heading{
+             text-decoration: none;
+            }
+        img{
+            width: auto;
+        }
+        picture{
+            min-height: 300px;
+        }
+        h2, h3{
+            color:@white; 
+        }
+        .c-paragraph{
+            max-width: 80%;
+        }
+        .c-heading{
+            font-size: 24px;
+            font-weight: 100;
+            padding-top: 48px;
+            padding-bottom: 24px;
+        }
+        button:hover{
+            background: darken(@ms-blue, 20%);
+        }
+        p{
+            color: @dark-gray;
+        }
+        .c-list{
+            text-align: left;
+            max-width: 300px;
+        }
+      
+    }
+    .c-price{
+        width: 60px;
+        padding: 8px 0;
+        color: @white;
+    }
+    button{
+        background: @ms-blue;
+        color: @white;
+        &:hover{
+            background: darken(@ms-blue, 20%);
+        }
+    }
+    #shop-all{
+        text-align: center;
+        padding-top: 30px;
+        a.c-call-to-action{
+            background: @black;
+            color: @white;
+            text-transform: uppercase;
+            &:hover{
+                span{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

@@ -67,7 +67,7 @@
 }
 #xp-accolade-panel .accoladeFooter .rotate-descriptor p {
     letter-spacing: 3px;
-    color: #c8c8c8;
+    color: #000000;
     font-weight: 600;
     padding: 0px;
 }
@@ -473,7 +473,7 @@
     <div class="buybox v2">
                 <div data-grid="col-3">
                     <picture class="c-image">
-                        <img class="lazyloaded" alt="Acer Windows Mixed Reality Headset" src="assets/video/acer-250X250.jpg">
+                        <img class="lazyloaded" alt="Acer Windows Mixed Reality Headset" src="assets/video/acer-250X250.png">
                     </picture>
                 </div>
                 <div data-grid="col-6">

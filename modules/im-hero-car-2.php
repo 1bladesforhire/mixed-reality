@@ -79,7 +79,7 @@
         <div class="buybox v2">
             <div data-grid="col-3">
                 <picture class="c-image">
-                    <img class="lazyloaded" alt="Acer Windows Mixed Reality Headset" src="assets/video/acer-250X250.jpg">
+                    <img class="lazyloaded" alt="Acer Windows Mixed Reality Headset" src="assets/video/acer-250X250.png">
                 </picture>
             </div>
             <div data-grid="col-6">

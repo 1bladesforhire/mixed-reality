@@ -7,7 +7,7 @@
                 <span>Company</span>
             </a>
                 <h2 class="c-heading-3">Get Windows Mixed Reality ready</h2>
-                <div class="c-paragraph">No minimum purchase, no products excluded. Enjoy free shipping on everything. <br></div>
+                <div class="c-paragraph">Is your current Windows 10 PC ready for Windows Mixed Reality? <br></div>
                     <a class="c-call-to-action c-glyph f-lightweight" aria-label="see details free shipping" data-m="{&quot;cN&quot;:&quot;SEE DETAILS&quot;,&quot;id&quot;:&quot;n1m1r7a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;m1r7a2&quot;}" href="https://www.microsoft.com/en-us/store/p/windows-mixed-reality-pc-check/9nzvl19n7cnc?rtc=1">
                         <span>CHECK COMPATIBILITY</span>
                     </a>

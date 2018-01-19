@@ -1,6 +1,6 @@
 <div class="hero video v2 v1">
     <div class="video-wrapper x-hidden-focus">
-        <video autoplay muted class="bg-video" poster="assets/smoke_immersive_bgX2400.jpg">
+        <video muted class="bg-video" poster="assets/video/acer-v6.jpg">
             <source src="assets/video/acer-v6.mp4" type="video/mp4">
         </video>
         <!-- <button class="c-action-toggle c-glyph glyph-pause f-toggle" data-toggled-label="Play" data-toggled-glyph="glyph-play" aria-label="Pause"></button> -->
@@ -10,7 +10,7 @@
         <div class="buybox v2">
             <div data-grid="col-3">
                 <picture class="c-image">
-                    <img class="lazyloaded" alt="Acer Windows Mixed Reality Headset" src="assets/video/acer-250X250.jpg">
+                    <img class="lazyloaded" alt="Acer Windows Mixed Reality Headset" src="assets/video/acer-250X250.png">
                 </picture>
             </div>
             <div data-grid="col-6">
