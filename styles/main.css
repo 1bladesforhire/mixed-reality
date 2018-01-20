@@ -784,9 +784,7 @@ a.m-background-neutral-20 {
   max-width: 1600px;
   margin-top: 0;
   width: 100%;
-  bottom: 40%;
   float: left;
-  top: 0;
 }
 .buybox.v2 h1 {
   color: #000;
@@ -992,10 +990,21 @@ ul.bullets li a {
 }
 /* Large screen, retina, stuff to override regular media query */
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1300px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 1300px), only screen and (min-device-pixel-ratio: 2) and (min-width: 1300px), only screen and (min-resolution: 192dpi) and (min-width: 1300px), only screen and (min-resolution: 2dppx) and (min-width: 1300px) {
-  .m-immersive-hero-item {
-    max-height: 60vh;
-  }
   .hero.fixed-car .m-immersive-hero .c-sequence-indicator {
-    bottom: 6%;
+    bottom: 20%;
+  }
+  .buybox.v2 {
+    bottom: 100px;
+  }
+  .minor-fade .buybox.v2 {
+    bottom: -10px;
+  }
+  .faded-waffle .hero.fixed-car,
+  .solid-waffle .hero.fixed-car,
+  .no-waffle .hero.fixed-car {
+    margin-bottom: 140px;
+  }
+  .spinner.b_video .buybox.v2 {
+    bottom: 0;
   }
 }

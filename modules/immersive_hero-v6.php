@@ -41,6 +41,7 @@
                         <li>Inside-Out Tracking automatically changes the perspective of the outside world without needing to install additional sensors in the room.</li>
                         <li>Spatial audio lets you hear sounds from specific locations just like in the real world​.</li>
                         <li>Windows Mixed Reality Headset Controllers included.</li>
+                        <li>Is your Windows 10 PC ready for Windows Mixed Reality? <a class="f-blue" href="https://www.microsoft.com/en-us/store/p/windows-mixed-reality-pc-check/9nzvl19n7cnc?rtc=1" target="_blank" rel="no-follow">Check compatibility</a></li>
                     </ul>
                 </div>
             </div>

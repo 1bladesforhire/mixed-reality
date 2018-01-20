@@ -7,11 +7,34 @@ only screen and (        min-device-pixel-ratio: 2)      and (min-width: 1300px)
 only screen and (                min-resolution: 192dpi) and (min-width: 1300px),
 only screen and (                min-resolution: 2dppx)  and (min-width: 1300px) { 
 
-    .m-immersive-hero-item{
-        max-height: 60vh;
+    
+    
+    .hero{
+        &.fixed-car {
+            .m-immersive-hero .c-sequence-indicator {
+                bottom: 20%;
+            } 
+
+        }
     }
-    .hero.fixed-car .m-immersive-hero .c-sequence-indicator {
-        bottom: 6%;
+
+    .buybox.v2{
+        bottom: 100px;
+    }
+    .minor-fade{
+        .buybox.v2{
+            bottom: -10px;
+        }
+    }
+    .faded-waffle, .solid-waffle, .no-waffle {
+        .hero.fixed-car{
+            margin-bottom: 140px;
+        }
+    }
+    .spinner.b_video{
+        .buybox.v2{
+            bottom: 0;
+        }
     }
 
 }

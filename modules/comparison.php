@@ -36,6 +36,7 @@
                                             <li data-bi-id="c4c1c1c1m1r24a3" data-bi-name="c4c1c1c1m1r24a3">Field of view: Up to 110°</li>
                                             <li data-bi-id="c5c1c1c1m1r24a3" data-bi-name="c5c1c1c1m1r24a3">Integrated AKG headphones, Dual array mics</li>
                                             <li data-bi-id="c6c1c1c1m1r24a3" data-bi-name="c6c1c1c1m1r24a3">Includes motion controllers</li>
+                                            <li>Is your Windows 10 PC ready for Windows Mixed Reality? <a href="https://www.microsoft.com/en-us/store/p/windows-mixed-reality-pc-check/9nzvl19n7cnc?rtc=1" target="_blank" rel="no-follow">Check compatibility</a></li>
                                         </ul>
                                     </p>
                                 </div>

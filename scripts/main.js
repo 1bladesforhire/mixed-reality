@@ -253,9 +253,11 @@ function O() {
 // );
 
 
-//another bullet in the buybox(what was it)?
+//another bullet in the buybox(in tasks)?
 //large viewport hero sizes
 //rotate slider blue of buttons
+
+
 
 
 //learn more cta in the multithumb
@@ -269,3 +271,4 @@ function O() {
 //transparent menu on product carousel, and lifestyle
 //fix buybox on rotator page
 //remove last line from 3 up and replace check compatability language in 2 up
+//three up paragraph text

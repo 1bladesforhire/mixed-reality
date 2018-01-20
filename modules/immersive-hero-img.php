@@ -47,6 +47,7 @@
                         <li>Six degrees of freedom (6DoF) gives you the space to explore new worlds</li>
                         <li>Spatial audio delivers latency-free sounds in lifelike detail as you roam</li>
                         <li>Includes motion controllers</li>
+                        <li>Is your Windows 10 PC ready for Windows Mixed Reality? <a class="f-blue" href="https://www.microsoft.com/en-us/store/p/windows-mixed-reality-pc-check/9nzvl19n7cnc?rtc=1" target="_blank" rel="no-follow">Check compatibility</a></li>
                     </ul>
                 </div>
             </div>

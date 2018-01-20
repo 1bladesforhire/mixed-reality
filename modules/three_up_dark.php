@@ -21,7 +21,7 @@
                     <div>
                         
                         <h3 class="c-heading">For the hobbyist</h3>
-                        <p class="c-paragraph">The Dell XPS 8910 has a small form factor and a great low price. It‘s the perfect Windows Mixed Reality solution for a TV room or home office. Get into Windows Mixed Reality without rethinking your entertainment set up.</p>
+                        <p class="c-paragraph">The compact, budget-friendly Dell XPS 8910 is the perfect desktop PC if you’re looking to explore mixed reality without breaking the bank.</p>
                         <ul class="c-list">
                             <li>Intel Core i5-6400</li>
                             <li>8GB memory/1TB HDD</li>
