@@ -624,6 +624,9 @@ a.m-background-neutral-20 {
 #m-multi-tiles .c-image img {
   width: 100%;
 }
+#m-multi-tiles a.playme {
+  cursor: pointer;
+}
 #videoButton {
   color: #0067b8;
   background: transparent !important;
