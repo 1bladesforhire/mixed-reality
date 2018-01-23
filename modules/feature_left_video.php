@@ -2,7 +2,7 @@
 <section class="m-feature f-align-left f-image-priority">
     <div class="m-ambient-video">
         <a class="c-glyph glyph-play" id="embed1" href="#overview" aria-label="Play Mixed Reality video" onclick="vidplay()"></a>
-        <video role="img" alt="Ambient video alt text" poster="assets/WMR_sizzle_poster.jpg" id="vid1" muted>
+        <video role="img" alt="Ambient video alt text" poster="assets/WMR_sizzle_poster.jpg" id="vid1" >
             <source src="assets/video/WMR-Video.mp4" type="video/mp4">
         </video>
     </div>

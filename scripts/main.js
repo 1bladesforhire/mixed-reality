@@ -129,6 +129,7 @@ jQuery(function() {
             button.classList.remove("glyph-play");
             button.classList.add("glyph-cancel");
             video.setAttribute("controls", "controls");
+            video.volume = .3;
         } else {
             video.pause();
             $('#overview .m-ambient-video').removeClass('playing');
