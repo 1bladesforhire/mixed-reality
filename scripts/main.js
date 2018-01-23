@@ -41,9 +41,11 @@ jQuery(function() {
         });
 
         //start video hero after page loads
-        setTimeout(function(){
-            $('.hero .video-wrapper video').get(0).play();
-        }, 1000);
+        if($('.hero .video-wrapper video').get(0) !== false){
+            setTimeout(function(){
+                $('.hero .video-wrapper video').get(0).play();
+            }, 1000);
+        }
         
 
         $('#vid-slides a, #vid-slides button').on('click', function() {
@@ -123,13 +125,15 @@ jQuery(function() {
         var video = document.getElementById("vid1");
         if (video.paused) {
             video.play();
+            $('#overview .m-ambient-video').addClass('playing');
             button.classList.remove("glyph-play");
-            button.classList.add("glyph-pause");
+            button.classList.add("glyph-cancel");
             video.setAttribute("controls", "controls");
         } else {
             video.pause();
+            $('#overview .m-ambient-video').removeClass('playing');
             button.classList.add("glyph-play");
-            button.classList.remove("glyph-pause");
+            button.classList.remove("glyph-cancel");
             video.setAttribute("controls", "false");
         }
 
