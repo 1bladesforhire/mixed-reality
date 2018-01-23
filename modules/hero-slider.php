@@ -299,7 +299,7 @@
     -webkit-appearance: none;
     height: 26px;
     width: 56px;
-    background: url(https://compass-ssl.xbox.com/assets/53/34/5334b57a-c87d-483d-b0bc-bc8501e26385.png?n=Rotator_Scrubber.png);
+    background: url(../assets/scrubber.png);
     margin-top: -13px
 }
 #xp-accolade-panel .accoladeFooter input[type=range]::after {
