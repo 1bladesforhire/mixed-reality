@@ -332,7 +332,7 @@
 #xp-accolade-panel .accoladeFooter input[type=range]::-moz-range-thumb {
     height: 26px;
     width: 56px;
-    background: url(https://compass-ssl.xbox.com/assets/53/34/5334b57a-c87d-483d-b0bc-bc8501e26385.png?n=Rotator_Scrubber.png);
+    background: url(../assets/scrubber.png);
     border-color: transparent;
     border-width: 0;
     cursor: ew-resize
@@ -354,9 +354,9 @@
     background: 0 0
 }
 #xp-accolade-panel .accoladeFooter input[type=range]::-ms-thumb {
-    height: 3px;
+    height: 4px;
     width: 40px;
-    background: #5cc31e;
+    background: #0067b8;
     cursor: ew-resize
 }
 #xp-accolade-panel .accoladeFooter input[type=range]:focus::-ms-fill-lower {
