@@ -1,7 +1,7 @@
 <section data-grid="container stack-2" class="m-multi-feature f-align-center" id="m-multi-tiles">
     <div data-grid="c
     ol-12" class="m-area-heading">
-        <h2 class="c-heading-8 f-lean">A New World of Gaming</h2>
+        <h2 class="c-heading-8 f-lean">A new world of gaming</h2>
     </div>
     <section data-grid="container">
         <ul role="tablist">
@@ -52,7 +52,7 @@
                 </li>
             <li id="newIconItemContent11" role="tabpanel" >
                 <!-- <h4 class="c-heading-10">Microsoft</h4> -->
-                <h3 class="c-heading">Steam®VR</h3>
+                <h3 class="c-heading">Steam VR</h3>
                 <p class="c-paragraph">Dive into many of the most popular VR games available today. Experience more than 2,000 titles from the Steam®VR library on Windows Mixed Reality.<sup>11</sup></p>
                 <a target="_blank" rel="nofollow" href="https://docs.microsoft.com/en-us/windows/mixed-reality/enthusiast-guide/using-steamvr-with-windows-mixed-reality" class="c-call-to-action c-glyph">LEARN MORE</a>
             </li>
