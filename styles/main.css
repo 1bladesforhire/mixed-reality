@@ -567,6 +567,7 @@ a.m-background-neutral-20 {
 .m-multi-feature.f-align-center > section > ul {
   max-width: 735px;
   width: 100%;
+  margin: 0 auto;
 }
 #m-multi-description {
   position: absolute;
@@ -609,6 +610,8 @@ a.m-background-neutral-20 {
   background: #f0f0f0;
   margin-top: -100px;
   padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 #m-multi-tiles > section > [role=tablist] a.f-active {
   text-decoration: underline;

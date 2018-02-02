@@ -175,6 +175,7 @@ jQuery(function() {
     // Function to reveal lightbox and add YouTube autoplay
     function revealVideo(div, video_id) {
         var video = document.getElementById(video_id).src;
+        // video.volume = .3;
         document.getElementById(video_id).src = video + '&autoplay=1'; // adding autoplay to the URL
         document.getElementById(div).style.display = 'block';
     }
