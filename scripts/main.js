@@ -74,6 +74,13 @@ jQuery(function() {
             }, 50);
         });
 
+        $('#vid-slides video').hover(function toggleControls() {
+            this.setAttribute("controls", "controls");
+        });
+        $('#vid-slides video').on('mouseleave', function(){
+            this. video.setAttribute("controls", "false");
+        });
+
     });
 
     //lazy load youtube vids
@@ -233,48 +240,3 @@ function O() {
         ["#windows-mixed-15-product-placement .windows-slider", e]
     ])
 }
-
-// MS video player
-
-// var playerData = {
-//     options: {
-//         autoplay: false,
-//         mute: false,
-//         loop: false,
-//         market: "en-us",
-//         playFullScreen: false
-//     },
-//     metadata: {
-//         videoId: '2D3FDE10-2387-4EE6-8B7A-EBD9ED73E23B'
-////secondary vid id b449aafc-09ff-5556-08b5-32c2fb368912  ??
-//     }
-// };
-
-// MsOnePlayer.render(
-//     'player-container', // id of the container div
-//     playerData, // player data	
-//     function(player) { // onPlayerReady callback function which returns back player instance on which APIs can be called
-//         player.addPlayerEventListener(function(e) { console.log('player event: ' + JSON.stringify(e)) });
-//     }
-// );
-
-
-//another bullet in the buybox(in tasks)?
-//large viewport hero sizes
-//rotate slider blue of buttons
-
-
-
-
-//learn more cta in the multithumb
-//change video pop up back to 16/9 part of the screen instead of fullscreen
-//pause video start for 2 seconds
-//swap minecraft with 360 video make first slide in mulithumb
-//change buybox thumb image
-//add some top padding to match left video for most sections
-//three up change all to left aligned text and buttons/price
-//add some padding to the shop all link top in 3 up
-//transparent menu on product carousel, and lifestyle
-//fix buybox on rotator page
-//remove last line from 3 up and replace check compatability language in 2 up
-//three up paragraph text

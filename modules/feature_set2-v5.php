@@ -38,22 +38,22 @@
                 <ul>
                     <li id="newRTBItemImage1" data-f-theme="light" role="tabpanel" class="f-active">
                         <div class="m-ambient-video">
-                            <video role="img" alt="Ambient video alt text" poster="assets/video/controllers.jpg" src="assets/video/controllers.mp4" muted controls loop preload="none"></video>
+                            <video role="img" alt="Ambient video alt text" poster="assets/video/controllers.jpg" src="assets/video/controllers.mp4" muted oop preload="none"></video>
                         </div>
                     </li>
                     <li id="newRTBItemImage2" data-f-theme="light"  role="tabpanel">
                         <div class="m-ambient-video">
-                            <video role="img" alt="Ambient video alt text" poster="assets/video/controllers.jpg" src="assets/video/header-16-6.mp4" muted controls  loop preload="none"></video>
+                            <video role="img" alt="Ambient video alt text" poster="assets/video/controllers.jpg" src="assets/video/header-16-6.mp4" muted loop preload="none"></video>
                         </div>
                     </li>
                     <li id="newRTBItemImage3" data-f-theme="dark" role="tabpanel">
                         <div class="m-ambient-video">
-                            <video role="img" alt="Ambient video alt text" poster="assets/video/controllers.jpg" src="assets/video/header-16-6.mp4" muted controls  loop preload="none"></video>
+                            <video role="img" alt="Ambient video alt text" poster="assets/video/controllers.jpg" src="assets/video/header-16-6.mp4" muted loop preload="none"></video>
                         </div>
                     </li>
                     <li id="newRTBItemImage4" data-f-theme="dark" role="tabpanel">
                         <div class="m-ambient-video">
-                            <video role="img" alt="Ambient video alt text" poster="assets/video/controllers.jpg" src="assets/video/set-up.mp4" muted controls  loop preload="none"></video>
+                            <video role="img" alt="Ambient video alt text" poster="assets/video/controllers.jpg" src="assets/video/set-up.mp4" muted loop preload="none"></video>
                         </div>
                     </li>
                 </ul>
