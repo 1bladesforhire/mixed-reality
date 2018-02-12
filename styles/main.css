@@ -214,7 +214,8 @@ nav .active-links {
   font-weight: 700;
 }
 .minor-fade.b_video header.context-uhf,
-.solid-waffle.b_video header.context-uhf {
+.solid-waffle.b_video header.context-uhf,
+.faded-waffle.b_video header.context-uhf {
   background: rgba(255, 255, 255, 0.75) !important;
 }
 .spinner.b_video section.c-pivot {

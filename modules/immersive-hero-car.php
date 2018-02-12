@@ -8,12 +8,27 @@
                 <button role="tab" aria-selected="false" aria-label="View no image align bottom" aria-controls="no-image-align-bottom" title="no-image-align-bottom"></button>
                 <button role="tab" aria-selected="false" aria-label="View no image align top" aria-controls="no-image-align-top" title="no-image-align-top"></button>
                 <button role="tab" aria-selected="false" aria-label="View no image align bottom" aria-controls="no-image-align-bottom" title="no-image-align-bottom"></button>
+                <button role="tab" aria-selected="false" aria-label="View no image align bottom" aria-controls="no-image-align-bottom" title="no-image-align-bottom"></button>
             </div>
             <button class="c-flipper f-previous f-large" aria-hidden="true" tabindex="-1"></button>
             <button class="c-flipper f-next f-large" aria-hidden="true" tabindex="-1"></button>
             <div itemscope itemtype="http://schema.org/ItemList">
                 <ul>
-                    <li id="default-align-top" data-f-theme="light" class="f-active">
+                <li id="default-align-top" data-f-theme="light" class="f-active">
+                        <section class="m-immersive-hero-item theme-light f-align-top">
+                            <picture class="c-image">
+                                <source srcset="assets/video/acer-hero-macro-1.jpg" media="(min-width: 1779px)">
+                                <source srcset="assets/video/acer-hero-macro-1.jpg" media="(min-width:1400px)">
+                                <source srcset="assets/video/acer-hero-macro-1.jpg" media="(min-width:1084px)">
+                                <source srcset="assets/video/acer-hero-macro-1.jpg" media="(min-width:768px)">
+                                <source srcset="assets/video/acer-hero-macro-1.jpg" media="(min-width:540px)">
+                                <source srcset="assets/video/acer-hero-macro-1.jpg" media="(min-width:0)">
+                                <img srcset="assets/video/acer-hero-macro-1.jpg" src="assets/video/acer-hero-macro-1.jpg" alt="Placeholder with grey background and dimension watermark without any imagery">
+                            </picture>
+
+                        </section>
+                    </li>
+                    <li id="default-align-top" data-f-theme="light">
                         <section class="m-immersive-hero-item theme-light f-align-top">
                             <picture class="c-image">
                                 <source srcset="assets/video/acer-hero-7-2x.jpg" media="(min-width: 1779px)">
